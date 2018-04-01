@@ -1,0 +1,72 @@
+\chapter{Decidere} \label{cap:decidere}
+
+\section{IF - AND, OR, NOT}
+
+In questa versione proponiamo una descrizione estremamente sintetica. Giusto per completezza, perché il costrutto che si descrive è uno di quelli fondamentali in qualsiasi linguaggio di programmazione, oltre alle variabili, le ripetizioni e le procedure. Si tratta di disporre del modo per interrompere il flusso normale delle istruzioni, passando eventualmente a eseguire sezioni di codice diverse in dipendenza dello stato di certe variabili. L'istruzione che realizza questo in LibreLogo è \textbf{IF}, che per essere eseguita richiede la definizione di una condizione logica. Vediamo un esempio, riprendendo il codice per disegnare un cerchio, così come introdotto da Papert nel capitolo 2:
+
+\vskip 1cm
+
+\begin{scriptsize}
+\begin{minipage}{0.50\textwidth}
+\begin{itemize}[itemsep=-3pt,parsep=2pt, leftmargin=-0.0mm ]
+\item[] TO CERCHIO                 
+\item[] \hspace{8pt} 	REPEAT [ 
+\item[] \hspace{8pt}\hspace{8pt}		FORWARD 1 
+\item[] \hspace{8pt}\hspace{8pt}		RIGHT 1
+\item[] \hspace{8pt}	]
+\item[] END                            
+\item[] 
+\item[] CERCHIO                       
+\end{itemize}
+\end{minipage}
+\end{scriptsize}
+
+\vskip 1cm
+
+Se facciamo girare questo codice la Tartaruga disegna un cerchio ma non si
+ferma mai, ripassandolo infinite volte. Naturalmente noi possiamo fermarla con
+il tasto \includegraphics[height=1em]{./images/ripetere/StopLO.png}, ma è possibile insegnarle a fermarsi da sola. Ecco come:
+
+\vskip 1cm
+
+\begin{scriptsize}
+\begin{minipage}{0.50\textwidth}
+\begin{itemize}[itemsep=-3pt,parsep=2pt, leftmargin=-0.0mm ]
+\item[] TO CERCHIO                 
+\item[] \hspace{8pt} 	REPEAT [ 
+\item[] \hspace{8pt}\hspace{8pt}		FORWARD 1 
+\item[] \hspace{8pt}\hspace{8pt}		RIGHT 1
+\item[]	\hspace{8pt}\hspace{8pt}		\textbf{IF REPCOUNT = 90 [ STOP ]}
+\item[] \hspace{8pt}	]
+\item[] END                            
+\item[] 
+\item[] CERCHIO                       
+\end{itemize}
+\end{minipage}
+\end{scriptsize}
+
+\vskip 1cm
+
+Come si vede, abbiamo aggiunto una sola istruzione, \textbf{IF REPCOUNT = 90 [ STOP ]}, che equivale a dire alla Tartaruga: se il contatore dei cicli ha raggiunto il valore di 90 allora fermati. Siccome ad ogni ciclo ruota di 1 grado, in questo modo ne interrompiamo il disegno quando in totale avrà ruotato di 90 gradi, ovvero quando avrà disegnato un quarto di cerchio. Provare e variare per vedere...
+La condizione in questo esempio è espressa da REPCOUNT = 90. Si  possono usare anche gli operatori “minore di”, <, e “maggiore di”, >, e le condizioni si possono combinare insieme con gli operatori logici AND, OR e NOT. L'AND posto fra due condizioni crea una condizione globale vera se sono ambedue vere. L'OR posto fra due condizioni crea una condizione globale vera se sono ambedue vere oppure anche una sola delle due. Il NOT posto prima di una condizione ne inverte l'esito: la rende falsa se è vera e viceversa. Inoltre si può costruire l'istruzione in maniera che se questa è vera esegue una prima sezione di codice, mentre se è falsa ne  esegue un'altra. In questa versione del manuale ci limitiamo a riportare giusto un esempio riassuntivo:
+
+\vskip 1cm
+
+\begin{scriptsize}
+\begin{minipage}{0.80\textwidth}
+\begin{itemize}[itemsep=-3pt,parsep=2pt, leftmargin=-0.0mm ]
+\item[]	\textbf{IF A $<$ 10 AND NOT A = 5 [ PRINT "Vero!" ] [ PRINT "Falso!" ]}                      
+\end{itemize}
+\end{minipage}
+\end{scriptsize}
+
+\vskip 1cm
+
+Tradotto in parole: se la variabile A è minore di 10 e allo stesso tempo (AND), è diversa da 5 (NOT), allora esegui PRINT “Vero!”, altrimenti esegui PRINT “Falso!”.
+
+
+
+
+
+
+

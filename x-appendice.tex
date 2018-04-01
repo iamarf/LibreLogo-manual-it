@@ -1,0 +1,453 @@
+\chapter{Appendice} \label{cap:appendice}
+
+Qui raccogliamo i listati dei codici usati per costruire alcune delle figure usate nel manuale. Naturalmente, questi codici talvolta possono contenere dei costrutti che non sono stati ancora affrontati nel punto del testo cui appare la figura corrispondente. Non importa se non si capisce tutto subito, il lettore può sempre tornarci successivamente, quando avrà sarà più esperto. Li mettiamo a disposizione perché può essere interessante e utile per vedere che cosa si può fare in pratica.
+
+I listati sono commentati. In LibreLogo i commenti si ottengono preponendo un punto e virgola: in qualsiasi riga, tutto quello che segue il punto e virgola non viene eseguito ma serve solo a rendere più facile da leggere il codice. Questo significa che se salviamo il codice di una di queste figure, così com'è, con tutti commenti, questo può essere seguito per produrre la figura. 
+
+È molto importante inserire nel codice codice commenti chiari e accurati, sia per rileggerlo più facilmente molto tempo dopo, sia per facilitare la collaborazione con altre persone. Scrivendo codice, specie quando si è acquisita una certa confidenza, è facile farsi prendere la mano, cercando di arrivare quanto più velocemente al risultato desiderato. È bene invece controllarsi, imponendosi di documentare adeguatamente i lavoro man mano che si procede. Tanto più si aspetta quanto più sarà faticoso andare a commentare il lavoro fatto, sia per la mole che per la maggiore difficoltà a ricordare i particolari. Naturalmente questo vale per il codice destinato durare un certo tempo e ad essere condiviso, come potrebbe essere il caso di quello scritto per costruire alcune delle figure di questo manuale. Non certo per piccoli frammenti estemporanei. Il codice riportato nelle seguenti pagine è un po' al limite. Ma lo abbiamo commentato per mostrare la buona pratica, ivi inclusa l'apposizione di un'intestazione che riporti anche il nome dell'autore, il numero della versione e la data. Intestazione che andrà aggiornata con eventuali successive modifiche.
+
+
+\vskip 1cm
+
+%https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\euro}}1 {£}{{\pounds}}1 {«}{{\guillemotleft}}1
+  {»}{{\guillemotright}}1 {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {¿}{{?`}}1
+}
+\lstset{extendedchars=true, basicstyle=\scriptsize} 
+\begin{lstlisting}[frame=single]  % Start your code-block
+
+; FIGURA 1 (torna alla figura)
+; Le coordinate della patorna alla figuragina
+; Versione 1.
+; A.R. Formiconi
+; 25 luglio 2016
+
+
+; Versione scritta come viene, senza particolari ottimizzazioni
+                                                                
+;  Predispone tutto
+
+CLEARSCREEN
+HOME
+A = 200				; lato corto del rettangolo che 
+                                ; rappresenta la pagina
+B = 282				; lato lungo
+FILLCOLOR [230, 230, 230]	; fissa a grigio chiaro il colore 
+                                ; di riempimento
+PENUP
+FORWARD B/2			; si dirige verso l'angolo in alto 
+                                ; a sinistra
+HEADING 9h
+FORWARD A/2
+HEADING 3h			; e punta verso destra (ore 3)
+PENDOWN
+
+; disegna il rettangolo, ruotando in senso orario
+
+FORWARD A
+RIGHT 90
+FORWARD B
+RIGHT  90
+FORWARD A
+FILL				; riempie il rettangolo
+PENUP
+RIGHT 90
+FORWARD B			; si posiziona nell'angolo in alto a 
+                                ; sinistra del foglio
+
+; ripete il giro marcando gli angoli e ponendo le scritte 
+
+HEADING 3h			; angolo alto destro
+FILLCOLOR [50, 50, 50]		; fissa un grigio più scuro per i 
+                                ; cerchietti
+FORWARD A
+PENDOWN
+CIRCLE 5
+PENUP
+FORWARD 10 LEFT 90 FORWARD 15
+LABEL "[PAGESIZE[0], 0]"
+BACK 15 RIGHT 90 BACK 10
+
+RIGHT 90			; angolo basso destro
+FORWARD B
+PENDOWN
+CIRCLE 5
+PENUP
+FORWARD 15 LEFT 90 FORWARD 30 LEFT 90
+LABEL "[PAGESIZE[0],PAGESIZE[1]]"
+LEFT 90 FORWARD 30 RIGHT 90 FORWARD 15
+RIGHT 180
+
+RIGHT 90			; angolo basso sinistro
+FORWARD A
+PENDOWN
+CIRCLE 5
+RIGHT 90
+PENUP
+BACK 15
+LABEL "[0, PAGESIZE[1]]"
+FORWARD 15
+
+FORWARD B			; angolo altro sinistro
+PENDOWN
+CIRCLE 5
+PENUP
+FORWARD 15
+LEFT 90 FORWARD 10 RIGHT 90
+LABEL "[0, 0]"
+BACK	 15
+PENDOWN
+
+HIDETURTLE			; mando la tartaruga a dormire
+
+\end{lstlisting}
+
+\vskip 1cm
+
+
+%https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\euro}}1 {£}{{\pounds}}1 {«}{{\guillemotleft}}1
+  {»}{{\guillemotright}}1 {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {¿}{{?`}}1
+}
+\lstset{extendedchars=true, basicstyle=\scriptsize} 
+\begin{lstlisting}[frame=single]  % Start your code-block
+
+;  FIGURA 2 (Torna alla figura)
+; L'effetto dell'istruzione POSITION e le coordinate della pagina
+; Versione 1.
+; A.R. Formiconi
+; 25 luglio 2016
+
+
+; Versione scritta come viene, senza particolari ottimizzazioni
+
+;  Predispone tutto
+
+CLEARSCREEN
+HOME
+A = 200				; lato corto del rettangolo che 
+                                ; rappresenta la pagina
+B = 282				; lato lungo
+FILLCOLOR [230, 230, 230]	; fissa a grigio chiaro il colore di 
+                                ; riempimento
+PENUP
+FORWARD B/2			; si dirige verso l'angolo in alto 
+                                ; a sinistra
+HEADING 9h
+FORWARD A/2
+HEADING 3h			; e punta verso destra (ore 3)
+PENDOWN
+
+; disegna il rettangolo, ruotando in senso orario
+
+FORWARD A
+RIGHT 90
+FORWARD B
+RIGHT  90
+FORWARD A
+FILL				; riempie il rettangolo
+PENUP
+RIGHT 90
+FORWARD B			; si posiziona nell'angolo in alto 
+                                ; a sinistra del foglio
+
+; ripete il giro marcando gli angoli e ponendo le scritte 
+
+HEADING 3h			; angolo alto destro
+FILLCOLOR [50, 50, 50]		; fissa un grigio più scuro per i 
+                                ; cerchietti
+FORWARD A
+PENDOWN
+CIRCLE 5
+PENUP
+FORWARD 10 LEFT 90 FORWARD 15
+LABEL "[PAGESIZE[0], 0]"
+BACK 15 RIGHT 90 BACK 10
+
+RIGHT 90			; angolo basso destro
+FORWARD B
+PENDOWN
+CIRCLE 5
+PENUP
+FORWARD 15 LEFT 90 FORWARD 30 LEFT 90
+LABEL "[PAGESIZE[0],PAGESIZE[1]]"
+LEFT 90 FORWARD 30 RIGHT 90 FORWARD 15
+RIGHT 180
+
+RIGHT 90				; angolo basso sinistro
+FORWARD A
+PENDOWN
+CIRCLE 5
+RIGHT 90
+PENUP
+BACK 15
+LABEL "[0, PAGESIZE[1]]"
+FORWARD 15
+
+FORWARD B				; angolo altro sinistro
+PENDOWN
+CIRCLE 5
+PENUP
+FORWARD 15
+LEFT 90 FORWARD 10 RIGHT 90
+LABEL "[0, 0]"
+BACK	 15
+PENDOWN
+
+; disegna il percorso della tartaruga in seguito all'istruzione 
+; \POSITION [350,320]
+
+HOME					; mi posiziono al centro
+PENUP					; senza disegnare...
+POSITION [298, 430]			; vado dove voglio piazzare...
+HEADING 0				; l'etichetta con le...
+LABEL "[298, 421]"			; coordinate del centro
+HOME					; torno al centro e...
+PENDOWN					; disegno...
+CIRCLE 5				; il cerchietto centrale
+FILLCOLOR "green"			; fisso il colore verde per la 
+                                        ; tartaruga, che mostrerò
+POSITION [350,320]			; applico POSITION [350,320]
+P = POSITION				; memorizzo tale posizione...
+H = HEADING				; e direzione
+PENUP					; alzo la penna
+POSITION [300,320]			; mi sposto un po' per piazzare...
+HEADING 0				; orientata correttamente
+LABEL "[350, 320]"			; l'etichetta
+POSITION P				; ritorno alla posizione e 
+                                        ; direzione...
+HEADING H				; per lasciarvi visibile la 
+                                        ; tartaruga
+\end{lstlisting}
+
+\vskip 1cm
+
+%https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\euro}}1 {£}{{\pounds}}1 {«}{{\guillemotleft}}1
+  {»}{{\guillemotright}}1 {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {¿}{{?`}}1
+}
+\lstset{extendedchars=true, basicstyle=\scriptsize} 
+\begin{lstlisting}[frame=single]  % Start your code-block
+
+;  FIGURA 3 (Torna alla figura)
+; I riferimenti per l'istruzione HEADING
+; Versione 1.
+; A.R. Formiconi
+; 25 luglio 2016
+
+
+; Versione scritta in maniera più ordinata e strutturata, facendo 
+; uso delle "procedure". La strutturazione del software di questo 
+; tipo consente di rendere il codice più modulare e più mantenibile.
+
+; Prima vengono le subroutine e alla fine il programma vero e 
+; proprio. Prima vanno messi i frammenti più elementari, in maniera 
+; che LibreLogo li legga per primi. Questo serve perché quando nel 
+; codice viene citata una subroutine, questa deve essere già stata 
+; analizzata da LibreLogo.
+
+
+; Subroutine BR per disegnare un segmento lungo 10 pt dalla 
+; posizione e lungo la  direzione corrente senza muoversi 
+; (come risultato finale)
+ 
+; Parametri:
+; 	P: posizione corrente
+;	H: direzione corrente
+
+TO BR P H
+	FORWARD 10
+	POSITION P
+	HEADING H
+END
+
+; Subroutine TARROW per disegnare la punta di una freccia
+
+TO TARROW
+	P = POSITION
+	H = HEADING	
+	LEFT 160
+	BR P H	
+	RIGHT 160
+	BR P H
+END
+
+; Subroutine LBA scrivere il testo contenuto in T in vetta al segmento
+; di lungheza L e ruotato dell'angolo A
+; Parametri:
+; 	L: lunghezza del segmento
+;	A: angolo di rotazione del segmento
+;	T: testo da scrivere nell'etichetta
+
+TO LBA L A T
+	PENUP
+	FORWARD L/10 + L/5 * SIN A*PI/180
+	H = HEADING 
+	HEADING 0
+	LABEL T
+	PENDOWN
+END
+
+; Subroutine LB scrivere il testo contenuto in T in una posizione 
+; determinata in coordinate polari rispetto alla posizione corrente, 
+; mediante la  distanza L l'angolo A.
+
+; Parametri:
+; 	L: distanza
+;	A: angolo 
+;	T: testo da scrivere nell'etichetta
+
+TO LB L A T
+	P0 = POSITION
+	PENUP
+	S =  SIN A*PI/180
+	C =  COS A*PI/180
+	POSITION [P0[0] + L * C, P0[1] - L * S]
+	HEADING 0
+	LABEL T
+	POSITION P0
+	HEADING 0
+	PENDOWN
+END
+
+; Subroutine ARROW per disegnare, a partire dalla posizione corrente, 
+; una freccia di lunghezza L, inclinata di un angolo A, e in vetta una
+; etichetta con il testo contenuto in T
+; Parametri:
+; 	L: lunghezza della freccia
+;	A: angolo di rotazione della freccia
+;	T: testo da scrivere nell'etichetta
+
+TO ARROW P0 A0 L A T
+	PENDOWN
+	HEADING A
+	FORWARD L
+	TARROW
+	LBA L A T
+	PENUP
+	POSITION P0
+	HEADING A0
+	PENDOWN
+END
+
+; Questo è il programma vero e proprio che, come si vede, grazie al 
+; ricorso alle procedure, è abbastanza conciso.
+
+CLEARSCREEN			; cancello il foglio
+HOME				; mando a casa la tartaruga
+HIDETURTLE			; faccio il disegno senza vedere i
+                                ; la tartaruga
+FILLCOLOR [230, 230, 230]	; fisso il riempimento a un grigio scuro
+CIRCLE 5			; disegno un cerchietto nella posizione 
+                                ; centrale 
+P0 = POSITION			; memorizzo tale posizione iniziale...
+A0 = HEADING			; e anche la direzione iniziale
+L = 150				; faccio la freccia lunga 150 pt
+A = 60				; e la voglio inclinata di 60 gradi
+
+PENSIZE 1 ARROW P0 A0 L 0 "HEADING 0"	  ; freccia verticale
+PENSIZE 0.5 ARROW P0 A0 L A "HEADING 30"  ; freccia a 60 gradi
+PENSIZE 1 ARROW P0 A0 L 90 "HEADING 90"	  ; freccia orizzontale
+PENSIZE 0.5	
+ELLIPSE [L/3, L/3, 0, A, 3]	; arco di cerchio piccolo
+LB L/4 A "30 gradi" 		; etichetta "30 gradi"
+ELLIPSE [L*2, L*2, 0, 90, 3] 	; arco di cerchio grande
+
+\end{lstlisting}
+
+\vskip 1cm
+
+
+%https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\euro}}1 {£}{{\pounds}}1 {«}{{\guillemotleft}}1
+  {»}{{\guillemotright}}1 {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {¿}{{?`}}1
+}
+\lstset{extendedchars=true, basicstyle=\scriptsize} 
+\begin{lstlisting}[frame=single]  % Start your code-block
+
+;  FIGURA 4 (Torna alla figura)
+; Esempi di spessore del tratto
+; Versione 1.
+; A.R. Formiconi
+; 25 luglio 2016
+
+; In questo esempio si illustra l'impiego dell'istruzione REPEAT, 
+; per realizzare i "cicli" ("loop")
+
+CLEARSCREEN
+HOME
+RIGHT 90
+PENCOLOR "BLACK"
+
+REPEAT  10 [
+	PENWIDTH REPCOUNT
+	FORWARD 100
+	PENUP FORWARD 50
+	HEADING 0h
+	LABEL  "PENWIDTH " + STR REPCOUNT-1 
+	HEADING 3h
+	BACK 50
+	PENUP
+	RIGHT 90
+	FORWARD 20
+	RIGHT 90
+	FORWARD 100
+	LEFT 180
+	PENDOWN
+]
+PENWIDTH 0
+HIDETURTLE
+
+\end{lstlisting}
+
+\vskip 1cm
+
+

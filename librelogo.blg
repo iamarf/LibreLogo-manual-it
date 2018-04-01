@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: librelogo.aux
+A level-1 auxiliary file: 0-frontespizio.aux
+A level-1 auxiliary file: 01-ringraziamenti.aux
+A level-1 auxiliary file: 1-prefazione.aux
+A level-1 auxiliary file: 2-librelogo.aux
+A level-1 auxiliary file: 3-papert-1.aux
+A level-1 auxiliary file: 3-papert-2-provvisorio.aux
+A level-1 auxiliary file: 4-disegnare.aux
+A level-1 auxiliary file: 5-ripetere.aux
+A level-1 auxiliary file: 6-incapsulare.aux
+A level-1 auxiliary file: 7-decidere.aux
+A level-1 auxiliary file: 8-magia-specchi.aux
+A level-1 auxiliary file: 9-marta.aux
+A level-1 auxiliary file: 10-cerchio.aux
+A level-1 auxiliary file: x-appendice.aux
+The style file: plain.bst
+Database file #1: librelogo.bib
+You've used 16 entries,
+            2118 wiz_defined-function locations,
+            613 strings with 6648 characters,
+and the built_in function-call counts, 3671 in all, are:
+= -- 364
+> -- 112
+< -- 0
++ -- 50
+- -- 32
+* -- 149
+:= -- 642
+add.period$ -- 55
+call.type$ -- 16
+change.case$ -- 61
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 154
+empty$ -- 357
+format.name$ -- 32
+if$ -- 785
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 15
+newline$ -- 90
+num.names$ -- 32
+pop$ -- 109
+preamble$ -- 1
+purify$ -- 48
+quote$ -- 0
+skip$ -- 94
+stack$ -- 0
+substring$ -- 133
+swap$ -- 16
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 0
+while$ -- 38
+width$ -- 18
+write$ -- 184

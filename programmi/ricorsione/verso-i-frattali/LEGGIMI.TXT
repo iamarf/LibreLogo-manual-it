@@ -1,0 +1,34 @@
+La magia della ricorsione
+
+Questi sono gli esempi mostrati nel laboratorio del 25/11, più qualche altra
+cosa, come un altro tipo di erba, la spirale aurea e la costa artificiale di
+Koch, che vedremo la prossima volta. Potete sperimentare... provando a cambiare
+qua e là....
+
+Girate gli script nell'ordine seguente
+
+ll-quadrato.odt
+ll-spirale-quadrata.odt
+ll-cerchio.odt
+ll-eadem-mutata-resurgo.odt (spira mirabilis di Jakob Bernoulli)
+ll-spirale-aurea.odt (spirale aurea)
+ll-tree.odt (albero frattale)
+ll-weed.odt (erba frattale)
+ll-weed-2.odt (altra erba frattale)
+ll-bush.odt (cespuglio frattale)
+ll-koch.odt (costa frattale)
+
+Versioni per Kojo
+
+k-quadrato.kojo
+k-spirale-quadrata.kojo
+k-cerchio.kojo
+k-eadem-mutata-resurgo.kojo
+k-spirale-aurea.kojo
+k-tree.kojo
+k-weed.kojo
+k-weed-2.kojo
+k-bush.kojo
+k-koch.kojo
+
+

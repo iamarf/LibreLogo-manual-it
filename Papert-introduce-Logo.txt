@@ -1,0 +1,700 @@
+<div style="text-align:center;">'''Cap. 4: Seymour Papert introduce LOGO'''</div>
+
+
+<div style="text-align:center;">''Prologo''</div>
+
+
+Questo è il capitolo successivo a quello sulla ''Mathophobia''. È quello dove Papert introduce i comandi fondamentali di Logo. Dal punto di vista tecnico, è in parte una ripetizione del mio capitolo successivo (Disegnare), tuttavia, quest'ultimo è più ricalcato sullo stile del manuale di Lakó Viktória. La descrizione di Papert invece ha respiro molto più ampio perché da un lato concerne anche il metodo di insegnamento (come introdurre in pratica i comandi della Tartaruga ai bambini) e dall'altro offre vari interessanti collegamenti fra la Lingua della Tartaruga e la matematica formale. Quale leggere prima? Decida il lettore. I più frettolosi e interessati agli aspetti operativi possono saltare questo capitolo per passare direttamente a quello successivo, però se hanno un po' di tempo, secondo me farebbero meglio a seguire prima l'introduzione di Papert, penso che ne valga la pena. Così facendo si può tuttavia presentare il problema che Papert fa riferimento a frammenti di codice che questo manuale non ha ancora presentato. Questi sono però intuitivi e invito il lettore ad accontentarsi della propria intuizione. Avrà modo di mettere a fuoco successivamente senza che la comprensione venga compromessa. Del resto è così che Papert introduce i comandi nel suo libro. Un'altra osservazione concerne la forma specifica dei frammenti di codice che non ho copiato pedissequamente, per due motivi. Il primo consiste nel problema appena menzionato, per cui ho introdotto qualche piccolo adattamento per facilitare la comprensione del lettore senza che venga alterato il messaggio fondamentale del testo. L'altro motivo consiste nel fatto che i codici scritti da Papert si riferiscono alla prima versione originale di Logo, che presenta qualche piccola differenza rispetto a quella che usiamo noi in LibreLogo. Ho quindi “tradotto” i frammenti di codice in maniera che possano essere copiati e eseguiti in un documento di LibreOffice.
+
+
+<div style="text-align:center;">''Turtle Geometry: A Mathematics Made For Learning''</div>
+
+
+La geometria della Tartaruga è un modo diverso di fare geometria, come il modo assiomatico di Euclide e il modo analitico di Cartesio sono differenti fra loro. Quello di Euclide è un modo ''logico.'' Quello di Cartesio è un modo algebrico. La geometria della Tartaruga è un modo computazionale di fare geometria.
+
+Euclide costruì la sua geometria a partire da un insieme di concetti fondamentali, uno dei quali è il punto. Il punto può essere definito come un'entità che ha posizione ma non ha altre proprietà – non ha colore, né misura, né forma. Le persone che non sono state iniziate alla matematica formale, che non sono state ancora “matematizzate”, hanno spesso difficoltà ad afferrare questa nozione, e la trovano bizzarra. È difficile per loro riferirla a qualcosa che conoscano. Anche la geometria della Tartaruga possiede un'entità fondamentale come il punto di Euclide. Ma questa entità, che io chiamo “Tartaruga”, può essere riferita a cose che le persone conoscono, perché a differenza del punto di Euclide, non è spogliata completamente da ogni altro attributo, e invece di essere statica e dinamica. Oltre alla posizione, la Tartaruga ha un'altra proprietà importante: ha “direzione”. Un punto euclideo si trova da qualche parte – ha una posizione e questo è tutto quello che se ne può dire. Una Tartaruga si trova da qualche parte – anch'essa ha una posizione – ma è anche rivolta da qualche parte – la sua direzione. In questo senso la Tartaruga è come una persona – io sono ''qui'' e sono rivolto a nord – o un animale o un battello. Ed è grazie a tali similitudini che la Tartaruga possiede la caratteristica speciale di fungere da prima rappresentazione formale per un bambino. I bambini si possono ''identificare'' con la Tartaruga e così sono in grado di traslare la conoscenza che hanno del loro corpo e di come si muovono nell'attività di apprendere la geometria formale.
+
+Per sapere come funzioni dobbiamo imparare un'altra cosa sulle Tartarughe: la capacità di accettare comandi che sono espressi nella “Lingua delle Tartarughe”<ref name="ftn1">[NdR] TURTLE TALK nell'originale.</ref>. Il comando FORWARD fa muovere la Tartaruga lungo la direzione che sta puntando. Per dirle di quanto deve avanzare, FORWARD deve essere seguito da un numero: FORWARD 1 causa un movimento molto piccolo, FORWARD 100 un movimento più grande. In LOGO molti bambini sono stati iniziati alla geometria della Tartaruga mediante una tartaruga meccanica, sorta di robot cibernetico, in grado di obbedire ai comandi che vengono scritti su una tastiera<ref name="ftn2">[NdR] Logo in realtà è nato negli anni '70 con questa versione meccanica che è quella rappresentata in Fig. 1. Tale versione è di fatto riemersa oggi nella forma dei robot didattici Bee-Bot e Blue-Bot. Ambedue possono ricevere i comandi mediante dei tasti che hanno sul dorso. Blue-Bot può essere manovrato attraverso un app per tablet o smartphone (sia Android che Apple) che consente di comporre un intero algoritmo e di scaricarlo mediante una connessione wireless nel Blue-Bot affinché lo esegua. Qui passato e presente si ricollegano e quello che sembrerebbe un riferimento datato è invece decisamente attuale.</ref>. Questa “Tartaruga da pavimento” ha le ruote, una forma semisferica e una penna sistemata in maniera che la Tartaruga possa tracciare una linea muovendosi. Ma le sue proprietà essenziali – posizione, direzione e capacità di di eseguire i comandi della “Lingua delle Tartarughe” – sono quelle che contano per fare geometria. Il bambino può poi incontrare le medesime proprietà in un'altra materializzazione della Tartaruga, sorta di “Tartaruga leggera”. Questa è rappresentata da un oggetto triangolare su uno schermo televisivo<ref name="ftn3">[NdR] È ovvio che lo “schermo televisivo” sia oggi sostituito dallo schermo di un computer. Inoltre, grazie alla smisurata potenza dei dispositivi di oggi, rispetto a quei tempi, il triangolo è oggi sostituito da immagini più dettagliate, quali la tartaruga stilizzata di LibreLogo o il “gatto” di Scratch. Abbiamo lasciato il testo originale per mettere in risalto il sapore pionieristico del racconto di Papert. </ref>, che possiede le stess proprietà di posizione e direzione e si muove in base agli stessi comandi della “Lingua delle Tartarughe”. Ambedue i tipi di Tartaruga hanno vantaggi: la Tartaruga da pavimento può essere usato come una ruspa o come uno strumento per disegnare; la Tartaruga leggera traccia brillanti linee colorate più velocemente di quanto l'occhio riesca a seguirle. Nessuna delle due è meglio di un'altra, ma insieme evocano un'idea potente: due entità ''fisicamente'' diverse possono essere ''matematicamente'' eguali (o “isomorfiche”)<ref name="ftn4">Siccome questo libro è stato scritto per lettori che non sanno molta matematica, i riferimenti matematicamente più specifici sono limitati al massimo. Le osservazioni seguenti approfondiscono un po' il commento per i lettori più esperti.L'isomorfismo fra i diversi tipi di Tartarughe è uno degli esempi di di idee matematiche “avanzate” che che nella geometria della Tartaruga emergono in forme che sono sia concrete che ''utili''. Fra queste, quelle che ricadono nel dominio dell'analisi matematica sono particolarmente importanti.''Esempio 1: Integrazione''. La geometria della Tartaruga apre la strada al concetto di integrale di linea attraverso le frequenti occasioni in che la Tartaruga ha di integrare qualche quantità mentre si muove. Di solito la prima circostanza in cui i bambini si imbattono compare con la necessità di di tenere traccia della somma delle rotazioni o della lunghezza totale percorsa. Un'eccellente progetto è quello dove si simulano i tropismi che inducono gli animali a cercare condizioni quali calore, luce, concentrazione di cibo, rappresentate mediante funzioni della posizione. Capita facilmente di confrontare due algoritmi per integrare una quantità lungo il percorso della Tartaruga. Una versione semplice dell'integrazione si può realizzare inserendo nel programma una singola linea del tipo CALL (TOTAL + FIELD) “TOTAL”, che significa: prendi la quantità che si chiama “TOTAL”, aggiungile la quantità FIELD e al risultato ridai il nome TOTAL. Questa versione ha un “difetto” ([NdR] ''bug'') che si manifesta quando i segmenti percorsi dalla Tartaruga sono troppo lunghi oppure sono variabili. Risolvendo problemi del genere lo studente ha modo di avvicinarsi ad un concetto di integrale progressivamente più sofisticato.La precoce introduzione di una versione semplificata dell'integrazione lungo un percorso illustra il rovesciamento di quello che sembrerebbe l'ordine pedagogico “naturale”. Nel curriculum tradizionale, l'integrale di linea è un argomento avanzato al quale gli studenti arrivano dopo essere stati indotti per vari anni a interpretare l'integrale definito come l'area sotto una curva, un concetto che sembra attagliarsi meglio alla tecnologia della carta e della matita. Ma il risultato è quello di di sviluppare una visione fuorviante dell'integrale che causa in molti studenti un senso di smarrimento quando incontrano integrali per i quali l'immagine dell'area sotto una curva è decisamente inappropriata. ''Esempio 2: Equazioni differenziali''. Un progetto che colpisce molto gli studenti è quello della Tartaruga con Sensore Tattile ([NdR] ''Touch Sensor Turtle''. I codici seguenti vanno letti in maniera indicativa, verranno compresi completamente più avanti nel manuale). La versione più semplice è di questo tipo:TO BOUNCEREPEAT<nowiki>; Ciclo sulle istruzioni seguenti</nowiki> FORWARD 1<nowiki>; La Tartaruga continua a muoversi</nowiki> TEST FRONT.TOUCH<nowiki>; Controlla se sta battendo in qualcosa</nowiki> IFTRUE RIGHT 180<nowiki>; Se sì torna indietro</nowiki>ENDQuesto codice fa sì che la tartaruga torni indietro quando batte in un oggetto. Una versione più sofisticata e più istruttiva è questa:TO FOLLOWREPEAT FORWARD 1 TEST LEFT.TOUCH<nowiki>; Sta toccando l'oggetto?</nowiki> IFTRUE RIGHT 1<nowiki>; È troppo vicino: mi allontano</nowiki> IFTRUE LEFT 1<nowiki>; È troppo lontano: mi avvicino</nowiki>ENDQuesto codice fa circumnavigare la Tartaruga intorno ad un oggetto di qualsivoglia forma, una volta che essa si trova con il suo lato sinistro a contatto dell'oggetto (e che l'oggetto e le irregolarità del suo contenuto siano grandi rispetto alla Tartaruga).L'aspetto interessante di questi codici è quello di essere “locale”. Un comportamento “non locale” lo avremmo ottenuto per esempio se, dovendo circumnavigare un oggetto quadrato di lato pari a 150 passi, fossero state usate istruzioni del tipo FORWARD 150. Un approccio del genere manca di generalità: con altri oggetti potrebbe non funzionare. Invece i codici precedenti lavorano con piccoli passi decisi solo in base alle condizioni che si verificano nelle immediate vicinanze della Tartaruga. Invece dell'operazione “globale” FORWARD 150 usano solo operazioni “locali” come FORWARD 1. In questo modo si impiega un concetto fondamentale della nozione di equazione differenziale. Ho visto bambini della scuola primaria capire perfettamente perché le equazioni differenziali sono la forma naturale delle leggi del moto. Anche questo è un esempio eclatante di inversione pedagogica: la potenza delle equazioni differenziali è compresa prima del formalismo dell'analisi matematica. Molte delle idee matematiche suggerite dalla Tartaruga sono riunite in H. Abelson e A. diSessa, ''Turtle Geometry: Computation as a Medium for Exploring Mathematics'' (Cambridge, MIT CERCARE!!!).''Esempio 3: Invarianti Topologici''. Supponiamo che la Tartaruga giri intorno a un oggetto sommando via via gli angoli delle deviazioni, contando positivamente le deviazioni destre e negativamente quelle sinistre. Il risultato finale sarà sempre pari a 360° indipendentemente dalla forma dell'oggetto. Vedremo che questo ''Total Turtle Trip Theorem'' è tanto utile quanto bello.</ref>. 
+
+I comandi FORWARD e BACK fanno muovere la tartaruga in linea retta lungo la propria direzione che sta puntando: cambia la posizione mentre la direzione rimane invariata. Ci sono altri due comandi che invece influiscono sulla direzione ma non sulla posizione: RIGHT e LEFT fanno girare la Tartaruga su se stessa, cambiandone la direzione di puntamento ma non la posizione. Come nel caso dell'istruzione FORWARD, RIGHT e LEFT richiedono un numero che determina l'entità della rotazione. Un adulto interpreta immediatamente tale numero come l'angolo di rotazione espresso in gradi. Per i bambini invece questi numeri devono essere esplorati attraverso il gioco. 
+
+Per disegnare un quadrato si può usare questo codice:
+
+
+
+
+FORWARD 100
+
+RIGHT 90
+
+FORWARD 100
+
+RIGHT 90
+
+FORWARD 100
+
+RIGHT 90
+
+FORWARD 100
+
+RIGHT 90
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quello che segue è invece la trascrizione di un frammento dei tentativi di un bambino: 
+
+
+
+
+
+
+
+
+
+
+
+
+FORWARD 100
+
+RIGHT 100
+
+FORWARD 100
+
+BACK 100
+
+
+RIGHT 10
+
+LEFT 10
+
+LEFT 10
+
+FORWARD 100
+
+RIGHT 100
+
+LEFT 10
+
+
+RIGHT 100
+
+LEFT 10
+
+FORWARD 100
+
+RIGHT 40
+
+FORWARD 100
+
+RIGHT 90
+
+FORWARD 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Poiché imparare a controllare la Tartaruga è come imparare una lingua in questo modo si fa leva sulla capacità e l'inclinazione dei i bambini per l'espressione verbale. E siccome quelli che si devono dare alla tartaruga sono comandi, si fa leva sull'inclinazione dei bambini a impartire comandi. Per fare disegnare un quadrato alla Tartaruga, si può provare a camminare lungo il contorno di un quadrato immaginario e poi descrivere le operazioni fatte utilizzano la Lingua della Tartaruga. E così facendo, si fa leva sulle capacità motorie dei bambini e sul piaucere che provano nel muoversi. È un modo di impiegare la “geometria del corpo” propria del bambino come un punto di partenza per raggiungere la geometria formale. 
+
+L'obiettivo delle prime esperienze dei bambini nell'ambiente di apprendimento della Tartaruga non è quello di imparare regole formali ma di sviluppare nuovi modi di concepire i propri movimenti. Tali modi sono esprimibili nella Lingua della Tartaruga e in questa diventano “programmi”, “procedure” o “equazioni differenziali”. Proviamo a guardare più da vicino come un bambino, che abbia già imparato a muovere la Tartaruga in linea retta per disegnare quadrati, triangoli e rettangoli, possa imparare a farle disegnare un cerchio.
+
+Immaginiamo – cosa che ho osservato un centinaio di volte – un bambino che domandi: “Come faccio a fare un cerchio con la Tartaruga?” L'insegnante, nell'ambiente Logo, non dà la risposta a domande del genere bensì introduce il bambino a un metodo per risolvere non solo questo problema ma anche un'intera categoria di altri problemi. Il metodo si può riassumere in una frase: “Gioca con la Tartaruga.” Il bambino viene incoraggiato a muoversi come farebbe la Tartaruga sullo schermo per ottenere il disegno desiderato. Per il bambino che vuole disegnare un cerchio, l'atto di provare a muoversi circolarmente potrebbe tradursi nella descrizione seguente: “Quando ti muoviin cerchio tu fai un piccolo passo e poi giri subito un poco. E continui a fare sempre così.” Una volta giunti ad un a simile descrizione, la formulazione nella Lingua della Tartaruga viene spontanea:
+
+
+<div style="text-align:center;">REPEAT [ FORWARD 1 RIGHT 1 ]</div>
+
+
+
+
+
+
+Qualche bambino meno esperto potrebbe necessitare di ulteriore aiuto. Ma questo aiuto non dovrebbe consistere nella spiegazione di come fare a disegnare il cerchio bensì nell'insistere sul metodo, che concerne (oltre il consiglio di “giocare con la Tartaruga”) nello sviluppare una forte connessione fra l'attività personale e la creazione di conoscenza formale. 
+
+Nella ''Mathland'' della Tartaruga, le immagini antropomorfiche facilitano il trasferimento di conoscenza dai contesti famigliari a quelli nuovi. Per esempio, la metafora che si usa per ciò che viene usualmente detto “programmare il computer” è insegnare una nuova parola alla Tartaruga. Un bambino che voglia disegnare molti quadrati può insegnare alla Tartaruga un nuovo comando che ingloberà la sequenza di sette comandi necessari per disegnare un quadrato. Questo si può fare in vari modi:
+
+
+TO QUADRATO_1
+
+FORWARD 100
+
+RIGHT 90
+
+FORWARD 100
+
+RIGHT 90
+
+FORWARD 100
+
+RIGHT 90
+
+FORWARD 100
+
+ENDTO QUADRATO_2
+
+REPEAT 4 [
+
+FORWARD 100
+
+RIGHT 90
+
+]
+
+END
+
+
+TO QUADRATO_3 LATO
+
+REPEAT 4 [
+
+FORWARD LATO
+
+RIGHT 90
+
+]
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Analogamente si può fare per il triangolo equilatero:
+
+
+TO TRIANGOLO_3 LATO
+
+REPEAT 3 [
+
+FORWARD LATO
+
+RIGHT 120
+
+]
+
+END
+
+
+TO TRIANGOLO_2
+
+REPEAT 3 [
+
+FORWARD 100
+
+RIGHT 120
+
+]
+
+END
+
+
+TO TRIANGOLO_1
+
+FORWARD 100
+
+RIGHT 120
+
+FORWARD 100
+
+RIGHT 120
+
+FORWARD 100
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Questi codici ottengono effetti quasi eguali ma il lettore appena un po' più esperto noterà delle differenze. La più ovvia è che alcuni di questi codici consentono di diesgnare figure di dimensioni diverse ([NdR] quelle che utilizzano la variabile LATO): in questi casi i comandi per disegnare un quadrato sono QUADRATO_2 50 oppure QUADRATO_2 100, ad esempio, anziché semplicemente QUADRATO_1. Una differenza più sottile che alcuni dei codici, dopo avere disegnato la figura, lasciano la Tartaruga nello stato in cui si trovava all'inizio ([NdR] stessa posizione e stessa direzione di puntamento). Codici che utilizzano questi accorgimenti sono molto più facili da leggere e da usare in una varietà di contesti. E allorché i bambini si rendono conto di questi particolari imparano due fatti importanti. In primo luogo assimilano un “principio matetico” generale, imparando a lavorare per componenti per favorire la modularità. In secondo luogo alla fondamentale idea di “stato”.
+
+La medesima strategia di muovere dal famigliare allo sconosciuto porta lo studente in contatto con alcune idee generali forti: per esempio l'idea di organizzazione gerarchica (della conoscenza, delle organizzazioni, di un organismo), l'idea di pianificazione in un progetto e la nozione di ''debugging''<ref name="ftn5">[NdR] Abbiamo accennato a un metodo di ''debugging'' in LibreLogo a pag. 81.</ref>. 
+
+Non è che ci sia bisogno di un computer per disegnare un triangolo o un quadrato. Carta e matita bastano. Ma una volta che i codici per disegnare queste figure sono stati predisposti, questi diventano mattoni per costruire altre cose che consentono di creare nel bambino gerarchie di conoscenza. In tale processo si sviluppano capacità intellettuali importanti – un aspetto che si palesa guardando alcuni progetti che i bambini intraprendono spontaneamente dopo alcune sedute di lavoro con la tartaruga. Molti bambini si sono comportati in maniera simile a Pamela, che aveva iniziato insegnando al computer a fare quadrati e triangoli come abbiamo visto prima. Successivamente di è resa conto ti poter costruire una casa ponendo un triangolo sopra a un quadrato. Ecco il suo primo tentativo<ref name="ftn6">[NdR] A differenza del testo originale, dove è implicito che i comandi QUADRATO e TRIANGOLO facciano riferimento ad alcuni dei codici scritti nella pagine precedenti, riscriviamo qui il codice completo per chiarezza, e in maniera che possa essere copiato e eseguito in un altro documento, per chi voglia sincerarsi da se.</ref>:
+
+
+
+
+
+
+
+
+
+
+
+
+TO QUADRATO
+
+REPEAT 4 [
+
+FORWARD 100
+
+RIGHT 90
+
+]
+
+END
+
+TO TRIANGOLO
+
+REPEAT 3 [
+
+FORWARD 100
+
+RIGHT 120
+
+]
+
+END
+
+TO CASA
+
+QUADRATO
+
+TRIANGOLO
+
+END
+
+CASA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+L'ultimo comando del codice è CASA ed è quello che di fatto la disegna, però il tetto è entrato in casa invece di stare sopra! 
+
+Tipicamente, in un'ora di matematica, la reazione di un bambino ad un errore sarebbe quella di ''dimenticarlo'' prima possibile. Invece nell'ambiente Logo, il bambino non è criticato per per l'errore del disegno. Il processo di ''debugging'' fa normalmente parte del processo di comprensione di quello che fa un codice. I programmatori sono incoraggiati a studiare il difetto (''bug'') anziché a dimenticare l'errore. E nel contesto della Tartaruga ci sono buone ragioni per studiare il problema, perché il premio è dato dall'ottenimento del risultato.
+
+Il problema può essere risolto in vari modi. Pamela ne scoprì uno giocando con la Tartaruga. Ripercorrendo il cammino della Tartaruga si rese conto che il triangolo era entrato in casa perché il movimento di rotazione nel disegno del triangolo era volto a destra. Così le venne in mente di sostituire le rotazioni destre con rotazioni sinistre nella costruzione del triangolo, risolvendo così il problema. Un altro modo per risolvere lo stesso problema può essere quello di inserire un'istruzione LEFT 30 fra le istruzioni QUADRATO e TRIANGOLO. In ambedue i casi si ottiene il risultato corretto:
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Lo studente si rende conto del progresso ma vede anche che le cose non sono mai del tutto giuste o o del tutto sbagliate, piuttosto si aggiustano in modo continuo. La casa ora è meglio di prima ma c'è ancora un difetto. Giocando ancora un po' con la Tartaruga ci si rende conto che se si inserisce un'istruzione RIGHT 90 prima di CASA, la figura si raddrizza. 
+
+Ci sono bambini che usano comporre disegni concreti, come può essere quella della casa. Altri invece preferiscono produrre effetti astratti. Per esempio, se si dà il comando QUADRATO seguito da RIGHT 120, e si ripete la stessa sequenza per altre due volte si ottiene questa figura:
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basta poi cambiare l'angolo di rotazione fra un quadrato e l'altro per ottenere una varietà di effetti<ref name="ftn7">[NdR] Questa figura è stata ottenuta con rotazioni 36 gradi e 10 ripetizioni.</ref>:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Questi esempi mostrano come i principi di continuità e di potenza<ref name="ftn8">[NdR] Introdotti a pag. 23-2. Principio di continuità: la matematica proposta deve essere in continuità con altre conoscenze, dalle quali possa ereditare un senso di familiarità e valore, insieme a competenza “cognitiva”. Principio di potenza: dare allo studente il potere di affrontare progetti personali significativi, altrimenti impossibili. </ref> aiutino l'apprendimento con la geometria della Tartaruga. Ma noi volevamo ottenere anche qualcos'altro, ovvero aprire delle porte intellettuali al fine di svelare importanti idee forti. Anche solo disegnando semplici figure, quali questi quadrati e stelle, con la Tartaruga si sono evidenziate alcune idee importanti: angoli, ripetizioni controllate, operatori di cambiamento di stato. Per avere una visione più sistematica di quello che i bambini imparano con la Tartaruga iniziamo distinguendo fra due tipi di conoscenze. La prima è ''matematica'': le Tartarughe sono solo un aspetto di un ampio territorio matematico, la geometria della Tartaruga, un tipo di geometria che si impara facilmente e che è portatrice di di idee matematiche molto generali. L'altro tipo di conoscenza è ''matetico'': conoscenza dell'apprendimento. Prima considereremo l'aspetto matetico dell'esperienza con la tartaruga poi ci volgeremo agli aspetti più tecnici sul versante matematico. Naturalmente le due questioni si sovrappongono in parte.
+
+Abbiamo introdotto la geometria della Tartaruga in relazione a un principio matetico fondamentale: comprendere effettivamente quello che si impara. Ricordiamoci il caso di Jenny, la quale, sebbene possedesse i requisiti concettuali per definire sostantivi e verbi, non poteva imparare la grammatica perché non riusciva a identificarsi con l'obiettivo. In questo senso fondamentale la grammatica per lei non aveva senso. La geometria della Tartaruga è stata progettata specificamente affinché i bambini vi potessero trovare un senso, per essere qualcosa che avrebbe potuto risuonare con la loro percezione di cosa fosse per loro importante. Ed è stata progettata per aiutare i bambini a sviluppare una strategia matetica: per imparare qualcosa occorre prima capirla.
+
+L'episodio del cerchio disegnato con la Tartaruga illustra l'''apprendimento sintonico''<ref name="ftn9">L'espressione “ego-sintonico” è stata usata da Freud. È un “termine usto per descrivere istinti e idee che sono accettabili per l'ego, ovvero compatibili con l'integrità dell'ego e con le sue esigenze. (Vedi J. Laplanche e J.B. Pontalis, ''The language of Pshicoanalisys'' (New York: Norton, 1973).</ref>. Questo termine, preso in prestito dalla psicologia clinica, sta in contrapposizione con l'apprendimento dissociato di cui abbiamo già discusso. Talvolta il termine viene usato con degli specificatori che denotano certi tipi di sintonicità. Ad esempio, il cerchio della Tartaruga è sintonico per il corpo<ref name="ftn10">[NdR] Body syntonic.</ref> perché tale cerchio è saldamente collegato alla percezione fisica dei propri corpi da parte del bambino. Oppure è anche sintonico per l'ego<ref name="ftn11">[NdR] Ego syntonic.</ref> perché è coerente con la percezione di sé propria dei bambini, come persone con intenzioni, obiettivi, desideri, preferenze e avversioni. Un bambino che disegna un cerchio con la Tartaruga vuole disegnare un cerchio; quando ci riesce è orgoglioso e eccitato.
+
+La geometria della Tartaruga si impara bene perché è sintonica. E questo aiuta anche nell'apprendimento di altre cose perché incoraggia l'uso consapevole e deliberato di strategie matematiche di ''problem solving''. Il matematico George Polya<ref name="ftn12">G. Polya, ''How to Solve it'' (Garden City, N.Y.: Doubleday-Anchor, 1954); ''Induction and Analogy in Mathematics ''(Princeton, N.Y.: Princeton University Press, 1954); and ''Patterns of Plausible Inference ''(Princeton, N.Y.: Princeton, 1969).</ref> è noto per avere proposto dei metodi generali per risolvere i problemi. Alcune delle strategie proposte con la geometria della Tartaruga sono casi particolari dei suggerimenti di Polya. Per esempio, Polya raccomanda che che tutte le volte che si trova davanti a un problema, si dovrebbe scorrere mentalmente una lista didomande euristiche: questo problema può essere suddiviso in altri problemi più semplici? Può essere collegato ad altri problemi che so già risolvere? La geometria della Tartaruga conduce naturalmente a porsi domande di questo tipo. La chiave per scoprire come fare un cerchio con la Tartaruga è quella di rifarsi a un problema la cui soluzione è invece ben nota – il problema di camminare in cerchio. La geometria della Tartaruga favorisce l'abilità di suddividere e ridurre le difficoltà. Per esempio, per fare la CASA sono stati fatti prima il QUADRATO e il TRIANGOLO. Insomma, io credo che la geometria della Tartaruga interpreta così bene i principi di Polya che il modo migliore per spiegarli agli studenti sia quello di introdurli mediante la Tartaruga. In questo modo la Tartaruga costituisce un metodo per insegnare le strategie euristiche per la soluzione dei problemi.
+
+In seguito alla notorietà di Polya, molti hanno esortato gli insegnanti a porre maggiore enfasi sui procedimenti euristici oltre che sui contenuti. Il fallimento di quest'idea nel sistema di istruzione può essere spiegato parzialmente dalla scarsità di situazioni idonee nelle quali gli studenti possano incontrare e approfondire modelli di conoscenza euristica<ref name="ftn13">[NdR] Viene in mente qui la lezione di Emma Castelnuovo, con le sue proposte didattiche dove si illustrano concetti matematici mediante semplici laboratori realizzati con “materiali poveri”. Vedi ad esempio E. Castelnuovo, ''L'Officina Matematica'', Edizioni La Meridiana, Molfetta /BA), 2008.</ref>. La geometria della Tartaruga non è solo ricca di spunti di questo genere ma aggiunge elementi nuovi ai consigli di Polya: per risolvere un problema cerca qualcosa di simile che già conosci. Il consiglio è astratto; la geometria della Tartaruga lo trasforma in un principio concreto, procedurale: ''gioca con la Tartaruga''. ''Prova da te''. Una fonte quasi inesauribile di situazioni simili è a disposizione perché queste sono tratte dai propri comportamenti, dal proprio corpo. Ogni volta che abbiamo un problema possiamo giocare con la Tartaruga. In questo modo di riportano i consigli di Polya sulla terra. La geometria della Tartaruga costituisce un ponte per il pensiero di Polya. Il bambino che ha lavorato estesamente con la Tartaruga è convinto che serva “cercare qualcosa di simile” perché ha funzionato spesso. Su questi successi si costruiscono la confidenza e le competenze necessari per applicare il medesimo principio anche nella matematica scolastica, dove le similarità sono meno evidenti. Infatti, nella matematica scolastica, sebbene tratti concetti elementari, è difficile applicare i consigli di Polya.
+
+L'aritmetica non è adatta per l'introduzione del pensiero euristico. Invece la geometria Turtle è eccellente per questo. Grazie alle qualità di sintonicità, imparando a far disegnare la Tartaruga forma nel bambino un modello di apprendimento che è molto diverso da quello dissociato descritto da Bill, in V primaria, descrivendo lo studio delle tabelline a scuola: “Impari questa roba azzerando il cervello ripetendo ancora e ancora finché non la sai.” Bill aveva speso un bel po' di tempo a studiare le tabelline. I risultati erano scarsi, accuratamente documentati da Bill, con la descrizione della sua esperienza. Non riusciva a imparare a causa della assenza di ogni relazione con il contenuto che si era imposto – o piuttosto, perché aveva adottato la peggiore relazione, ovvero la dissociazione, quale strategia di apprendimento. I suoi insegnanti pensavano che “avesse poca memoria” e avevano anche discusso di un possibile problema cerebrale. Ma Bill conosceva un gran numero di canzoni popolari che non aveva difficoltà a ricordare.
+
+Le teorie in voga intorno alla separazione delle funzioni cerebrali potrebbero suggerire che Bill avesse un deficit di memoria specificamente per i numeri. Tuttavia il ragazzo si ricordava facilmente di altre migliaia di numeri, prezzi e date. La differenza fra ciò che ricordava e ciò che non ricordava non dipendeva dal contenuto ma dalla propria relazione con esso. La geometria della Tartaruga, in virtù della sua connessione con il ritmo e il movimento richiesto nella vita quotidiana, consentiva a Bill di collegarla più alle canzoni che alle tabelline. I suoi progressi furno spettacolari. Attraverso la geometria della Tartaruga la conoscenza matematica che fino ad allora Bill aveva rifiutato, fece comparsa nel suo mondo. 
+
+Passiamo ora dalle considerazioni matetiche a quelle matematiche. Che matematica si impara quando con la geometria della Tartaruga? Ai fini della presente discussione distinguiamo tre tipi di conoscenza matematica, ciascuna delle quali si avvantaggia del lavoro con la Tartaruga. In primo luogo c'è il corpo di conoscenze noto come “matematica scolastica”, che è stato selezionato esplicitamente (nella mia opinione soprattutto in virtù di accidenti storici) come il “nucleo” della matematica di base che tutti i cittadini dovrebbero conoscere. Poi c'è quella che chiamo “protomatematica” che la matematica scolastica presuppone pur non menzionandola esplicitamente nei curricoli tradizionali. Parte di tale cultura ha natura “sociale”: per esempio la conoscenza che attiene al perché si debba studiare matematica e cosa significhi capirla. Altre conoscenze in questa categoria sono quelle messe in evidenza dall'epistemologia genetica<ref name="ftn14">L'epistemologia genetica è stata creata da Jean Piaget per descrivere la genesi della conoscenza nel bambino. </ref> a proposito della formazione: principi deduttivi quali la transitività, le conservazioni, la logica intuitiva della classificazioni e via dicendo. Infine, la terza categoria è costituita dalla conoscenza che non è coperta dalla matematica scolastica né è presupposta da questa ma che che dovrebbe far parte del bagaglio intellettuale di un cittadino istruito del futuro.
+
+Io penso che la comprensione delle relazioni fra i sistemi geometrici euclideo, cartesiano e differenziale faccia parte di questa terza categoria. Disegnare un cerchio con la Tartaruga è molto più che un “modo intuitivo” di disegnare cerchi, perché pone il bambino in contatto con un insieme di idee che stanno alla base dell'analisi matematica. Questo fatto può non essere evidente per persone il cui unico contatto con l'analisi ha avuto luogo nella scuola superiore o in qualche corso all'università, nella forma di certe manipolazioni formali di simboli. Il bambino che ha disegnato il cerchio con la Tartaruga non ha imparato qualcosa sul ''formalismo'' dell'analisi, per esempio che la derivata di ''x<sup>n''</sup> è ''nx<sup>n-1''</sup>, ma qualcosa sul suo impiego e sul suo ''significato''. Infatti il codice per disegnare il cerchio con la Tartaruga conduce a un formalismo alternativo di quelle che sono tradizionalmente chiamate “equazioni differenziali” ed è un veicolo efficace delle idee che soggiaciono al differenziale. Questo è il motivo per cui si possono capire così tante cose con la Tartaruga; ''il codice del cerchio rappresenta un'analogia intuitiva dell'equazione differenziale, un concetto che appare in quasi tutti gli esempi di matematica applicata tradizionale''.
+
+La potenza del calcolo differenziale risiede molto nella capacità di descrivere le variazioni in base a ciò che accade nelle loro immediate vicinanze. È questa caratteristica che ha consentito a Newton di descrivere il moto dei pianeti. Via via che questi tracciano l'orbita, sono le condizioni locali nel luogo dove si trova il pianeta che determinano il suo prossimo passo. Nelle nostre istruzioni della Tartaruga, FORWARD 1 RIGHT 1, ci si riferisce solo al luogo dove si trova la Tartaruga e a quello dove si troverà il momento dopo. Questo è quello che rende un'equazione ''differenziale''. In ciò non vi è alcun riferimento a luoghi remoti rispetto al percorso. La Tartaruga vede il cerchio cammin facendo, nell'immediata vicinanza, ed è cieca rispetto a tutto il resto che si trova più lontano. Questa proprietà è così importante che i matematici hanno un nome per essa: la geometria della Tartaruga è “intrinseca”. Lo spirito della geometria differenziale intrinseca si palesa quando si considerano i diversi modi di concepire una curva, ad esempio il cerchio. Per Euclide la caratteristica che definisce il cerchio è la distanza costante dei suoi punti da un altro punto, il centro, che però non fa parte di esso. Nella geometria di Cartesio, in questo caso più similmente a Euclide che che alla Tartaruga, i punti del cerchio sono caratterizzati dalla loro distanza rispetto a qualcos'altro, vale a dire dai due assi perpendicolari delle coordinate. Così, per esempio, un cerchio è definito da:
+
+<div style="text-align:center;">''(x-a)<sup>2</sup> + (y-b)<sup>2</sup> = R<sup>2''</sup></div>
+
+Nella geometria della Tartaruga un cerchio è definito dal fatto che questa continua a ripetere uno stesso atto: FORWARD un poco, GIRA un poco. Questa ripetizione garantisce che la curva abbia “curvatura costante”, dove di quanto si deve girare ad ogni passo.
+
+La geometria della §Tartaruga appartiene ad una famiglia di geometrie che godono di proprietà assenti in quelle euclidea e cartesiana. Queste sono le geometrie differenziali che si sono sviluppate a partire da Newton e che hanno reso possibile gran parte della fisica moderna. Abbiamo osservato come quello delle equazioni differenziali sia il formalismo che ha consentito alla fisica di descrivere il moto di una particella o di un pianeta. Nel capitolo 5, dove descrivere questo fatto con maggiori dettagli, vedremo come questo sia anche il formalismo appropriato per descrivere il moto di un animale oppure l'evoluzione di un'economia. E arriveremo anche a capire che non è un coincidenza il fatto che la geometria della Tartaruga sia collegata sia all'esperienza di un bambino che alle principali conquiste della fisica, in quanto, la visione del moto di un bambino, sebbene meno precisa nella forma, condivide la struttura matematica dell'equazione differenziale con le leggi del moto di un pianeta che gira intorno al sole o quelle delle falene che girano introno alla fiamma di una candela. E la Tartaruga non è ne più ne meno che la ricostruzione in forma computazionale intuitiva del nucleo qualitativo di questa struttura matematica. Quando torneremo su queste idee nel capitolo 5, vedremo come la geometria della Tartaruga apra le porte alla comprensione intuitiva dell'analisi, della fisica e della modellazione matematica così come viene impiegata nelle scienze biologiche e sociali.
+
+L'effetto del lavoro con la geometria della Tartaruga su alcuni aspetti della matematica scolastica è primariamente ''relazionale'' e ''affettivo'': molti bambini sono venuti nel laboratorio LOGO odiando i numeri quali oggetti alieni e se ne sono andati amandoli. In altri casi il lavoro con la Tartaruga ha generato modelli intuitivi specifici per concetti matematici complessi che i bambini capiscono con difficoltà. Un esempio semplice è l'uso dei numeri per misurare gli angoli. Nel contesto della Tartaruga i bambini assumono questa capacità quasi inconsapevolmente. Tutti – inclusi alcuni bambini di prima e molti di terza con cui abbiamo lavorato – escono dall'esperienza con una percezione migliore di cosa significhi 45 gradi, o 10 o 360, di quella della maggioranza degli studenti di scuola media. Così si ritrovano preparati meglio per affrontare tutti i vari argomenti formali – geometria, trigonometria, disegno geometrico ecc. - nei quali il concetto di ''angolo'' gioca un ruolo centrale. Ma sono preparati anche per qualcos'altro, ovvero un aspetto delle misure angolari nella nostra società nei confronti della quali la matematica scolastica è sistematicamente cieca. 
+
+Una delle rappresentazioni più diffuse dell'idea di angolo nelle vite dei contemporanei si trova nella navigazione. Milioni di persone vanno in barca, in aeroplano o leggono mappe<ref name="ftn15">[NdR] Oggi questo tipo di esperienza è enormemente e (per Papert) imprevedibilmente ampliata, includendo le varie forme di navigatori satellitari e la disponibilità ubiquitaria nei computer, tablet o smartphone di potentissimi software e servizi Web di tipo geografico o astronomico. </ref>. Per la maggior parte queste attività ''comuni'' e la ''morta'' matematica scolastica. Abbiamo messo in evidenza come l'uso della Tartaruga quale veicolo dell'idea di angolo si colleghi saldamente alla geometria del corpo. Abbiamo chiamato questa caratteristica sintonicità del corpo. Qui scopriamo una ''sintonicità culturale'': la Tartaruga connette l'idea di angolo alla navigazione, attività che è fermamente e positivamente radicata nella cultura extrascolastica di molti bambini. E via via che i computer si diffonderanno nel mondo, la sintonicità culturale della geometria della Tartaruga sarà sempre più forte<ref name="ftn16">[NdR] Purtroppo è andata diversamente. La geometria della Tartaruga, sebbene si trovi all'origine della creazione e della diffusione di Scratch, ha perso la forza di questo specifico messaggio che Papert si auspicava.</ref>. 
+
+Un secondo concetto matematico la cui comprensione è facilitata dalla Tartaruga è l'idea di ''variabile'': l'idea di usare un simbolo per dare un nome a un'entità sconosciuta. Per apprezzare questo contributo della Tartaruga estendiamo il codice per il cerchio in modo da disegnare delle spirali. 
+
+''Figura 1: Spirale 2 - si decrementa progressivamente l'angolo''
+
+<sup>''Figura 2: Spirale 1 - si incrementa progressivamente il passo''</sup>
+
+
+Guardiamo per esempio la spirale a destra. Come nel caso del cerchio, anche questa può essere disegnata in accordo con la prescrizione: procedi un poco, gira un poco. La differenza è che nel cerchio “è sempre lo stesso” la spirale diventa sempre più piatta, “meno curva”, procedendo verso l'esterno. Il cerchio è una curva con curvatura costante. La curvatura della spirale diminuisce andando verso l'esterno<ref name="ftn17">[NdR] Lasciamo al lettore l'esercizio di scrivere il codice per ottenere questa spirale e giocare provando a variarne parametri.</ref>. Per camminare lungo una spirale uno potrebbe fare un passo, girare un poco, fare un altro passo uguale, girare un poco ma ogni volta appena un po' meno (oppure facendo ogni volta un passo appena un po' più lungo. Per tradurre questo comportamento in istruzioni da dare alla Tartaruga, è necessario avere un modo per esprimere il fatto che abbiamo a che fare con una quantità ''variabile''. In principio se ne potrebbe fare a meno ma scrivendo un codice molto lungo:
+
+
+TO SPI_1TO SPI_2
+
+FORWARD 5FORWARD 1
+
+RIGHT 90RIGHT 5
+
+FORWARD 15FORWARD 1
+
+RIGHT 90RIGHT 5 * .995
+
+FORWARD 20FORWARD 1
+
+RIGHT 90RIGHT 5*.995*.995
+
+FORWARD 25FORWARD 1
+
+RIGHT 90RIGHT 5*.995*.995*.995
+
+FORWARD 30FORWARD 1
+
+RIGHT 90RIGHT 5*.995*.995*.995*.995
+
+FORWARD 35FORWARD 1
+
+RIGHT 90RIGHT 5*.995*.995*.995*.995*.995
+
+FORWARD 40FORWARD 1
+
+RIGHT 90RIGHT 5*.995*.995*.995*.995*.995*.995
+
+FORWARD 45FORWARD 1
+
+RIGHT 90RIGHT 5*.995*.995*.995*.995*.995*.995*.995
+
+FORWARD 50FORWARD 1
+
+RIGHT 90RIGHT 5*.995*.995*.995*.995*.995*.995*.995*.995
+
+FORWARD 55FORWARD 1
+
+RIGHT 90RIGHT 5*.995*.995*.995*.995*.995*.995*.995*.995*.995
+
+FORWARD 60FORWARD 1
+
+RIGHT 90RIGHT 5*.995*.995*.995*.995*.995*.995*.995*.995*.995*.995
+
+FORWARD 65ecc.
+
+RIGHT 90
+
+ecc.
+
+<div style="text-align:center;">''Come NON disegnare spirali''</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Qui, per la spirale di destra, abbiamo specificato esattamente dopo ogni passo di quanto deve girare la Tartaruga. Questo è noioso<ref name="ftn18">[NdR] E, alla lunga, impossibile. Se volessimo scrivere il codice aggiustando i parametri in maniera da iniziare da molto piccola, avvolgendosi fittamente, diverrebbe presto impossibile scrivere tutto il codice.</ref>. Un metodo migliore è quello di usare il concetto di nome simbolico mediante una variabile, una delle idee matematiche più potenti che siano mai state inventate. 
+
+Nella Lingua della Tartaruga le variabili sono presentate nella forma di un mezzo di comunicazione. Quello che noi vogliamo dire alla Tartaruga è: “Vai avanti di un piccolo passo, quindi gira un po', ma non so di quanto ora perché sarà sempre di una quantità differente.” Per disegnare la spirale di sinistra diremmo: “fai un passo, che però sarà ogni volta differente, e poi gira di 90.” Nel linguaggio matematico il trucco per dire qualcosa del genere è quello di inventare un nome per “la quantità che ora non ti posso dire”. Il nome potrebbe essere una lettera, come ''X'', o potrebbe essere una parola intera, come ANGOLO o DISTANZA. (Uno dei contributi minori della cultura computazionale alla matematica è l'abitudine di usare per i nomi delle variabili parole che facilitino la memorizzazione invece di singole lettere.) Per applicare l'idea di variabile, la Lingua della Tartaruga consente di creare “procedure con un ingresso (''input'')”<ref name="ftn19">[NdR] Queste che Papert chiama “procedure”, nel resto del manuale le abbiamo chiamate prevalentemente “subroutine”. La denominazione varia a seconda del linguaggio e del contesto. Più o meno sinonimi sono “procedure”, “subroutine”, “funzioni”, “metodi”.</ref>. Queste si ottengono scrivendo per esempio:
+
+TO '''PASSO''' '''DISTANZA'''
+
+FORWARD DISTANZA
+
+RIGHT 90
+
+END
+
+
+
+
+
+
+Se in un frammento di codice introduciamo l'istruzione '''PASSO''' '''100''',<ref name="ftn20">[NdR] L'accorgimento tipografico di usare il grassetto è mio e, come in altre parti del manuale, serve a focalizzare l'attenzione sui particolari più importanti nel contesto del discorso.</ref> quello che otterremo sarà che la Tartaruga andrà avanti di 100 unità di percorso e poi girerà a destra di 90 gradi. Similmente, con '''PASSO 110''' la Tartaruga andrà avanti di 100 unità e poi girerà di 90 gradi. Con il LOGO noi incoraggiamo i bambini a servirsi di metafore antropomorfiche: il comando PASSO dà un ordine a un aiutante (“l'uomo che fa un passo”) il cui compito è di dare alla Tartaruga due comandi, un FORWARD e un RIGHT. Ma questo aiutante non può fare il lavoro senza un altro dato – un numero da passare a un “uomo che fa il FORWARD”, per specificare quanto deve essere lungo il passo. 
+
+La procedura PASSOnon è entusiasmante, ma con una piccola modifica lo può diventare. Confrontiamola con la procedura SPI_1, che è esattamente la stessa<ref name="ftn21">[NdR] Nel senso che la procedura SPI_1 nella pagina precedente, è sì molto più lunga, ma contiene solo due tipi di istruzioni: FORWARD 5 e RIGHT 90.</ref> eccetto che per una linea:
+
+
+TO SPI DISTANZA
+
+FORWARD DISTANZA
+
+RIGHT 90
+
+SPI DISTANZA + 5
+
+END
+
+
+
+
+
+
+
+
+Se noi diamo il comando SPI 100 invochiamo un aiutante di nome SPI dandogli un valore in ingresso (''input'') pari a 100. L'aiutante SPI dà a sua volta tre comandi. Il primo è esattamente lo stesso di quello dell'aiutante PASSO: dì alla Tartaruga di andare avanti di 100 unità. Il secondo dice alla Tartaruga girare a destra. Anche qui nulla di nuovo. Ma il terzo contiene qualcosa di straordinario. Questo comando risulta essere SPI 105. Qual'è l'effetto? Quello di dire alla tartaruga di andare avanti di 105 unità, di girare di 90 gradi, e poi di dare il comando SPI 110. È così che si ottiene un trucco che si chiama “ricorsività”, con la quale si dà vita a un processo infinito che si realizza ad esempio con le spirali raffigurate precedentemente.
+
+Di tutte le idee che ho presentato agli studenti, la ricorsività spicca come quello che più facilmente causa meraviglia. Io penso,in parte perché l'idea di procedere all'infinito solletica la fantasia di qualsiasi bambino, e in parte perché la ricorsività medesima ha radici nella cultura popolare. Ecco un indovinello ricorsivo: se hai un desiderio qual'è il secondo? (altri due desideri.) Oppure l'immagine evocativa di un'etichetta che riporta la sua propria immagine<ref name="ftn22">[NdR] Oppure la fuga di immagini che si ottiene quando si guarda in uno di due specchi contrapposti. Il concetto di ricorsività è realmente potente. Ad esempio apre le porte al mondo dei frattali. Con Logo si possono ottenere degli effetti grafici sorprendenti e suggestivi. Approfondiremo questo tema più avanti nel manuale. </ref>. Offrendo l'opportunità di di giocare con l'infinito si pongono i bambini in contatto con qualcosa che si avvicina ad essere un matematico. Un altro esempio di esperienza matematica viva è illustrato nella figura seguente, dove si vede come sia possibile esplorare un curioso fenomeno matematico variando l'angolo di rotazione nella procedura SPI.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Angoli vicino a 90<ref name="ftn23">[NdR] Quello usato nella figura è pari a 88 gradi.</ref> producono l'emergenza di un fenomeno sorprendente: le braccia della galassia non sono stati codificati esplicitamente nella procedura. Emergono in maniera sorprendente e spesso danno luogo a prolungate esplorazioni nel corso delle quali riflessioni di tipo numerico e geometrico si intrecciano con considerazioni estetiche. 
+
+In Logo spesso le nuove idee compaiono in risposta alla necessità di ottenere un risultato per fare qualcosa che prima non era possibile. Nel contesto scolastico tradizionale lo studente incontra la nozione di variabile in piccoli problemi come questo:
+
+<div style="text-align:center;">''5 + X = 8''. Quanto vale ''X''?</div>
+
+Pochi bambini lo vedono come un problema personalmente rilevante, e ancora meno interpretano il metodo di soluzione come una fonte di potere. E hanno ragione. Non è che ci possono fare molto nel contesto della loro vita. In LOGO è invece molto diverso. Qui il bambino ha un obiettivo personale: quello di fare una spirale. In tale contesto l'idea di variabile è una sorgente di potere personale, potere di esaudire un desiderio altrimenti inaccessibile. Certamente, molti dei bambini che si imbattono nella nozione di variabile nel contesto convenzionale imparano a usarla efficacemente. Ma raramente nasce in loro un senso di “potere matematico”<ref name="ftn24">[NdR] ''Mathpower''.</ref>, nemmeno nei più bravi e più brillanti. E questo è il punto di forte contrasto fra la situazione in cui l'idea di variabile venga incontrata nella scuola tradizionale o nell'ambiente LOGO. In LOGO il concetto conferisce potere al bambino, il quale sperimenta come la matematica attivi una cultura che rende possibile ciò che prima non lo era. 
+
+Se l'uso della variabile per fare una spirale fosse stato introdotto come un esempio isolato per “illustrare” il “concetto di potere matematico” l'opportunità di agganciare l'attenzione dei bambini (come gli ingranaggi avevano agganciato la mia<ref name="ftn25">[NdR] Qui Papert si riferisce alla storia che aveva narrato nell'introduzione del libro sull'interesse che gli ingranaggi avevano casualmente destato in lui quando era piccolo, un episodio che avrebbe poi funzionato da potente catalizzatore per la sua formazione.</ref>) sarebbe occorsa casualmente e in pochi casi. Ma nella geometria della Tartaruga questo non è un episodio isolato. È il modo usuale di incontrare nuova conoscenza matematica. Il “potere matematico”, si potrebbe dire, “diviene un modo di vita”. Il senso di potenza non si associa solo metodi immediatamente applicabili come l'uso delle misure angolari o le variabili, ma anche con concetti come “teorema” o “dimostrazione” o “euristico” o “metodo di problem solving”. Usando concetti del genere il bambino sviluppa dei modi per parlare ''di'' matematica. Ed è su tale sviluppo dell'articolazione matematica che ora ci soffermiamo.
+
+Consideriamo un bambino che con la Tartaruga abbia già disegnato un quadrato e un cerchio e che ora vorrebbe disegnare un triangolo che con tutti e tre i lati eguali a 100 unità. La forma di questo programma potrebbe essere:
+
+TO TRIANGOLO
+
+REPEAT 3
+
+FORWARD 100
+
+RIGHT QUALCOSA
+
+END 
+
+
+
+
+
+
+
+
+Ma affinché la Tartaruga disegni la figura il bambino deve dirle qualcosa di più. Qual è la quantità che abbiamo chiamato QUALCOSA? Per il quadrato avevamo istruito la Tartaruga affinché girasse di 90 gradi ad ogni vertice, con il codice seguente: 
+
+
+TO QUADRATO
+
+REPEAT 4
+
+FORWARD 100
+
+RIGHT 90
+
+END
+
+
+
+
+
+
+
+
+Qui possiamo apprezzare come il precetto di Polya, “cerca situazioni simili”, e il principio procedurale della geometria della Tartaruga, “gioca con la Tartaruga”, possano lavorare insieme. ''Cosa c'è di eguale'' fra il quadrato e il triangolo? Se tracciamo il percorso che vogliamo far seguire alla Tartaruga, notiamo che in ambedue i casi questa finisce ritrovandosi nella posizione iniziale e rivolta nella stessa direzione. In altre parole, si finisce nello stato in cui eravamo partiti. E nel frattempo abbiamo fatto un giro completo. ''Ciò che è diverso'' nei due casi è il fatto che il giro sia stato compiuto in tre o quattro tappe. Il contenuto matematico di quest'idea è tanto ricco quanto semplice. Il fatto importante è la nozione del viaggio totale – quanto devi girare in tutto per fare il giro completo?
+
+La cosa sorprendente è che tutti i giri completi danno lo stesso risultato, pari a 360 gradi. Le quattro rotazioni di 90 gradi del quadrato fanno 360 gradi e siccome le rotazioni hanno luogo presso i vertici, nel caso del triangolo ci sono tre rotazioni che varranno 360 gradi diviso per tre. Così la quantità che abbiamo chiamato QUALCOSA deve valere 120 gradi. Questa è l'enunciazione del “Teorema del Viaggio Totale”<ref name="ftn26">[NdR] ''Total Trip Theorem''.</ref>:
+
+<div style="margin-left:1cm;margin-right:1cm;">Se una Tartaruga gira intorno al contorno di qualsiasi figura, finendo nello stato iniziale, allora la somma di tutte le rotazioni sarà pari a 360 gradi.</div>
+
+Parte integrante della comprensione di questo risultato è avere acquisito un metodo per risolvere una ben definita classe di problemi. L'incontro del bambino con questo teorema è diverso per vari aspetti rispetto alla memorizzazione della sua controparte euclidea: “la somma degli angoli interni di un triangolo è 180 gradi.”
+
+In primo luogo (almeno nel contesto di un computer con LOGO), il Teorema del ViaggioTotale è più potente, perché il bambino lo può usare. Secondariamente è più generale: si applica ai quadrati e alle curve come ai triangoli. Terzo, è più facilmente comprensibile. Si dimostra facilmente. Ed è più personale: lo puoi “percorrere” ed è rappresentativo di un modello per porre la matematica con la conoscenza personale. 
+
+Abbiamo visto come un bambino può servirsi del Teorema del Viaggio Totale per disegnare un triangolo equilatero. Quello che è veramente interessante è osservare come il teorema possa essere riapplicato in progetti molto più complessi. Perché ciò che conta quando un bambino si appropria di un teorema, non sta nella memorizzazione, ma nel fatto che con pochi teoremi importanti si apprezza quanto certe idee possano costituire strumenti del pensiero utili per tutta la vita. Si impara a apprezzare e rispettare la forza delle idee potenti. Si impara che l'idea più potente di tutte è l'idea di idea potente.
+
+
+
+
+
+
+
+
+----
+<references/>

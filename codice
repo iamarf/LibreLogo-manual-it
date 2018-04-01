@@ -1,0 +1,243 @@
+; Copyright 1999 Andreas Robert Formiconi
+
+; Programma distribuito alle condizioni della GNU General Public License
+
+; Questo programma è Software Libero (Free Software): può essere ridistribuito e
+; modificato nei termini della GNU General Public License pubblicata dalla Free
+; Software Foundation, nella versione 3 o una delle successive. IL testo della
+; licenza è accessibile in <https://www.gnu.org/licenses/licenses.it.html>.
+
+; Calcolo dell'orbita di un corpo celeste intorno al sole mediante integrazione
+; numerica delle equazioni del moto governate dalla legge di gravitazione di
+; Newton.  Il problema è posto in due dimensioni e assume che non vi siano
+; perturbazioni da parte di altri corpi. Il codice è aggiustato per risolvere il
+; caso di un'orbita fortemente eccentrica come quello della cometa di Halley.
+
+; La Tartaruga gioca il ruolo della cometa Il pianeta sta al centro, che in
+; LibreLogo ha coordinate [ 297.89, 421.11 ] dove l’unità di misura è il “punto”
+; (p).  Lo spazio della pagina è (pagg. 63-65 del Piccolo Manuale di LibreLogo
+
+;    [0, 0] –--------  [596, 0]
+;      |                   |
+;      |                   |
+;      |                   |
+;      |                   |
+;      |                   |
+;      |                   |
+;   [0, 842] –-------- [596, 842]    
+
+; dove i numeri sono espressi nell'unità di misura del foglio, qui denominata
+; "punto". In Writer di LibreOffice il punto vale 1/2.83 mm (vedi nota 54 a
+; pagina 64). Nei calcoli di questo algoritmo tutte le misure di lunghezza sono
+; riportate in "punti", in ultima analisi.
+ 
+; Variabili globali, ovvero che sono “visibili” sia nel codice principale che
+; all'interno di ogni procedura, NEWTON, STEP ecc.
+
+GLOBAL GG, Dt, DX, DY, XPOS0, YPOS0, XPOS, YPOS, XVEL, YVEL, XACC, YACC 
+
+; Qui seguono le subroutine nelle quali abbiamo incapsulato alcune funzionalità
+; specifiche: NEWTON che calcoloa l'accelerazione in un dato punto, STEP che
+; valuta il prossimo passo del percorso, WRITEPOINT scrive gli estremi dei punti
+; via via calcolati su un file...
+
+; ***************************************************************************
+; Subroutine NEWTON: calcola l'accelerazione nel punto di coordinate X, Y – il
+; risultato consiste nelle due componenti ACCX e ACCY del'accelerazione
+
+TO NEWTON X Y 
+   GLOBAL GG, Dt, DX, DY, XPOS0, YPOS0, XPOS, YPOS, XVEL, YVEL, XACC, YACC 
+   DX = (X-XPOS0)
+   DY = (Y-YPOS0)
+   R2 = (DX**2 + DY**2)
+   R = SQRT(R2)
+   XACC = - GG / R2 * DX / R
+   YACC = - GG / R2 * DY / R
+END
+
+; ***************************************************************************
+; Subroutine STEP: calcola il prossimo passo con l'interpolazione di Runge-Kutta
+; del IV ordine.  Questa interpolazione rappresenta un modo abbastanza più
+; sofisticato per calcolare i vari punti della traiettoria; serve a ridurre gli
+; errori di approssimazione dovuti al fatto di calcolare una funzione continua in
+; un numero finito di punti. L'algoritmo è tratto da W.H. Press etal, Numerical
+; Recipes - The Art of Scientific Computing, Cambridge university Press, 1992,
+; pp. 704-708.  Il risultato consiste nelle coordinate della nuova posizione,
+; XPOS e YPOS, e della velocità in quel punto, XVEL e YVEL.
+
+TO STEP
+   GLOBAL GG, Dt, DX, DY, XPOS0, YPOS0, XPOS, YPOS, XVEL, YVEL, XACC, YACC 
+
+   NEWTON XPOS YPOS
+   KX1 = Dt * XACC
+   XVEL1 = XVEL +KX1 / 2.
+   KY1 = Dt * YACC
+   YVEL1 = YVEL +KY1 / 2.
+   XPOST = XPOS +XVEL1 * Dt / 2.
+   YPOST = YPOS +YVEL1 * Dt / 2.
+
+   NEWTON XPOST YPOST
+   KX2 = Dt * XACC 
+   XVEL2 = XVEL +KX2 
+   KY2 = Dt * YACC 
+   YVEL2= YVEL +KY2
+   XPOST= XPOS +XVEL2 * Dt / 2.
+   YPOST= YPOS +YVEL2 * Dt / 2.
+
+   NEWTON XPOST YPOST
+   KX3 = Dt * XACC 
+   XVEL3 = XVEL +KX3 
+   KY3 = Dt * YACC 
+   YVEL3= YVEL +KY3
+   XPOST= XPOS +XVEL3 * Dt / 2.
+   YPOST= YPOS +YVEL3 * Dt / 2.
+ 
+   NEWTON XPOST YPOST
+   KX4 = Dt * XACC 
+   XVEL4 = XVEL + KX4 
+   KY4 = Dt * YACC 
+   YVEL4 = YVEL +KY4
+
+   XVEL= XVEL + (KX1 + 2 * KX2 + 2 * KX3 + KX4) / 6. 
+   YVEL= YVEL + (KY1 + 2 * KY2 + 2 * KY3 + KY4) / 6. 
+
+   XPOS= XPOS + (XVEL1 + 2 * XVEL2 + 2 * XVEL3 + XVEL4) * Dt / 6.
+   YPOS= YPOS + (YVEL1 + 2 * YVEL2 + 2 * YVEL3 + YVEL4) * Dt / 6.
+ 
+END
+
+; ***************************************************************************
+; Subroutine WRITEPOINT. Fa due cose: 
+
+; 1) invia la tartaruga nel prossimo punto della traiettoria mediante
+;    un'istruzione POSITION - è così che si crea il disegno 
+
+; 2) scrive in un file tutti i valori rilevanti di ciascuno punto della
+;    traiettoria calcolato, in particolare le due componenti della posizione, 
+;    della velocità e dell'accelerazione, ovvero tutto ciò che viene detto 
+;    soluzione dell'equazione del moto. Questi dati possono così essere ripresi 
+;    per creare rappresentazioni grafiche con altri tipi di software o per 
+;    ulteriori elaborazioni.
+
+TO WRITEPOINT f REPCOUNT
+   GLOBAL GG, Dt, DX, DY, XPOS0, YPOS0, XPOS, YPOS, XVEL, YVEL, XACC, YACC 
+
+   POSITION [XPOS, YPOS]
+   f.write( repr(REPCOUNT) + ‘,’ + repr(GG) + ‘,’ + repr(Dt) + ‘,’ + repr(DX) ~
+      + ‘,’ + repr(DY) + ‘,’ + repr(XPOS0) ~
+      + ‘,’ +  repr(YPOS0)  + ‘,’ +  repr(XPOS) + ‘,’ +  repr(YPOS) + ‘,’ +  repr(XVEL) ~
+      + ‘,’ + repr(YVEL) + ‘,’ + repr(XACC) + ‘,’ + repr(YACC) + ' \n')   
+END
+
+; ***************************************************************************
+; ***************************************************************************
+; Qui inizia il programma vero e proprio, quello che abbiamo chiamato
+; il codice principale
+
+; Prima di tutto si calcolano le costanti fisiche che entrano in gioco nella
+; determinazione del moto. I valori sono calcolati nel sistema di misura M.K.S
+; (Meter, Kilogram, Second), con l'eccezione delle distanze delle orbite perché
+; qui, dati gli enormi valori è più usuale l'AU (Astronomical Unit), dove 1 AU =
+; 1.495978707 x 10^11 metri, che corrisponde alla distanza media fra la terra e
+; il sole. Quindi, ad esempio, quando si trova che l'afelio della cometa di
+; Halley vale 35.08 AU, significa che la distanza massima della cometa dal sole è
+; pari a circa 35 volte la distanza fra la terra e il sole. Alla fine tuttavia,
+; tutte le misure di distanza sono trasformate in "punti" ai fini della
+; rappresentazione grafica.
+ 
+G = 6.67E-11                ; (N*m^2/Kg^2)  Costante di gravitazione
+Ms = 1.99E30                ; (Kg) Massa del sole
+
+Dp = 200.0                  ; Afelio espresso in punti del foglio
+rAf = 35.08                 ; Afelio (AU) 
+Dt = 0.001                  ; Intervallo di integrazione (ha la dimensione del tempo)
+
+K = Dp/rAf                  ; fattore di scala: numero di punti/AU
+GAU = G / 1.496E11**2 
+Gp = GAU * K**2             ; (N*p^2*Kg^2)
+GG = Gp * Ms                ; Cost. inclusiva della massa solare (per ridurre il 
+                            ; numero di moltiplicazioni nei cicli di integrazione)
+eps = 0.967                ; Eccentricità dellì'orbita Halley
+
+; Qui si apre il file dove verranno scritti gli estremi dei punti della
+; traiettoria via via calcolata. Si scrive subito anche la prima riga di
+; intestazione della tabella.
+
+f = open('/home/arf/Didattica//CODING/Logo/orbite/halley-dt-0.001-20', 'w')
+f.write( ‘REPCOUNT, GG, Dt, DX, DY, XPOS0,  YPOS0, ~
+              XPOS,  YPOS,  XVEL, YVEL, XACC, YACC, \n’)
+
+CLEARSCREEN
+HOME
+
+FILLCOLOR “skyblue”
+PENCOLOR “blue”
+CIRCLE 400                   ; Si disegna un cerchio di raggio 200 punti
+                             ; nel quale verrà disegnata la traiettoria
+			     ; del corpo celeste; qualora si usi un valore di
+			     ; eccentricità dell'orbita pari a 0 la traiettoria
+			     ; risulterà perfettamente circolare e coinciderà con
+			     ; il perimetro di questo cerchio.
+
+FILLCOLOR “yellow”           ; colore del sole
+PENCOLOR “yellow”
+CIRCLE 5                     ; Date le dimensioni dell'orbita della cometa
+                             ; il sole non può essere in scala
+
+; Qui memorizziamo le coordinate del centro della pagina, che assumiamo come
+; origine del sistema di riferimento e che facciamo coincidere con la posizione
+; del sole.
+
+XPOS0 = POSITION[0] ; coordinate origine (centro pagina)
+YPOS0 = POSITION[1]
+
+HIDETURTLE               ; nascondo la Tartaruga perché assorbe troppe risorse
+
+; Determinazione delle condizioni iniziali del problema
+
+; Posizione iniziale dove portiamo il satellite in quota
+
+PENUP
+POSITION [XPOS0 + rAf*K, YPOS0]
+PENDOWN
+XPOS = POSITION[0]
+YPOS = POSITION[1]
+
+; Velocità iniziale che imprimiamo al satellite
+
+XVEL = 0.0
+YVEL = sqrt(GG/(rAf*K)*(1-eps))  ; Grazie alla II legge di Keplero la velocità, 
+                                 ; ad esempio all'afelio, risulta determinata 
+				 ; dall'eccentricità dell'orbita oltre che dalla 
+				 ; massa del sole
+
+PENCOLOR “blue”
+PENSIZE 1
+
+; Ora inizia il ciclo che disegna la traiettoria del corpo celeste. 
+; I punti della traiettoria sono calcolati con la suroutine STEP e vengono disegnati 
+; con la subroutine WRITEPOINT. Quest'ultima provvede anche a scaricare gli estremi di 
+; ciascuno punto (posizione, velocità, acccelerazione) in un file. 
+; Tuttavia WRITEPOINT viene invocata solo in un numero limitato di punti, perché la 
+; traiettoria, affinché possa essere calcolata in maniera sufficientemente accurata, 
+; risulta composta da un numero esagerato di punti, ai fini del disegno.
+; In questa implementazione, aggiustata per riprodurre orbite fortemente eccentriche,
+; come quella della cometa di Halley, il codice usa solo un punto su 10000 per disegnare
+; traiettoria, e questo comportamente viene controllato mediante il contatore nWrite.
+; Si usa poi un flag (variabile di tipo sì/no), yIsNegative, per controllare che l'orbita
+; non venga disegnata più di una volta.
+
+nWrite = 0
+yIsNegative = FALSE    ; Flag controllo completamento orbita:
+
+WHILE NOT ( yIsNegative AND (YPOS-YPOS0) > 0) [
+nWrite = nWrite + 1
+   IF NOT yIsNegative AND (YPOS-YPOS0) < 0  [ yIsNegative = TRUE ]
+     STEP  
+     IF nWrite = 1 [
+        WRITEPOINT f, REPCOUNT
+     ]
+   IF nWrite = 10000 [ nWrite = 0 ]
+  ]
+
+PRINT “Fatto!”

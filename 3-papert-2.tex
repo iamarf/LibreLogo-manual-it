@@ -1,0 +1,93 @@
+\chapter{Il LOGO} \label{cap:papert2}
+
+\section{prologo}
+
+Questo è il capitolo successivo a quello sulla Mathophobia. È quello dove Papert introduce i comandi fondamentali di Logo. Dal punto di vista tecnico, è in parte una ripetizione del mio capitolo successivo (Disegnare), tuttavia, quest'ultimo è più ricalcato sullo stile del manuale di Lakó Viktória. La descrizione di Papert invece ha respiro molto più ampio perché da un lato concerne anche il metodo di insegnamento (come introdurre in pratica i comandi della Tartaruga ai bambini) e dall'altro offre vari interessanti collegamenti fra la Lingua della Tartaruga e la matematica formale. Quale leggere prima? Decida il lettore. I più frettolosi e interessati agli aspetti operativi possono saltare questo capitolo per passare direttamente a quello successivo, però se hanno un po' di tempo, secondo me farebbero meglio a seguire prima l'introduzione di Papert, penso che ne valga la pena. Così facendo si può tuttavia presentare il problema che Papert fa riferimento a frammenti di codice che questo manuale  non ha ancora presentato. Questi sono però intuitivi e invito il lettore ad accontentarsi della propria intuizione. Avrà modo di mettere a fuoco successivamente senza che la comprensione venga compromessa. Del resto è così che Papert introduce i comandi nel suo libro. Un'altra osservazione concerne la forma specifica dei frammenti di codice che non ho copiato pedissequamente, per due motivi. Il primo consiste nel problema appena menzionato, per cui ho introdotto qualche piccolo adattamento per facilitare la comprensione del lettore senza che venga alterato il messaggio fondamentale del testo. L'altro motivo consiste nel fatto che i codici scritti da Papert si riferiscono alla prima versione originale di Logo, che presenta qualche piccola differenza rispetto a quella che usiamo noi in LibreLogo. Ho quindi “tradotto” i frammenti di codice in maniera che possano essere copiati e eseguiti in un documento di LibreOffice.
+
+\section{\textit{Turtle Geometry: A Mathematics Made For Learning}}
+
+La geometria della Tartaruga è un modo diverso di fare geometria, come il modo assiomatico di Euclide e il modo analitico di Cartesio sono differenti fra loro. Quello di Euclide è un modo logico. Quello di Cartesio è un modo algebrico. La geometria della Tartaruga è un modo computazionale di fare geometria.
+
+Euclide costruì la sua geometria a partire da un insieme di concetti fondamentali, uno dei quali è il punto. Il punto può essere definito come un'entità che ha posizione ma non ha altre proprietà – non ha colore, né misura, né forma. Le persone che non sono state iniziate alla matematica formale, che non sono state ancora “matematizzate”, hanno spesso difficoltà ad afferrare questa nozione, e la trovano bizzarra. È difficile per loro riferirla a qualcosa che conoscano. Anche la geometria della Tartaruga possiede un'entità fondamentale come il punto di Euclide. Ma questa entità, che io chiamo “Tartaruga”, può essere riferita a cose che le persone conoscono, perché a differenza del punto di Euclide, non è spogliata completamente da ogni altro attributo, e invece di essere statica e dinamica. Oltre alla posizione, la Tartaruga ha un'altra proprietà importante: ha “direzione”. Un punto euclideo si trova da qualche parte – ha una posizione e questo è tutto quello che se ne può dire. Una Tartaruga si trova da qualche parte – anch'essa ha una posizione – ma è anche rivolta da qualche parte – la sua direzione. In questo senso la Tartaruga è come una persona – io sono qui e sono rivolto a nord – o un animale o un battello. Ed è grazie a tali similitudini che la Tartaruga possiede la caratteristica speciale di fungere da prima rappresentazione formale per un bambino. I bambini si possono identificare con la Tartaruga e così sono in grado di traslare la conoscenza che hanno del loro corpo e di come si muovono nell'attività di apprendere la geometria formale.
+
+Per sapere come funzioni dobbiamo imparare un'altra cosa sulle Tartarughe: la capacità di accettare comandi che sono espressi nella “Lingua delle Tartarughe”\footnote{[NdR] TURTLE TALK nell'originale.}. Il comando FORWARD fa muovere la Tartaruga lungo la direzione che sta puntando. Per dirle di quanto deve avanzare, FORWARD deve essere seguito da un numero: FORWARD 1 causa un movimento molto piccolo, FORWARD 100 un movimento più grande. In LOGO molti bambini sono stati iniziati alla geometria della Tartaruga mediante una tartaruga meccanica, sorta di robot cibernetico, in grado di obbedire ai comandi che vengono scritti su una tastiera\footnote{[NdR] Logo in realtà è nato negli anni '70 con questa versione meccanica che è quella rappresentata in Fig. 1. Tale versione è di fatto riemersa oggi nella forma dei robot didattici Bee-Bot e Blue-Bot. Ambedue possono ricevere i comandi mediante dei tasti che hanno sul dorso. Blue-Bot può essere manovrato attraverso un app per tablet o smartphone (sia Android che Apple) che consente di comporre un intero algoritmo e di scaricarlo mediante una connessione wireless nel Blue-Bot affinché lo esegua. Qui passato e presente si ricollegano e quello che sembrerebbe un riferimento datato è invece decisamente attuale.}. Questa “Tartaruga da pavimento” ha le ruote, una forma semisferica e una penna sistemata in maniera che la Tartaruga possa tracciare una linea muovendosi. Ma le sue proprietà essenziali – posizione, direzione e capacità di di eseguire i comandi della “Lingua delle Tartarughe” – sono quelle che contano per fare geometria. Il bambino può poi incontrare le medesime proprietà in un'altra materializzazione della Tartaruga, sorta di “Tartaruga leggera”. Questa è rappresentata da un oggetto triangolare su uno schermo televisivo\footnote{[NdR] È ovvio che lo “schermo televisivo” sia oggi sostituito dallo schermo di un computer. Inoltre, grazie alla smisurata potenza dei dispositivi di oggi, rispetto a quei tempi, il triangolo è oggi sostituito da immagini più dettagliate, quali la tartaruga stilizzata di LibreLogo o il “gatto” di Scratch. Abbiamo lasciato il testo originale per mettere in risalto il sapore pionieristico del racconto di Papert.  }, che possiede le stess proprietà di posizione e direzione e si muove in base agli stessi comandi della “Lingua delle Tartarughe”. Ambedue i tipi di Tartaruga hanno vantaggi: la Tartaruga da pavimento può essere usato come una ruspa o come uno strumento per disegnare; la Tartaruga leggera traccia brillanti linee colorate più velocemente di quanto l'occhio riesca a seguirle. Nessuna delle due è meglio di un'altra, ma insieme evocano un'idea potente: due entità fisicamente diverse possono essere matematicamente eguali (o “isomorfiche”)\footnote{Siccome questo libro è stato scritto per lettori che non sanno molta matematica, i riferimenti matematicamente più specifici sono limitati al massimo. Le osservazioni seguenti approfondiscono un po' il commento per i lettori più esperti.
+L'isomorfismo fra i diversi tipi di Tartarughe è uno degli esempi di di idee matematiche “avanzate” che che nella geometria della Tartaruga emergono in forme che sono sia concrete che utili. Fra queste, quelle che ricadono nel dominio dell'analisi matematica sono particolarmente importanti.
+Esempio 1: Integrazione. La geometria della Tartaruga apre la strada al concetto di integrale di linea attraverso le frequenti occasioni in che la Tartaruga ha di integrare qualche quantità mentre si muove. Di solito la prima circostanza in cui i bambini si imbattono compare con la necessità di di tenere traccia della somma delle rotazioni o della lunghezza totale percorsa. Un'eccellente progetto è quello dove si simulano i tropismi che inducono gli animali a cercare condizioni quali calore, luce, concentrazione di cibo, rappresentate mediante funzioni della posizione. Capita facilmente di confrontare due algoritmi per integrare una quantità lungo il percorso della Tartaruga. Una versione semplice dell'integrazione si può realizzare inserendo nel programma una singola linea del tipo CALL (TOTAL + FIELD) “TOTAL”, che significa: prendi la quantità che si chiama “TOTAL”, aggiungile la quantità FIELD e al risultato ridai il nome TOTAL. Questa versione ha un “difetto” ([NdR] bug) che si manifesta quando i segmenti percorsi dalla Tartaruga sono troppo lunghi oppure sono variabili. Risolvendo problemi del genere lo studente ha modo di avvicinarsi ad un concetto di integrale progressivamente più sofisticato.
+La precoce introduzione di una versione semplificata dell'integrazione lungo un percorso illustra il rovesciamento di quello che sembrerebbe l'ordine pedagogico “naturale”. Nel curriculum tradizionale, l'integrale di linea è un argomento avanzato al quale gli studenti arrivano dopo essere stati indotti per vari anni a interpretare l'integrale definito come l'area sotto una curva, un concetto che sembra attagliarsi meglio alla tecnologia della carta e della matita. Ma il risultato è quello di di sviluppare una visione fuorviante dell'integrale che causa in molti studenti un senso di smarrimento quando incontrano integrali per i quali l'immagine dell'area sotto una curva è decisamente inappropriata. Esempio 2: Equazioni differenziali. Un progetto che colpisce molto gli studenti è quello della Tartaruga con Sensore Tattile ([NdR] Touch Sensor Turtle. I codici seguenti vanno letti in maniera indicativa, verranno compresi completamente più avanti nel manuale). La versione più semplice è di questo tipo:
+TO BOUNCE
+REPEAT		; Ciclo sulle istruzioni seguenti
+ FORWARD 1		; La Tartaruga continua a muoversi
+ TEST FRONT.TOUCH	; Controlla se sta battendo in qualcosa
+ IFTRUE RIGHT 180	; Se sì torna indietro
+END
+Questo codice fa sì che la tartaruga torni indietro quando batte in un oggetto. Una versione più sofisticata e più istruttiva è questa:
+TO FOLLOW
+REPEAT
+  FORWARD 1
+  TEST LEFT.TOUCH	; Sta toccando l'oggetto?
+  IFTRUE RIGHT 1	; È troppo vicino: mi allontano
+  IFTRUE LEFT 1	; È troppo lontano: mi avvicino
+END
+Questo codice fa circumnavigare la Tartaruga intorno ad un oggetto di qualsivoglia forma, una volta che essa si trova con il suo lato sinistro a contatto dell'oggetto (e che l'oggetto e le irregolarità del suo contenuto siano grandi rispetto alla Tartaruga).
+L'aspetto interessante di questi codici è quello di essere “locale”. Un comportamento “non locale” lo avremmo ottenuto per esempio se, dovendo circumnavigare un oggetto quadrato di lato pari a 150 passi, fossero state usate istruzioni del tipo FORWARD 150. Un approccio del genere manca di generalità: con altri oggetti potrebbe non funzionare. Invece i codici precedenti lavorano con piccoli passi decisi solo in base alle condizioni che si verificano nelle immediate vicinanze della Tartaruga. Invece dell'operazione “globale” FORWARD 150 usano solo operazioni “locali” come FORWARD 1.  In questo modo si impiega un concetto fondamentale della nozione di equazione differenziale. Ho visto bambini della scuola primaria capire perfettamente perché le equazioni differenziali sono la forma naturale delle leggi del moto. Anche questo è un esempio eclatante di inversione pedagogica: la potenza delle equazioni differenziali è compresa prima del formalismo dell'analisi matematica. Molte delle idee matematiche suggerite dalla Tartaruga sono riunite in H. Abelson e A. diSessa, Turtle Geometry: Computation as a Medium for Exploring Mathematics (Cambridge, MIT CERCARE!!!).
+Esempio 3: Invarianti Topologici. Supponiamo che la Tartaruga giri intorno a un oggetto sommando via via gli angoli delle deviazioni, contando positivamente le deviazioni destre e negativamente quelle sinistre. Il risultato finale sarà sempre pari a 360 gradi indipendentemente dalla forma dell'oggetto. Vedremo che questo Total Turtle Trip Theorem è tanto utile quanto bello.}. 
+
+I comandi FORWARD e BACK fanno muovere la tartaruga in linea retta lungo la propria direzione che sta puntando: cambia la posizione mentre la direzione rimane invariata. Ci sono altri due comandi che invece influiscono sulla direzione ma non sulla posizione: RIGHT  e LEFT fanno girare la Tartaruga su se stessa, cambiandone la direzione di puntamento ma non la posizione. Come nel caso dell'istruzione FORWARD, RIGHT e LEFT richiedono un numero che determina l'entità della rotazione. Un adulto interpreta immediatamente tale numero come l'angolo di rotazione espresso in gradi. Per i bambini invece questi numeri devono essere esplorati attraverso il gioco. 
+Per disegnare un quadrato si può usare questo codice:
+
+\begin{minipage}{0.5\textwidth}
+\begin{figure}[H]
+   \includegraphics[width=5.0cm]{./images/papert-2/pap-2-1.png}
+   \label{pap-2-1}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}{0.45\textwidth}
+\begin{itemize}[itemsep=-3pt,parsep=2pt]
+\item[] \hspace{0.5cm} FORWARD 100
+\item[] \hspace{0.5cm} RIGHT 90
+\item[] \hspace{0.5cm} FORWARD 100
+\item[] \hspace{0.5cm} RIGHT 90
+\item[] \hspace{0.5cm} FORWARD 100
+\item[] \hspace{0.5cm} RIGHT 90
+\item[] \hspace{0.5cm} FORWARD 100
+\item[] \hspace{0.5cm} RIGHT 90
+\end{itemize}
+\end{minipage}
+\\
+\\
+\\
+Quello che segue è invece la trascrizione di un frammento dei tentativi di un bambino: 
+
+\begin{minipage}{0.5\textwidth}
+\begin{figure}[H]
+   \includegraphics[width=5.0cm]{./images/papert-2/pap-2-2.png}
+   \label{pap-2-2}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}{0.45\textwidth}
+\begin{itemize}[itemsep=-3pt,parsep=2pt]
+\item[] \hspace{0.5cm} FORWARD 100
+\item[] \hspace{0.5cm} RIGHT 100
+\item[] \hspace{0.5cm} FORWARD 100
+\item[] \hspace{0.5cm} BACK 100
+\item[] \hspace{0.5cm} 
+\item[] \hspace{0.5cm} RIGHT 10
+\item[] \hspace{0.5cm} LEFT 10
+\item[] \hspace{0.5cm} LEFT 10
+\item[] \hspace{0.5cm} FORWARD 100
+\item[] \hspace{0.5cm} RIGHT 100
+\item[] \hspace{0.5cm} LEFT 10
+\item[] \hspace{0.5cm} 
+\item[] \hspace{0.5cm} RIGHT 100
+\item[] \hspace{0.5cm} LEFT 10
+\item[] \hspace{0.5cm} FORWARD 100
+\item[] \hspace{0.5cm} RIGHT 40
+\item[] \hspace{0.5cm} FORWARD 100
+\item[] \hspace{0.5cm} RIGHT 90
+\item[] \hspace{0.5cm} FORWARD 100
+\end{itemize}
+\end{minipage}
+
+Poiché imparare a controllare la Tartaruga è come imparare una lingua in questo modo si fa leva sulla capacità e l'inclinazione dei i bambini per l'espressione verbale. E siccome quelli che si devono dare alla tartaruga sono comandi, si fa leva sull'inclinazione dei bambini a impartire comandi. Per fare disegnare un quadrato alla Tartaruga, si può provare a camminare lungo il contorno di un quadrato immaginario e poi descrivere le operazioni fatte utilizzano la Lingua della Tartaruga. E così facendo, si fa leva sulle capacità motorie dei bambini e sul piaucere che provano nel muoversi. È un modo di impiegare la “geometria del corpo” propria del bambino come un punto di partenza per raggiungere la geometria formale. 
+
+

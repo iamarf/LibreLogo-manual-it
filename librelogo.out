@@ -1,0 +1,60 @@
+\BOOKMARK [1][-]{section.1.1}{Ringraziamenti}{}% 1
+\BOOKMARK [-1][-]{part.1}{I Manuale ragionato di LibreLogo}{}% 2
+\BOOKMARK [0][-]{section.1.2}{Prefazione}{part.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Prefazione alla versione 1.0 \(settembre 2017\)}{section.1.2}% 4
+\BOOKMARK [1][-]{section.1.4}{Prefazione alla versione 1.1 \(gennaio 2018\)}{section.1.2}% 5
+\BOOKMARK [0][-]{chapter.2}{LibreLogo}{part.1}% 6
+\BOOKMARK [1][-]{section.2.1}{La grafica di LibreLogo in Writer}{chapter.2}% 7
+\BOOKMARK [0][-]{chapter.3}{Il problema della matematica}{part.1}% 8
+\BOOKMARK [1][-]{section.3.1}{prologo}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.2}{Mathophobia: The Fear for Learning}{chapter.3}% 10
+\BOOKMARK [0][-]{chapter.4}{Il LOGO}{part.1}% 11
+\BOOKMARK [0][-]{chapter.5}{Disegnare}{part.1}% 12
+\BOOKMARK [1][-]{section.5.1}{Comandi di movimento \205 Disegno - Uso delle variabili}{chapter.5}% 13
+\BOOKMARK [2][-]{subsection.5.1.1}{I comandi fondamentali}{section.5.1}% 14
+\BOOKMARK [2][-]{subsection.5.1.2}{I codici RGB per i colori}{section.5.1}% 15
+\BOOKMARK [2][-]{subsection.5.1.3}{Altri comandi}{section.5.1}% 16
+\BOOKMARK [2][-]{subsection.5.1.4}{Le variabili}{section.5.1}% 17
+\BOOKMARK [2][-]{subsection.5.1.5}{Lo spazio della pagina}{section.5.1}% 18
+\BOOKMARK [2][-]{subsection.5.1.6}{Altri comandi grafici}{section.5.1}% 19
+\BOOKMARK [2][-]{subsection.5.1.7}{Conclusioni}{section.5.1}% 20
+\BOOKMARK [0][-]{chapter.6}{Ripetere}{part.1}% 21
+\BOOKMARK [1][-]{section.6.1}{Cicli}{chapter.6}% 22
+\BOOKMARK [2][-]{subsection.6.1.1}{Operazioni aritmetiche}{section.6.1}% 23
+\BOOKMARK [2][-]{subsection.6.1.2}{Un accorgimento per trovare gli errori \205 la tartaruga troppo veloce!}{section.6.1}% 24
+\BOOKMARK [2][-]{subsection.6.1.3}{Esercizi}{section.6.1}% 25
+\BOOKMARK [0][-]{chapter.7}{Incapsulare}{part.1}% 26
+\BOOKMARK [1][-]{section.7.1}{Procedure}{chapter.7}% 27
+\BOOKMARK [0][-]{chapter.8}{Decidere}{part.1}% 28
+\BOOKMARK [1][-]{section.8.1}{IF - AND, OR, NOT}{chapter.8}% 29
+\BOOKMARK [0][-]{chapter.9}{La magia dei due specchi}{part.1}% 30
+\BOOKMARK [1][-]{section.9.1}{La ricorsione}{chapter.9}% 31
+\BOOKMARK [1][-]{section.9.2}{Verso i frattali}{chapter.9}% 32
+\BOOKMARK [-1][-]{part.2}{II Esperienze didattiche}{}% 33
+\BOOKMARK [0][-]{chapter.10}{L'esplorazione di Marta}{part.2}% 34
+\BOOKMARK [1][-]{section.10.1}{Prologo}{chapter.10}% 35
+\BOOKMARK [1][-]{section.10.2}{\215Esercizi\216 di creativit\340 \205 giocare con la ripetizioni in Logo}{chapter.10}% 36
+\BOOKMARK [2][-]{subsection.10.2.1}{Fase I}{section.10.2}% 37
+\BOOKMARK [2][-]{subsection.10.2.2}{Fase II}{section.10.2}% 38
+\BOOKMARK [2][-]{subsection.10.2.3}{Fase III}{section.10.2}% 39
+\BOOKMARK [2][-]{subsection.10.2.4}{Fase IV}{section.10.2}% 40
+\BOOKMARK [2][-]{subsection.10.2.5}{Una prima soluzione}{section.10.2}% 41
+\BOOKMARK [1][-]{section.10.3}{L'alternativa di Alberto}{chapter.10}% 42
+\BOOKMARK [1][-]{section.10.4}{La soluzione matematica}{chapter.10}% 43
+\BOOKMARK [2][-]{subsection.10.4.1}{Teorema del percorso chiuso}{section.10.4}% 44
+\BOOKMARK [2][-]{subsection.10.4.2}{Teorema del percorso chiuso semplice}{section.10.4}% 45
+\BOOKMARK [2][-]{subsection.10.4.3}{Teorema di chiusura di una procedura POLY}{section.10.4}% 46
+\BOOKMARK [2][-]{subsection.10.4.4}{Codifichiamo la soluzione}{section.10.4}% 47
+\BOOKMARK [1][-]{section.10.5}{Conclusione}{chapter.10}% 48
+\BOOKMARK [2][-]{subsection.10.5.1}{Ragionamento e esplorazione}{section.10.5}% 49
+\BOOKMARK [2][-]{subsection.10.5.2}{Vivere in prima persona l'esperienza che vorremmo/dovremmo fare vivere ai nostri allievi}{section.10.5}% 50
+\BOOKMARK [2][-]{subsection.10.5.3}{Percepire la potenziale dimensione verticale di LibreLogo}{section.10.5}% 51
+\BOOKMARK [0][-]{chapter.11}{Girando in tondo: dal cerchio all'orbita di Halley}{part.2}% 52
+\BOOKMARK [1][-]{section.11.1}{Low floor...}{chapter.11}% 53
+\BOOKMARK [1][-]{section.11.2}{... high ceiling}{chapter.11}% 54
+\BOOKMARK [2][-]{subsection.11.2.1}{La visione analitica classica}{section.11.2}% 55
+\BOOKMARK [2][-]{subsection.11.2.2}{Fisica computazionale}{section.11.2}% 56
+\BOOKMARK [2][-]{subsection.11.2.3}{Le condizioni iniziali}{section.11.2}% 57
+\BOOKMARK [2][-]{subsection.11.2.4}{The art of scientific computing}{section.11.2}% 58
+\BOOKMARK [1][-]{section.11.3}{Conclusione}{chapter.11}% 59
+\BOOKMARK [0][-]{chapter.12}{Appendice}{part.2}% 60
