@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.27)  1 APR 2018 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.27)  2 APR 2018 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -575,9 +575,9 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (./librelogo.aux
 (./0-frontespizio.aux) (./01-ringraziamenti.aux) (./1-prefazione.aux)
-(./2-librelogo.aux) (./3-papert-1.aux) (./3-papert-2-provvisorio.aux)
-(./4-disegnare.aux) (./5-ripetere.aux) (./6-incapsulare.aux) (./7-decidere.aux)
-(./8-magia-specchi.aux) (./9-marta.aux) (./10-cerchio.aux) (./x-appendice.aux))
+(./2-librelogo.aux) (./3-genesi.aux) (./4-disegnare.aux) (./5-ripetere.aux)
+(./6-incapsulare.aux) (./7-decidere.aux) (./8-magia-specchi.aux) (./9-marta.aux
+) (./10-cerchio.aux) (./x-appendice.aux))
 \openout1 = `librelogo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -592,6 +592,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count121
@@ -714,7 +715,14 @@ Overfull \hbox (1.76297pt too wide) in paragraph at lines 40--40
 []\OT1/cmr/bx/n/14.4 Prefazione al-la ver-sio-ne 1.0 (set-tem-bre 2017) 
  []
 
-[10]) [11]
+[10]
+
+LaTeX Warning: Reference `cap:papert2' on page 11 undefined on input line 56.
+
+
+LaTeX Warning: Reference `cap:papert2' on page 11 undefined on input line 58.
+
+) [11]
 \openout2 = `2-librelogo.aux'.
 
  (./2-librelogo.tex [12
@@ -904,9 +912,9 @@ Package pdftex.def Info: ./images/librelogo/AncoraLO.png used on input line 98.
 ./images/librelogo/DrawToolbar2.png> <./images/librelogo/RaggruppamentoLO.png> 
 <./images/librelogo/AncoraLO.png>])
 [21]
-\openout2 = `3-papert-1.aux'.
+\openout2 = `3-genesi.aux'.
 
- (./3-papert-1.tex [22
+ (./3-genesi.tex [22
 
 
 
@@ -917,37 +925,38 @@ Capitolo 3.
 File: ./images/papert-1/220px-Fig-2-mindstorms.png Graphic file (type png)
 <use ./images/papert-1/220px-Fig-2-mindstorms.png>
 Package pdftex.def Info: ./images/papert-1/220px-Fig-2-mindstorms.png used on i
-nput line 31.
+nput line 34.
 (pdftex.def)             Requested size: 213.39566pt x 185.27414pt.
 
 Underfull \vbox (badness 1924) has occurred while \output is active []
 
  [27 <./images/papert-1/220px-Fig-2-mindstorms.png>] [28] [29] [30] [31]
-Overfull \hbox (13.60515pt too wide) in paragraph at lines 72--79
+Overfull \hbox (13.60515pt too wide) in paragraph at lines 75--82
 []\OT1/cmr/m/n/10 INSANE RE-TARD MA-KES BE-CAU-SE SWEET SNOO-PY SCREAMS 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--79
+Underfull \hbox (badness 10000) in paragraph at lines 75--82
 
  []
 
-[32] [33] [34] [35]
-Underfull \hbox (badness 2376) in paragraph at lines 101--101
+[32] [33]
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+ [35]
+Underfull \hbox (badness 2376) in paragraph at lines 104--104
 [][]\OT1/cmr/m/n/8 [NdR] Que-sto ^^Re pa-le-se-men-te un ri-fe-ri-men-to sto-ri
 -co, da ri-fe-ri-re al-l'e-po-ca e da
  []
 
-) [36]
-\openout2 = `3-papert-2-provvisorio.aux'.
+)
+Underfull \vbox (badness 2644) has occurred while \output is active []
 
- (./3-papert-2-provvisorio.tex
-Capitolo 4.
-) [37
-
-
-
-]
+ [36]
+[37]
 \openout2 = `4-disegnare.aux'.
 
  (./4-disegnare.tex [38
@@ -955,7 +964,7 @@ Capitolo 4.
 
 
 ]
-Capitolo 5.
+Capitolo 4.
 
 Overfull \hbox (15.0pt too wide) in paragraph at lines 14--20
 []$[]$
@@ -1591,7 +1600,7 @@ Package pdftex.def Info: ./images/disegnare/disegnare-41.png used on input line
 
 
 ]
-Capitolo 6.
+Capitolo 5.
 <./images/ripetere/ripetere-1.png, id=415, 248.93pt x 268.00125pt>
 File: ./images/ripetere/ripetere-1.png Graphic file (type png)
 
@@ -1767,7 +1776,7 @@ Package pdftex.def Info: ./images/ripetere/ripetere-14.png used on input line 4
 \openout2 = `6-incapsulare.aux'.
 
  (./6-incapsulare.tex
-Capitolo 7.
+Capitolo 6.
 <./images/incapsulare/incapsulare-1.png, id=507, 248.93pt x 268.00125pt>
 File: ./images/incapsulare/incapsulare-1.png Graphic file (type png)
 
@@ -1883,7 +1892,7 @@ sulare-6.png>]
 
 
 ]
-Capitolo 8.
+Capitolo 7.
 File: ./images/ripetere/StopLO.png Graphic file (type png)
 <use ./images/ripetere/StopLO.png>
 Package pdftex.def Info: ./images/ripetere/StopLO.png used on input line 28.
@@ -1892,7 +1901,7 @@ Package pdftex.def Info: ./images/ripetere/StopLO.png used on input line 28.
 \openout2 = `8-magia-specchi.aux'.
 
  (./8-magia-specchi.tex
-Capitolo 9.
+Capitolo 8.
 [99
 
 
@@ -1948,7 +1957,7 @@ Overfull \hbox (17.22221pt too wide) in paragraph at lines 148--173
 
 ]
 [105] [106]
-Capitolo 10.
+Capitolo 9.
 [107
 
 ] <./images/marta/mar-1.png, id=610, 225.84375pt x 301.125pt>
@@ -1975,9 +1984,9 @@ File: ./images/marta/mar-3.png Graphic file (type png)
 Package pdftex.def Info: ./images/marta/mar-3.png used on input line 131.
 (pdftex.def)             Requested size: 142.26378pt x 132.6863pt.
 
-Overfull \hbox (43.78918pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
- IN LOGO \OT1/cmr/m/n/10 109
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 109
  []
 
 [109 <./images/marta/mar-2.png> <./images/marta/mar-3.png>]
@@ -2019,9 +2028,9 @@ File: ./images/marta/mar-8.png Graphic file (type png)
 Package pdftex.def Info: ./images/marta/mar-8.png used on input line 294.
 (pdftex.def)             Requested size: 142.26378pt x 147.33128pt.
 
-Overfull \hbox (43.78918pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
- IN LOGO \OT1/cmr/m/n/10 111
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 111
  []
 
 [111 <./images/marta/mar-6.png> <./images/marta/mar-7.png> <./images/marta/mar-
@@ -2050,9 +2059,9 @@ Package pdftex.def Info: ./images/marta/mar-10.png used on input line 468.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (43.78918pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
- IN LOGO \OT1/cmr/m/n/10 113
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 113
  []
 
 [113 <./images/marta/mar-10.png>] [114]
@@ -2080,9 +2089,9 @@ Package pdftex.def Info: ./images/marta/mar-13.png used on input line 616.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (43.78918pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
- IN LOGO \OT1/cmr/m/n/10 115
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 115
  []
 
 [115 <./images/marta/mar-11.png> <./images/marta/mar-12.png>]
@@ -2101,9 +2110,9 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 753--800
  []
 
 
-Overfull \hbox (43.78918pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
- IN LOGO \OT1/cmr/m/n/10 117
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 117
  []
 
 [117] [118]
@@ -2194,7 +2203,7 @@ Underfull \vbox (badness 3724) has occurred while \output is active []
 \openout2 = `10-cerchio.aux'.
 
  (./10-cerchio.tex
-Capitolo 11.
+Capitolo 10.
 
 <./images/cerchio/PiccolomanualeLibreLogo5-img1.png, id=762, 572.1375pt x 504.8
 8625pt>
@@ -2215,7 +2224,7 @@ Overfull \hbox (50.00006pt too wide) in paragraph at lines 19--24
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 140 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 140 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2254,7 +2263,7 @@ Overfull \hbox (50.00006pt too wide) in paragraph at lines 73--84
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 142 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 142 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2332,7 +2341,7 @@ d on input line 145.
 (pdftex.def)             Requested size: 65.44142pt x 193.17729pt.
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 144 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 144 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2377,19 +2386,19 @@ Package pdftex.def Info: ./images/cerchio/ellisse-emma.png used on input line 2
 (pdftex.def)             Requested size: 142.26378pt x 93.6896pt.
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 146 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 146 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
 [146 <./images/cerchio/ellisse-emma.png>] [147]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 148 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 148 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
 [148] [149]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 150 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 150 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2398,7 +2407,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [151]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 152 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 152 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2415,7 +2424,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--413
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 154 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 154 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2429,7 +2438,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 156 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 156 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2441,7 +2450,7 @@ Underfull \vbox (badness 1348) has occurred while \output is active []
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 158 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 158 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2457,7 +2466,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 160 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 160 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2469,7 +2478,7 @@ www.dk3wn.info/sat/afu/sat[]ardusat.shtml
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 162 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 162 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2481,19 +2490,19 @@ on-trap-po-ne { la \OT1/cmr/m/it/10 programming-
 
 [163]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 164 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 164 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
 [164] [165]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 166 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 166 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
 [166] [167])
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 168 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 168 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
@@ -2501,7 +2510,7 @@ O ALL'ORBITA DI HALLEY
 \openout2 = `x-appendice.aux'.
 
  (./x-appendice.tex
-Capitolo 12.
+Capitolo 11.
 [169
 
 
@@ -2553,41 +2562,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--103
  []
 
 ) [176] (./librelogo.aux (./0-frontespizio.aux) (./01-ringraziamenti.aux)
-(./1-prefazione.aux) (./2-librelogo.aux) (./3-papert-1.aux)
-(./3-papert-2-provvisorio.aux) (./4-disegnare.aux) (./5-ripetere.aux)
-(./6-incapsulare.aux) (./7-decidere.aux) (./8-magia-specchi.aux) (./9-marta.aux
-) (./10-cerchio.aux) (./x-appendice.aux)) ) 
+(./1-prefazione.aux) (./2-librelogo.aux) (./3-genesi.aux) (./4-disegnare.aux)
+(./5-ripetere.aux) (./6-incapsulare.aux) (./7-decidere.aux)
+(./8-magia-specchi.aux) (./9-marta.aux) (./10-cerchio.aux) (./x-appendice.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7544 strings out of 493029
- 112601 string characters out of 6136234
- 252075 words of memory out of 5000000
- 10742 multiletter control sequences out of 15000+600000
+ 7536 strings out of 493029
+ 112375 string characters out of 6136234
+ 251634 words of memory out of 5000000
+ 10741 multiletter control sequences out of 15000+600000
  11915 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,21n,32p,4472b,1750s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on librelogo.pdf (176 pages, 7513327 bytes).
+ 38i,21n,32p,4107b,1750s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+0.pfb>
+Output written on librelogo.pdf (176 pages, 7513517 bytes).
 PDF statistics:
  1002 PDF objects out of 1200 (max. 8388607)
  557 compressed objects within 6 object streams
