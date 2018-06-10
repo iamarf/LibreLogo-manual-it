@@ -1,0 +1,40 @@
+\documentclass[a4paper,10pt]{book}
+%\input{packages} 
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[italian]{babel}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{color}
+\usepackage{listings}
+\usepackage[]{algorithm2e}
+\usepackage{gensymb}
+%\usepackage{hyperref} da verificare 
+\setcounter{chapter}{1}
+\setcounter{section}{0} 
+\begin{document}
+\include{0-frontespizio}
+\include{01-ringraziamenti}
+\include{1-prefazione}
+\include{2-librelogo}
+\include{3-genesi}
+%\include{3-papert-1} %provvisorio
+%\include{3-papert-2} va finito di portare da odt
+%\include{3-papert-2-provvisorio} %provvisorio
+\include{4-disegnare}
+\include{5-ripetere}
+\include{6-incapsulare}
+\include{7-decidere}
+\include{8-magia-specchi}
+\include{9-marta}
+\include{10-cerchio}
+\include{x-appendice}
+%\input{etc}
+\bibliography{librelogo}{}
+\bibliographystyle{plain}
+\end{document}

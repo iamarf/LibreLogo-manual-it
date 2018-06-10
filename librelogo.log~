@@ -1,0 +1,2608 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.27)  2 APR 2018 10:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**librelogo.tex
+(./librelogo.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count89
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2015/03/26 v1.3n Italian support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
+\babel@savecnt=\count90
+\U@D=\dimen105
+)
+\it@lettering=\count91
+\it@doublequoteactive=\count92
+\it@ISOcompliance=\count93
+))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count94
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen106
+\enit@toks=\toks19
+\enit@inbox=\box28
+\enitdp@description=\count95
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen107
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip11
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks21
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks22
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks23
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen116
+\extrarowheight=\dimen117
+\NC@list=\toks25
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen118
+\c@nlinenum=\count108
+\TeXr@lab=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count109
+\lst@gtempboxa=\box31
+\lst@token=\toks27
+\lst@length=\count110
+\lst@currlwidth=\dimen119
+\lst@column=\count111
+\lst@pos=\count112
+\lst@lostspace=\dimen120
+\lst@width=\dimen121
+\lst@newlines=\count113
+\lst@lineno=\count114
+\lst@maxwidth=\dimen122
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count115
+\lst@skipnumbers=\count116
+\lst@framebox=\box32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip49
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+********************************************************
+Package `algorithm2e' Release 5.1 -- october 19 2015 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+********************************************************
+\skiptotal=\skip50
+\skiplinenumber=\skip51
+\skiprule=\skip52
+\skiphlne=\skip53
+\skiptext=\skip54
+\skiplength=\skip55
+\algomargin=\skip56
+\skipalgocfslide=\skip57
+\algowidth=\dimen123
+\inoutsize=\dimen124
+\inoutindent=\dimen125
+\interspacetitleruled=\dimen126
+\interspacealgoruled=\dimen127
+\interspacetitleboxruled=\dimen128
+\algocf@ruledwidth=\skip58
+\algocf@inoutbox=\box33
+\algocf@inputbox=\box34
+\AlCapSkip=\skip59
+\AlCapHSkip=\skip60
+\algoskipindent=\skip61
+\algocf@nlbox=\box35
+\algocf@hangingbox=\box36
+\algocf@untilbox=\box37
+\algocf@skipuntil=\skip62
+\algocf@capbox=\box38
+\algoheightruledefault=\skip63
+\algoheightrule=\skip64
+\algotitleheightruledefault=\skip65
+\algotitleheightrule=\skip66
+\c@algocfline=\count118
+\c@algocfproc=\count119
+\c@algocf=\count120
+\algocf@algoframe=\box39
+\algocf@algobox=\box40
+) (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) (./librelogo.aux
+(./0-frontespizio.aux) (./01-ringraziamenti.aux) (./1-prefazione.aux)
+(./2-librelogo.aux) (./3-genesi.aux) (./4-disegnare.aux) (./5-ripetere.aux)
+(./6-incapsulare.aux) (./7-decidere.aux) (./8-magia-specchi.aux) (./9-marta.aux
+) (./10-cerchio.aux) (./x-appendice.aux))
+\openout1 = `librelogo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count121
+\scratchdimen=\dimen129
+\scratchbox=\box41
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen130
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks29
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \it@ocap on input line 20.
+LaTeX Info: Redefining \it@ccap on input line 20.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting 
+italian.ldf    on input line 20.
+
+\c@lstlisting=\count127
+LaTeX Info: Redefining \celsius on input line 20.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 20.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 20.
+Package gensymb Info: Using \Omega for \ohm on input line 20.
+
+Package gensymb Warning: Not defining \micro.
+
+\openout2 = `0-frontespizio.aux'.
+
+(./0-frontespizio.tex
+<./images/frontespizio/utopia.jpg, id=1, 2475.2475pt x 1407.2575pt>
+File: ./images/frontespizio/utopia.jpg Graphic file (type jpg)
+
+<use ./images/frontespizio/utopia.jpg>
+Package pdftex.def Info: ./images/frontespizio/utopia.jpg used on input line 26
+.
+(pdftex.def)             Requested size: 284.52756pt x 161.75604pt.
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/frontespizio/
+utopia.jpg>]
+\openout2 = `01-ringraziamenti.aux'.
+
+ (./01-ringraziamenti.tex
+[2
+
+
+
+
+
+
+] (./librelogo.toc [3])
+\tf@toc=\write3
+\openout3 = `librelogo.toc'.
+
+ [4]) [5]
+\openout2 = `1-prefazione.aux'.
+
+ (./1-prefazione.tex [6
+
+
+
+] [7] [8] [9]
+Overfull \hbox (1.76297pt too wide) in paragraph at lines 40--40
+[]\OT1/cmr/bx/n/14.4 Prefazione al-la ver-sio-ne 1.0 (set-tem-bre 2017) 
+ []
+
+[10]
+
+LaTeX Warning: Reference `cap:papert2' on page 11 undefined on input line 56.
+
+
+LaTeX Warning: Reference `cap:papert2' on page 11 undefined on input line 58.
+
+) [11]
+\openout2 = `2-librelogo.aux'.
+
+ (./2-librelogo.tex [12
+
+
+
+]
+Capitolo 2.
+<./images/librelogo/Papert-x640.jpg, id=49, 154.176pt x 209.3421pt>
+File: ./images/librelogo/Papert-x640.jpg Graphic file (type jpg)
+
+<use ./images/librelogo/Papert-x640.jpg>
+Package pdftex.def Info: ./images/librelogo/Papert-x640.jpg used on input line 
+5.
+(pdftex.def)             Requested size: 284.52756pt x 386.3824pt.
+ [13] [14 <./images/librelogo/Papert-x640.jpg>] <./images/librelogo/scratch-2.p
+ng, id=57, 642.4pt x 724.7075pt>
+File: ./images/librelogo/scratch-2.png Graphic file (type png)
+
+<use ./images/librelogo/scratch-2.png>
+Package pdftex.def Info: ./images/librelogo/scratch-2.png used on input line 18
+.
+(pdftex.def)             Requested size: 213.39566pt x 240.73552pt.
+ [15] [16 <./images/librelogo/scratch-2.png>] [17]
+<./images/librelogo/AttivazioneToolbar.png, id=71, 453.695pt x 457.71pt>
+File: ./images/librelogo/AttivazioneToolbar.png Graphic file (type png)
+
+<use ./images/librelogo/AttivazioneToolbar.png>
+Package pdftex.def Info: ./images/librelogo/AttivazioneToolbar.png used on inpu
+t line 36.
+(pdftex.def)             Requested size: 213.39566pt x 215.28436pt.
+
+<./images/librelogo/LibreLogoToolbar.png, id=72, 608.2725pt x 36.135pt>
+File: ./images/librelogo/LibreLogoToolbar.png Graphic file (type png)
+
+<use ./images/librelogo/LibreLogoToolbar.png>
+Package pdftex.def Info: ./images/librelogo/LibreLogoToolbar.png used on input 
+line 44.
+(pdftex.def)             Requested size: 213.39566pt x 12.67665pt.
+
+<./images/librelogo/FrecciaSULO.png, id=73, 27.10126pt x 30.1125pt>
+File: ./images/librelogo/FrecciaSULO.png Graphic file (type png)
+
+<use ./images/librelogo/FrecciaSULO.png>
+Package pdftex.def Info: ./images/librelogo/FrecciaSULO.png used on input line 
+54.
+(pdftex.def)             Requested size: 21.33955pt x 23.71187pt.
+
+Underfull \hbox (badness 1895) in paragraph at lines 54--54
+[]|\OT1/cmr/m/n/10 Avanti di 10 pun-ti (ve-dre-mo
+ []
+
+<./images/librelogo/FrecciagiuLO.png, id=74, 29.10875pt x 30.1125pt>
+File: ./images/librelogo/FrecciagiuLO.png Graphic file (type png)
+
+<use ./images/librelogo/FrecciagiuLO.png>
+Package pdftex.def Info: ./images/librelogo/FrecciagiuLO.png used on input line
+ 55.
+(pdftex.def)             Requested size: 21.33955pt x 22.07611pt.
+
+<./images/librelogo/Orario.png, id=75, 31.11626pt x 28.105pt>
+File: ./images/librelogo/Orario.png Graphic file (type png)
+
+<use ./images/librelogo/Orario.png>
+Package pdftex.def Info: ./images/librelogo/Orario.png used on input line 56.
+(pdftex.def)             Requested size: 21.33955pt x 19.27495pt.
+
+<./images/librelogo/Antiorario.png, id=76, 31.11626pt x 28.105pt>
+File: ./images/librelogo/Antiorario.png Graphic file (type png)
+
+<use ./images/librelogo/Antiorario.png>
+Package pdftex.def Info: ./images/librelogo/Antiorario.png used on input line 5
+7.
+(pdftex.def)             Requested size: 21.33955pt x 19.27495pt.
+
+<./images/librelogo/PlayLO.png, id=77, 34.1275pt x 28.105pt>
+File: ./images/librelogo/PlayLO.png Graphic file (type png)
+
+<use ./images/librelogo/PlayLO.png>
+Package pdftex.def Info: ./images/librelogo/PlayLO.png used on input line 58.
+(pdftex.def)             Requested size: 21.33955pt x 17.57372pt.
+
+Underfull \hbox (badness 2903) in paragraph at lines 58--58
+\OT1/cmr/m/n/10 vo ap-pe-na aper-to ese-gue un
+ []
+
+<./images/librelogo/StopLO.png, id=78, 29.10875pt x 29.10875pt>
+File: ./images/librelogo/StopLO.png Graphic file (type png)
+
+<use ./images/librelogo/StopLO.png>
+Package pdftex.def Info: ./images/librelogo/StopLO.png used on input line 59.
+(pdftex.def)             Requested size: 21.33955pt x 21.34026pt.
+
+<./images/librelogo/RewindLO.png, id=79, 34.1275pt x 26.0975pt>
+File: ./images/librelogo/RewindLO.png Graphic file (type png)
+
+<use ./images/librelogo/RewindLO.png>
+Package pdftex.def Info: ./images/librelogo/RewindLO.png used on input line 60.
+
+(pdftex.def)             Requested size: 21.33955pt x 16.31845pt.
+
+Underfull \hbox (badness 1097) in paragraph at lines 60--60
+[]|\OT1/cmr/m/n/10 Riporta Lo-go nel-la con-di-zio-ne
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 60--60
+\OT1/cmr/m/n/10 ini-zia-le, con la tar-ta-ru-ga al
+ []
+
+<./images/librelogo/NewpageLO.png, id=80, 27.10126pt x 30.1125pt>
+File: ./images/librelogo/NewpageLO.png Graphic file (type png)
+
+<use ./images/librelogo/NewpageLO.png>
+Package pdftex.def Info: ./images/librelogo/NewpageLO.png used on input line 61
+.
+(pdftex.def)             Requested size: 21.33955pt x 23.71187pt.
+
+Underfull \hbox (badness 1661) in paragraph at lines 61--61
+\OT1/cmr/m/n/10 to (non il te-sto pre-sen-te nel
+ []
+
+<./images/librelogo/220px-TextLO.png, id=81, 217.81375pt x 25.09375pt>
+File: ./images/librelogo/220px-TextLO.png Graphic file (type png)
+
+<use ./images/librelogo/220px-TextLO.png>
+Package pdftex.def Info: ./images/librelogo/220px-TextLO.png used on input line
+ 62.
+(pdftex.def)             Requested size: 21.33955pt x 2.4582pt.
+
+<./images/librelogo/MagicwLO.png, id=82, 32.12pt x 31.11626pt>
+File: ./images/librelogo/MagicwLO.png Graphic file (type png)
+
+<use ./images/librelogo/MagicwLO.png>
+Package pdftex.def Info: ./images/librelogo/MagicwLO.png used on input line 64.
+
+(pdftex.def)             Requested size: 21.33955pt x 20.67303pt.
+ [18 <./images/librelogo/AttivazioneToolbar.png> <./images/librelogo/LibreLogoT
+oolbar.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./images/librelogo/FrecciaSULO.png> <./images/librelogo/FrecciagiuLO.png>
+ <./images/librelogo/Orario.png> <./images/librelogo/Antiorario.png> <./images/
+librelogo/PlayLO.png> <./images/librelogo/StopLO.png> <./images/librelogo/Rewin
+dLO.png> <./images/librelogo/NewpageLO.png> <./images/librelogo/220px-TextLO.pn
+g> <./images/librelogo/MagicwLO.png>]
+<./images/librelogo/DrawToolbar.png, id=100, 727.71875pt x 35.13126pt>
+File: ./images/librelogo/DrawToolbar.png Graphic file (type png)
+
+<use ./images/librelogo/DrawToolbar.png>
+Package pdftex.def Info: ./images/librelogo/DrawToolbar.png used on input line 
+84.
+(pdftex.def)             Requested size: 341.43306pt x 16.48326pt.
+
+<./images/librelogo/Pointer_LO.png, id=101, 48.18pt x 35.13126pt>
+File: ./images/librelogo/Pointer_LO.png Graphic file (type png)
+
+<use ./images/librelogo/Pointer_LO.png>
+Package pdftex.def Info: ./images/librelogo/Pointer_LO.png used on input line 8
+8.
+(pdftex.def)             Requested size: 13.71379pt x 10.00002pt.
+
+<./images/librelogo/DrawToolbar2.png, id=102, 1055.945pt x 33.12375pt>
+File: ./images/librelogo/DrawToolbar2.png Graphic file (type png)
+
+<use ./images/librelogo/DrawToolbar2.png>
+Package pdftex.def Info: ./images/librelogo/DrawToolbar2.png used on input line
+ 92.
+(pdftex.def)             Requested size: 341.43306pt x 10.70999pt.
+
+<./images/librelogo/RaggruppamentoLO.png, id=103, 33.12375pt x 31.11626pt>
+File: ./images/librelogo/RaggruppamentoLO.png Graphic file (type png)
+
+<use ./images/librelogo/RaggruppamentoLO.png>
+Package pdftex.def Info: ./images/librelogo/RaggruppamentoLO.png used on input 
+line 96.
+(pdftex.def)             Requested size: 10.6453pt x 10.00002pt.
+
+<./images/librelogo/AncoraLO.png, id=104, 54.2025pt x 31.11626pt>
+File: ./images/librelogo/AncoraLO.png Graphic file (type png)
+
+<use ./images/librelogo/AncoraLO.png>
+Package pdftex.def Info: ./images/librelogo/AncoraLO.png used on input line 98.
+
+(pdftex.def)             Requested size: 17.41959pt x 10.00002pt.
+ [20 <./images/librelogo/DrawToolbar.png> <./images/librelogo/Pointer_LO.png> <
+./images/librelogo/DrawToolbar2.png> <./images/librelogo/RaggruppamentoLO.png> 
+<./images/librelogo/AncoraLO.png>])
+[21]
+\openout2 = `3-genesi.aux'.
+
+ (./3-genesi.tex [22
+
+
+
+]
+Capitolo 3.
+[23] [24] [25] [26]
+<./images/papert-1/220px-Fig-2-mindstorms.png, id=131, 220.825pt x 191.71625pt>
+File: ./images/papert-1/220px-Fig-2-mindstorms.png Graphic file (type png)
+<use ./images/papert-1/220px-Fig-2-mindstorms.png>
+Package pdftex.def Info: ./images/papert-1/220px-Fig-2-mindstorms.png used on i
+nput line 34.
+(pdftex.def)             Requested size: 213.39566pt x 185.27414pt.
+
+Underfull \vbox (badness 1924) has occurred while \output is active []
+
+ [27 <./images/papert-1/220px-Fig-2-mindstorms.png>] [28] [29] [30] [31]
+Overfull \hbox (13.60515pt too wide) in paragraph at lines 75--82
+[]\OT1/cmr/m/n/10 INSANE RE-TARD MA-KES BE-CAU-SE SWEET SNOO-PY SCREAMS 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--82
+
+ []
+
+[32] [33]
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+ [35]
+Underfull \hbox (badness 2376) in paragraph at lines 104--104
+[][]\OT1/cmr/m/n/8 [NdR] Que-sto ^^Re pa-le-se-men-te un ri-fe-ri-men-to sto-ri
+-co, da ri-fe-ri-re al-l'e-po-ca e da
+ []
+
+)
+Underfull \vbox (badness 2644) has occurred while \output is active []
+
+ [36]
+[37]
+\openout2 = `4-disegnare.aux'.
+
+ (./4-disegnare.tex [38
+
+
+
+]
+Capitolo 4.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 14--20
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--20
+
+ []
+
+<./images/disegnare/disegnare-1.png, id=172, 136.51pt x 141.52875pt>
+File: ./images/disegnare/disegnare-1.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-1.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-1.png used on input line 
+27.
+(pdftex.def)             Requested size: 85.35826pt x 91.55606pt.
+
+<./images/disegnare/disegnare-2.png, id=174, 147.55125pt x 148.555pt>
+File: ./images/disegnare/disegnare-2.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-2.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-2.png used on input line 
+43.
+(pdftex.def)             Requested size: 85.35826pt x 88.52261pt.
+
+Overfull \hbox (1.8045pt too wide) in paragraph at lines 34--47
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--47
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./images/disegnare/disegnare-1.png>]
+<./images/disegnare/disegnare-3.png, id=181, 152.57pt x 152.57pt>
+File: ./images/disegnare/disegnare-3.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-3.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-3.png used on input line 
+73.
+(pdftex.def)             Requested size: 85.35826pt x 87.79652pt.
+
+Overfull \hbox (1.8045pt too wide) in paragraph at lines 56--77
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--77
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 89--95
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--95
+
+ []
+
+[40 <./images/disegnare/disegnare-2.png> <./images/disegnare/disegnare-3.png>]
+<./images/disegnare/disegnare-4.png, id=188, 266.9975pt x 284.06125pt>
+File: ./images/disegnare/disegnare-4.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-4.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-4.png used on input line 
+120.
+(pdftex.def)             Requested size: 142.26378pt x 154.03308pt.
+
+Overfull \hbox (1.8045pt too wide) in paragraph at lines 103--124
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--124
+
+ []
+
+<./images/disegnare/disegnare-5.png, id=190, 238.8925pt x 230.8625pt>
+File: ./images/disegnare/disegnare-5.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-5.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-5.png used on input line 
+148.
+(pdftex.def)             Requested size: 142.26378pt x 139.74597pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 148--150
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./images/disegnare/disegnare-4.png>]
+<./images/disegnare/disegnare-6.png, id=197, 214.8025pt x 250.9375pt>
+File: ./images/disegnare/disegnare-6.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-6.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-6.png used on input line 
+164.
+(pdftex.def)             Requested size: 184.9429pt x 221.57246pt.
+
+Overfull \hbox (12.4429pt too wide) in paragraph at lines 164--166
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--168
+
+ []
+
+<./images/disegnare/disegnare-7.png, id=199, 246.9225pt x 375.4025pt>
+File: ./images/disegnare/disegnare-7.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-7.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-7.png used on input line 
+188.
+(pdftex.def)             Requested size: 142.26378pt x 222.51608pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 188--190
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42 <./images/disegnare/disegnare-5.png> <./images/disegnare/disegnare-6.png>]
+
+Underfull \hbox (badness 4266) in paragraph at lines 215--216
+[]\OT1/cmr/m/n/7 dove ab-bia-mo evi-den-zia-to in
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 215--216
+\OT1/cmr/m/n/7 ros-so il per-cor-so fat-to sen-za
+ []
+
+<./images/disegnare/disegnare-8.png, id=206, 240.9pt x 361.35pt>
+File: ./images/disegnare/disegnare-8.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-8.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-8.png used on input line 
+221.
+(pdftex.def)             Requested size: 142.26378pt x 219.64377pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 221--223
+[][]
+ []
+
+<./images/disegnare/disegnare-9.png, id=208, 237.88875pt x 358.33875pt>
+File: ./images/disegnare/disegnare-9.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-9.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-9.png used on input line 
+253.
+(pdftex.def)             Requested size: 142.26378pt x 220.67963pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 253--255
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43 <./images/disegnare/disegnare-7.png> <./images/disegnare/disegnare-8.png>]
+
+<./images/disegnare/disegnare-10.png, id=216, 237.88875pt x 364.36125pt>
+File: ./images/disegnare/disegnare-10.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-10.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-10.png used on input line
+ 294.
+(pdftex.def)             Requested size: 142.26378pt x 224.47354pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 294--296
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./images/disegnare/disegnare-9.png> <./images/disegnare/disegnare-10.png>
+]
+<./images/disegnare/disegnare-11.png, id=223, 243.91125pt x 359.3425pt>
+File: ./images/disegnare/disegnare-11.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-11.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-11.png used on input line
+ 334.
+(pdftex.def)             Requested size: 142.26378pt x 215.55467pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 334--336
+[][]
+ []
+
+<./images/disegnare/disegnare-12.png, id=225, 184.69pt x 165.61874pt>
+File: ./images/disegnare/disegnare-12.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-12.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-12.png used on input line
+ 361.
+(pdftex.def)             Requested size: 142.26378pt x 129.8584pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 361--363
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45 <./images/disegnare/disegnare-11.png> <./images/disegnare/disegnare-12.png
+>]
+<./images/disegnare/disegnare-13.png, id=233, 180.675pt x 164.615pt>
+File: ./images/disegnare/disegnare-13.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-13.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-13.png used on input line
+ 383.
+(pdftex.def)             Requested size: 142.26378pt x 132.10391pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 383--385
+[][]
+ []
+
+<./images/disegnare/disegnare-14.png, id=235, 154.5775pt x 152.57pt>
+File: ./images/disegnare/disegnare-14.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-14.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-14.png used on input line
+ 406.
+(pdftex.def)             Requested size: 142.26378pt x 144.26834pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 406--408
+[][]
+ []
+
+<./images/disegnare/disegnare-15.png, id=237, 173.64874pt x 152.57pt>
+File: ./images/disegnare/disegnare-15.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-15.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-15.png used on input line
+ 431.
+(pdftex.def)             Requested size: 142.26378pt x 127.2485pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 431--433
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./images/disegnare/disegnare-13.png> <./images/disegnare/disegnare-14.png
+>]
+<./images/disegnare/disegnare-16.png, id=244, 401.5pt x 724.7075pt>
+File: ./images/disegnare/disegnare-16.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-16.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-16.png used on input line
+ 451.
+(pdftex.def)             Requested size: 227.62204pt x 418.86642pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47 <./images/disegnare/disegnare-15.png>] [48 <./images/disegnare/disegnare-1
+6.png>]
+<./images/disegnare/disegnare-17.png, id=255, 161.60374pt x 152.57pt>
+File: ./images/disegnare/disegnare-17.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-17.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-17.png used on input line
+ 479.
+(pdftex.def)             Requested size: 142.26378pt x 137.49966pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 479--481
+[][]
+ []
+
+<./images/disegnare/disegnare-18.png, id=257, 198.7425pt x 197.73875pt>
+File: ./images/disegnare/disegnare-18.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-18.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-18.png used on input line
+ 507.
+(pdftex.def)             Requested size: 142.26378pt x 144.56512pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 507--509
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49 <./images/disegnare/disegnare-17.png>]
+Underfull \hbox (badness 2547) in paragraph at lines 528--529
+[]\OT1/cmr/m/n/7 FILLCOLOR [255, 255, 255,
+ []
+
+<./images/disegnare/disegnare-19.png, id=264, 195.73125pt x 201.75375pt>
+File: ./images/disegnare/disegnare-19.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-19.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-19.png used on input line
+ 535.
+(pdftex.def)             Requested size: 142.26378pt x 150.0486pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 535--537
+[][]
+ []
+
+
+Underfull \vbox (badness 2334) has occurred while \output is active []
+
+ [50 <./images/disegnare/disegnare-18.png> <./images/disegnare/disegnare-19.png
+>]
+<./images/disegnare/disegnare-20.png, id=272, 105.39375pt x 103.38625pt>
+File: ./images/disegnare/disegnare-20.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-20.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-20.png used on input line
+ 566.
+(pdftex.def)             Requested size: 85.35826pt x 87.1977pt.
+
+<./images/disegnare/disegnare-21.png, id=274, 170.6375pt x 129.48375pt>
+File: ./images/disegnare/disegnare-21.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-21.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-21.png used on input line
+ 582.
+(pdftex.def)             Requested size: 142.26378pt x 108.95706pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 582--584
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51 <./images/disegnare/disegnare-20.png>] [52 <./images/disegnare/disegnare-2
+1.png>]
+Underfull \hbox (badness 1137) in paragraph at lines 601--602
+[]\OT1/cmr/m/n/7 PENUP FOR-WARD 25 PEN-
+ []
+
+<./images/disegnare/disegnare-22.png, id=285, 229.85875pt x 110.4125pt>
+File: ./images/disegnare/disegnare-22.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-22.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-22.png used on input line
+ 626.
+(pdftex.def)             Requested size: 113.81102pt x 53.49539pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53 <./images/disegnare/disegnare-22.png>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 638--654
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--654
+
+ []
+
+[54] <./images/disegnare/disegnare-23.png, id=295, 264.99pt x 186.6975pt>
+File: ./images/disegnare/disegnare-23.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-23.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-23.png used on input line
+ 682.
+(pdftex.def)             Requested size: 227.62204pt x 160.78288pt.
+
+<./images/disegnare/disegnare-24.png, id=297, 191.71625pt x 162.6075pt>
+File: ./images/disegnare/disegnare-24.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-24.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-24.png used on input line
+ 725.
+(pdftex.def)             Requested size: 113.81102pt x 97.91737pt.
+ [55 <./images/disegnare/disegnare-23.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56 <./images/disegnare/disegnare-24.png>]
+Underfull \hbox (badness 1137) in paragraph at lines 740--741
+[]\OT1/cmr/m/n/7 PENUP FOR-WARD 10 PEN-
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 742--743
+[]\OT1/cmr/m/n/7 PENUP FOR-WARD 10 PEN-
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 744--745
+[]\OT1/cmr/m/n/7 PENUP FOR-WARD 10 PEN-
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 746--747
+[]\OT1/cmr/m/n/7 PENUP FOR-WARD 10 PEN-
+ []
+
+<./images/disegnare/disegnare-25.png, id=308, 106.3975pt x 94.3525pt>
+File: ./images/disegnare/disegnare-25.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-25.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-25.png used on input line
+ 766.
+(pdftex.def)             Requested size: 85.35826pt x 78.09386pt.
+
+<./images/disegnare/disegnare-26.png, id=310, 285.065pt x 219.82124pt>
+File: ./images/disegnare/disegnare-26.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-26.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-26.png used on input line
+ 801.
+(pdftex.def)             Requested size: 142.26378pt x 110.35828pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 801--803
+[][]
+ []
+
+
+Underfull \vbox (badness 5274) has occurred while \output is active []
+
+ [57 <./images/disegnare/disegnare-25.png> <./images/disegnare/disegnare-26.png
+>]
+<./images/disegnare/disegnare-27.png, id=317, 581.17125pt x 350.30875pt>
+File: ./images/disegnare/disegnare-27.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-27.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-27.png used on input line
+ 815.
+(pdftex.def)             Requested size: 284.52756pt x 168.29189pt.
+ [58 <./images/disegnare/disegnare-27.png>] <./images/disegnare/disegnare-28.pn
+g, id=323, 329.23pt x 105.39375pt>
+File: ./images/disegnare/disegnare-28.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-28.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-28.png used on input line
+ 851.
+(pdftex.def)             Requested size: 85.35826pt x 26.2009pt.
+
+Underfull \vbox (badness 1077) has occurred while \output is active []
+
+ [59 <./images/disegnare/disegnare-28.png>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 901--907
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--907
+
+ []
+
+[60]
+File: ./images/disegnare/disegnare-28.png Graphic file (type png)
+ <use ./images/disegnare/disegnare-28.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-28.png used on input line
+ 916.
+(pdftex.def)             Requested size: 284.52756pt x 81.16565pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 927--933
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 927--933
+
+ []
+
+<./images/disegnare/disegnare-29.png, id=333, 337.26pt x 90.3375pt>
+File: ./images/disegnare/disegnare-29.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-29.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-29.png used on input line
+ 942.
+(pdftex.def)             Requested size: 284.52756pt x 65.79843pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+<./images/disegnare/disegnare-30.png, id=340, 438.63875pt x 450.68375pt>
+File: ./images/disegnare/disegnare-30.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-30.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-30.png used on input line
+ 954.
+(pdftex.def)             Requested size: 284.52756pt x 292.6421pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62 <./images/disegnare/disegnare-29.png> <./images/disegnare/disegnare-30.png
+>]
+<./images/disegnare/disegnare-31.png, id=347, 424.58624pt x 420.57124pt>
+File: ./images/disegnare/disegnare-31.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-31.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-31.png used on input line
+ 980.
+(pdftex.def)             Requested size: 284.52756pt x 281.74245pt.
+ [63 <./images/disegnare/disegnare-31.png>] <./images/disegnare/disegnare-32.pn
+g, id=353, 359.3425pt x 265.99374pt>
+File: ./images/disegnare/disegnare-32.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-32.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-32.png used on input line
+ 994.
+(pdftex.def)             Requested size: 284.52756pt x 207.15508pt.
+
+<./images/disegnare/disegnare-33.png, id=355, 287.0725pt x 271.0125pt>
+File: ./images/disegnare/disegnare-33.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-33.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-33.png used on input line
+ 1015.
+(pdftex.def)             Requested size: 284.52756pt x 267.67683pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64 <./images/disegnare/disegnare-32.png>]
+<./images/disegnare/disegnare-34.png, id=361, 118.4425pt x 99.37125pt>
+File: ./images/disegnare/disegnare-34.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-34.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-34.png used on input line
+ 1042.
+(pdftex.def)             Requested size: 85.35826pt x 73.28352pt.
+
+<./images/disegnare/disegnare-35.png, id=363, 403.5075pt x 301.125pt>
+File: ./images/disegnare/disegnare-35.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-35.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-35.png used on input line
+ 1055.
+(pdftex.def)             Requested size: 284.52756pt x 209.34406pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65 <./images/disegnare/disegnare-33.png> <./images/disegnare/disegnare-34.png
+>]
+<./images/disegnare/disegnare-36.png, id=370, 298.11375pt x 118.4425pt>
+File: ./images/disegnare/disegnare-36.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-36.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-36.png used on input line
+ 1071.
+(pdftex.def)             Requested size: 284.52756pt x 103.28828pt.
+ [66 <./images/disegnare/disegnare-35.png> <./images/disegnare/disegnare-36.png
+>]
+<./images/disegnare/disegnare-37.png, id=377, 316.18124pt x 391.4625pt>
+File: ./images/disegnare/disegnare-37.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-37.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-37.png used on input line
+ 1083.
+(pdftex.def)             Requested size: 284.52756pt x 355.92574pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67 <./images/disegnare/disegnare-37.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1119
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1119.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1125
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1125.
+
+File: ./images/disegnare/disegnare-36.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-36.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-36.png used on input line
+ 1158.
+(pdftex.def)             Requested size: 284.52756pt x 103.28828pt.
+ [68]
+<./images/disegnare/disegnare-38.png, id=390, 320.19624pt x 116.435pt>
+File: ./images/disegnare/disegnare-38.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-38.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-38.png used on input line
+ 1176.
+(pdftex.def)             Requested size: 284.52756pt x 93.90524pt.
+
+<./images/disegnare/disegnare-39.png, id=392, 209.78375pt x 62.2325pt>
+File: ./images/disegnare/disegnare-39.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-39.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-39.png used on input line
+ 1188.
+(pdftex.def)             Requested size: 284.52756pt x 67.81633pt.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1197.
+
+ [69 <./images/disegnare/disegnare-38.png> <./images/disegnare/disegnare-39.png
+>]
+<./images/disegnare/disegnare-40.png, id=399, 528.97626pt x 132.495pt>
+File: ./images/disegnare/disegnare-40.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-40.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-40.png used on input line
+ 1214.
+(pdftex.def)             Requested size: 284.52756pt x 64.59018pt.
+
+<./images/disegnare/disegnare-41.png, id=401, 108.405pt x 63.23625pt>
+File: ./images/disegnare/disegnare-41.png Graphic file (type png)
+
+<use ./images/disegnare/disegnare-41.png>
+Package pdftex.def Info: ./images/disegnare/disegnare-41.png used on input line
+ 1233.
+(pdftex.def)             Requested size: 85.35826pt x 48.90256pt.
+ [70 <./images/disegnare/disegnare-40.png> <./images/disegnare/disegnare-41.png
+>]) [71]
+\openout2 = `5-ripetere.aux'.
+
+ (./5-ripetere.tex [72
+
+
+
+]
+Capitolo 5.
+<./images/ripetere/ripetere-1.png, id=415, 248.93pt x 268.00125pt>
+File: ./images/ripetere/ripetere-1.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-1.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-1.png used on input line 26
+.
+(pdftex.def)             Requested size: 85.35826pt x 93.67683pt.
+File: ./images/ripetere/ripetere-1.png Graphic file (type png)
+ <use ./images/ripetere/ripetere-1.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-1.png used on input line 53
+.
+(pdftex.def)             Requested size: 85.35826pt x 93.67683pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./images/ripetere/ripetere-1.png>]
+<./images/ripetere/ripetere-2.png, id=423, 226.8475pt x 242.9075pt>
+File: ./images/ripetere/ripetere-2.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-2.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-2.png used on input line 77
+.
+(pdftex.def)             Requested size: 85.35826pt x 93.33646pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74 <./images/ripetere/ripetere-2.png>]
+<./images/ripetere/ripetere-3.png, id=430, 336.25626pt x 326.21875pt>
+File: ./images/ripetere/ripetere-3.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-3.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-3.png used on input line 11
+0.
+(pdftex.def)             Requested size: 85.35826pt x 83.77097pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75 <./images/ripetere/ripetere-3.png>]
+<./images/ripetere/ripetere-4.png, id=436, 296.10625pt x 295.1025pt>
+File: ./images/ripetere/ripetere-4.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-4.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-4.png used on input line 14
+9.
+(pdftex.def)             Requested size: 85.35826pt x 86.26257pt.
+File: ./images/ripetere/ripetere-4.png Graphic file (type png)
+ <use ./images/ripetere/ripetere-4.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-4.png used on input line 17
+5.
+(pdftex.def)             Requested size: 85.35826pt x 86.26257pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76 <./images/ripetere/ripetere-4.png>]
+<./images/ripetere/ripetere-5.png, id=444, 283.0575pt x 252.945pt>
+File: ./images/ripetere/ripetere-5.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-5.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-5.png used on input line 20
+1.
+(pdftex.def)             Requested size: 85.35826pt x 77.1374pt.
+ [77 <./images/ripetere/ripetere-5.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+<./images/ripetere/ripetere-6.png, id=454, 70.2625pt x 718.685pt>
+File: ./images/ripetere/ripetere-6.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-6.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-6.png used on input line 26
+9.
+(pdftex.def)             Requested size: 28.45274pt x 347.31311pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79 <./images/ripetere/ripetere-6.png>]
+<./images/ripetere/ripetere-7.png, id=461, 131.49126pt x 582.175pt>
+File: ./images/ripetere/ripetere-7.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-7.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-7.png used on input line 32
+0.
+(pdftex.def)             Requested size: 71.13188pt x 341.90523pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80 <./images/ripetere/ripetere-7.png>]
+<./images/ripetere/StopLO.png, id=467, 29.10875pt x 29.10875pt>
+File: ./images/ripetere/StopLO.png Graphic file (type png)
+
+<use ./images/ripetere/StopLO.png>
+Package pdftex.def Info: ./images/ripetere/StopLO.png used on input line 331.
+(pdftex.def)             Requested size: 9.99988pt x 10.00002pt.
+
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [81 <./images/ripetere/StopLO.png>]
+Underfull \hbox (badness 1412) in paragraph at lines 368--369
+[]\OT1/cmr/m/n/10 Si pro-vi a ri-pro-dur-re que-sto
+ []
+
+<./images/ripetere/ripetere-8.png, id=472, 119.44624pt x 133.49875pt>
+File: ./images/ripetere/ripetere-8.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-8.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-8.png used on input line 37
+2.
+(pdftex.def)             Requested size: 85.35826pt x 99.71843pt.
+
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+ [82]
+Underfull \hbox (badness 4479) in paragraph at lines 381--382
+[]\OT1/cmr/m/n/10 Si pro-vi quin-di a co-strui-re
+ []
+
+<./images/ripetere/ripetere-9.png, id=477, 225.84375pt x 231.86626pt>
+File: ./images/ripetere/ripetere-9.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-9.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-9.png used on input line 38
+5.
+(pdftex.def)             Requested size: 85.35826pt x 89.36554pt.
+
+<./images/ripetere/ripetere-10.png, id=479, 117.43875pt x 101.37875pt>
+File: ./images/ripetere/ripetere-10.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-10.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-10.png used on input line 3
+98.
+(pdftex.def)             Requested size: 85.35826pt x 75.60492pt.
+
+<./images/ripetere/ripetere-11.png, id=481, 140.525pt x 125.46875pt>
+File: ./images/ripetere/ripetere-11.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-11.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-11.png used on input line 4
+10.
+(pdftex.def)             Requested size: 85.35826pt x 78.02408pt.
+
+<./images/ripetere/ripetere-12.png, id=483, 183.68625pt x 164.615pt>
+File: ./images/ripetere/ripetere-12.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-12.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-12.png used on input line 4
+22.
+(pdftex.def)             Requested size: 85.35826pt x 77.86938pt.
+
+<./images/ripetere/ripetere-13.png, id=485, 164.615pt x 160.6pt>
+File: ./images/ripetere/ripetere-13.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-13.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-13.png used on input line 4
+34.
+(pdftex.def)             Requested size: 85.35826pt x 85.36177pt.
+ [83 <./images/ripetere/ripetere-8.png> <./images/ripetere/ripetere-9.png> <./i
+mages/ripetere/ripetere-10.png> <./images/ripetere/ripetere-11.png> <./images/r
+ipetere/ripetere-12.png>]
+<./images/ripetere/ripetere-14.png, id=498, 520.94624pt x 182.6825pt>
+File: ./images/ripetere/ripetere-14.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-14.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-14.png used on input line 4
+45.
+(pdftex.def)             Requested size: 284.52756pt x 97.6528pt.
+File: ./images/ripetere/ripetere-14.png Graphic file (type png)
+
+<use ./images/ripetere/ripetere-14.png>
+Package pdftex.def Info: ./images/ripetere/ripetere-14.png used on input line 4
+53.
+(pdftex.def)             Requested size: 284.52756pt x 97.6528pt.
+) [84 <./images/ripetere/ripetere-13.png> <./images/ripetere/ripetere-14.png>]
+\openout2 = `6-incapsulare.aux'.
+
+ (./6-incapsulare.tex
+Capitolo 6.
+<./images/incapsulare/incapsulare-1.png, id=507, 248.93pt x 268.00125pt>
+File: ./images/incapsulare/incapsulare-1.png Graphic file (type png)
+
+<use ./images/incapsulare/incapsulare-1.png>
+Package pdftex.def Info: ./images/incapsulare/incapsulare-1.png used on input l
+ine 32.
+(pdftex.def)             Requested size: 85.35826pt x 93.67683pt.
+ [85
+
+
+
+ <./images/incapsulare/incapsulare-1.png>]
+Underfull \hbox (badness 1527) in paragraph at lines 76--86
+[]\OT1/cmr/m/n/10 QUA-DRA-TO []se-gna l'i-ni-zio del-la
+ []
+
+
+Overfull \hbox (1.8045pt too wide) in paragraph at lines 44--88
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--88
+
+ []
+
+<./images/incapsulare/incapsulare-3.png, id=514, 326.21875pt x 147.55125pt>
+File: ./images/incapsulare/incapsulare-3.png Graphic file (type png)
+
+<use ./images/incapsulare/incapsulare-3.png>
+Package pdftex.def Info: ./images/incapsulare/incapsulare-3.png used on input l
+ine 101.
+(pdftex.def)             Requested size: 284.52756pt x 126.36201pt.
+
+<./images/incapsulare/PlayLO.png, id=516, 34.1275pt x 28.105pt>
+File: ./images/incapsulare/PlayLO.png Graphic file (type png)
+
+<use ./images/incapsulare/PlayLO.png>
+Package pdftex.def Info: ./images/incapsulare/PlayLO.png used on input line 146
+.
+(pdftex.def)             Requested size: 12.14267pt x 10.00002pt.
+
+Overfull \hbox (1.8045pt too wide) in paragraph at lines 113--148
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--148
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86 <./images/incapsulare/incapsulare-3.png>]
+<./images/incapsulare/incapsulare-2.png, id=521, 387.4475pt x 162.6075pt>
+File: ./images/incapsulare/incapsulare-2.png Graphic file (type png)
+
+<use ./images/incapsulare/incapsulare-2.png>
+Package pdftex.def Info: ./images/incapsulare/incapsulare-2.png used on input l
+ine 156.
+(pdftex.def)             Requested size: 284.52756pt x 117.16638pt.
+ [87 <./images/incapsulare/incapsulare-2.png> <./images/incapsulare/PlayLO.png>
+]
+File: ./images/incapsulare/incapsulare-3.png Graphic file (type png)
+
+<use ./images/incapsulare/incapsulare-3.png>
+Package pdftex.def Info: ./images/incapsulare/incapsulare-3.png used on input l
+ine 230.
+(pdftex.def)             Requested size: 284.52756pt x 126.36201pt.
+ [88] [89]
+<./images/incapsulare/incapsulare-4.png, id=535, 329.23pt x 253.94875pt>
+File: ./images/incapsulare/incapsulare-4.png Graphic file (type png)
+
+<use ./images/incapsulare/incapsulare-4.png>
+Package pdftex.def Info: ./images/incapsulare/incapsulare-4.png used on input l
+ine 367.
+(pdftex.def)             Requested size: 284.52756pt x 220.6156pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+File: ./images/ripetere/StopLO.png Graphic file (type png)
+
+<use ./images/ripetere/StopLO.png>
+Package pdftex.def Info: ./images/ripetere/StopLO.png used on input line 451.
+(pdftex.def)             Requested size: 9.99988pt x 10.00002pt.
+ [91 <./images/incapsulare/incapsulare-4.png>] [92] [93]
+<./images/incapsulare/incapsulare-5.png, id=551, 243.91125pt x 232.87pt>
+File: ./images/incapsulare/incapsulare-5.png Graphic file (type png)
+
+<use ./images/incapsulare/incapsulare-5.png>
+Package pdftex.def Info: ./images/incapsulare/incapsulare-5.png used on input l
+ine 555.
+(pdftex.def)             Requested size: 199.16928pt x 193.13902pt.
+
+<./images/incapsulare/incapsulare-6.png, id=553, 430.60875pt x 246.9225pt>
+File: ./images/incapsulare/incapsulare-6.png Graphic file (type png)
+
+<use ./images/incapsulare/incapsulare-6.png>
+Package pdftex.def Info: ./images/incapsulare/incapsulare-6.png used on input l
+ine 570.
+(pdftex.def)             Requested size: 284.52756pt x 162.39005pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94 <./images/incapsulare/incapsulare-5.png>]) [95 <./images/incapsulare/incap
+sulare-6.png>]
+\openout2 = `7-decidere.aux'.
+
+ (./7-decidere.tex [96
+
+
+
+]
+Capitolo 7.
+File: ./images/ripetere/StopLO.png Graphic file (type png)
+<use ./images/ripetere/StopLO.png>
+Package pdftex.def Info: ./images/ripetere/StopLO.png used on input line 28.
+(pdftex.def)             Requested size: 9.99988pt x 10.00002pt.
+ [97]) [98]
+\openout2 = `8-magia-specchi.aux'.
+
+ (./8-magia-specchi.tex
+Capitolo 8.
+[99
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
+<./images/magia-specchi/tree.png, id=579, 374.39874pt x 399.4925pt>
+File: ./images/magia-specchi/tree.png Graphic file (type png)
+
+<use ./images/magia-specchi/tree.png>
+Package pdftex.def Info: ./images/magia-specchi/tree.png used on input line 95.
+
+(pdftex.def)             Requested size: 113.81102pt x 122.95293pt.
+
+Overfull \hbox (51.72432pt too wide) in paragraph at lines 93--115
+[]$[]$  $[]$ 
+ []
+
+[101 <./images/magia-specchi/tree.png>]
+<./images/magia-specchi/albero-fiorito.png, id=585, 242.9075pt x 251.94125pt>
+File: ./images/magia-specchi/albero-fiorito.png Graphic file (type png)
+
+<use ./images/magia-specchi/albero-fiorito.png>
+Package pdftex.def Info: ./images/magia-specchi/albero-fiorito.png used on inpu
+t line 126.
+(pdftex.def)             Requested size: 113.81102pt x 120.24329pt.
+ [102 <./images/magia-specchi/albero-fiorito.png>]
+<./images/magia-specchi/albero-meglio.png, id=591, 183.68625pt x 190.7125pt>
+File: ./images/magia-specchi/albero-meglio.png Graphic file (type png)
+
+<use ./images/magia-specchi/albero-meglio.png>
+Package pdftex.def Info: ./images/magia-specchi/albero-meglio.png used on input
+ line 150.
+(pdftex.def)             Requested size: 113.81102pt x 121.13109pt.
+
+Overfull \hbox (44.81207pt too wide) in paragraph at lines 150--152
+[][]
+ []
+
+
+Overfull \hbox (17.22221pt too wide) in paragraph at lines 148--173
+[]$[]$  $[]$ 
+ []
+
+) [103 <./images/magia-specchi/albero-meglio.png>]
+\openout2 = `9-marta.aux'.
+
+ (./9-marta.tex [104
+
+
+
+]
+[105] [106]
+Capitolo 9.
+[107
+
+] <./images/marta/mar-1.png, id=610, 225.84375pt x 301.125pt>
+File: ./images/marta/mar-1.png Graphic file (type png)
+
+<use ./images/marta/mar-1.png>
+Package pdftex.def Info: ./images/marta/mar-1.png used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 195.02646pt.
+
+<./images/marta/mar-2.png, id=612, 382.42876pt x 435.6275pt>
+File: ./images/marta/mar-2.png Graphic file (type png)
+
+<use ./images/marta/mar-2.png>
+Package pdftex.def Info: ./images/marta/mar-2.png used on input line 86.
+(pdftex.def)             Requested size: 142.26378pt x 163.35649pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [108 <./images/marta/mar-1.png>]
+<./images/marta/mar-3.png, id=618, 427.5975pt x 397.485pt>
+File: ./images/marta/mar-3.png Graphic file (type png)
+
+<use ./images/marta/mar-3.png>
+Package pdftex.def Info: ./images/marta/mar-3.png used on input line 131.
+(pdftex.def)             Requested size: 142.26378pt x 132.6863pt.
+
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 109
+ []
+
+[109 <./images/marta/mar-2.png> <./images/marta/mar-3.png>]
+<./images/marta/mar-4.png, id=626, 341.275pt x 357.335pt>
+File: ./images/marta/mar-4.png Graphic file (type png)
+
+<use ./images/marta/mar-4.png>
+Package pdftex.def Info: ./images/marta/mar-4.png used on input line 173.
+(pdftex.def)             Requested size: 142.26378pt x 150.02232pt.
+
+<./images/marta/mar-5.png, id=628, 339.2675pt x 334.24875pt>
+File: ./images/marta/mar-5.png Graphic file (type png)
+
+<use ./images/marta/mar-5.png>
+Package pdftex.def Info: ./images/marta/mar-5.png used on input line 202.
+(pdftex.def)             Requested size: 142.26378pt x 140.96321pt.
+
+<./images/marta/mar-6.png, id=630, 378.41376pt x 356.33125pt>
+File: ./images/marta/mar-6.png Graphic file (type png)
+
+<use ./images/marta/mar-6.png>
+Package pdftex.def Info: ./images/marta/mar-6.png used on input line 232.
+(pdftex.def)             Requested size: 142.26378pt x 134.50827pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110 <./images/marta/mar-4.png> <./images/marta/mar-5.png>]
+<./images/marta/mar-7.png, id=637, 391.4625pt x 332.24126pt>
+File: ./images/marta/mar-7.png Graphic file (type png)
+
+<use ./images/marta/mar-7.png>
+Package pdftex.def Info: ./images/marta/mar-7.png used on input line 263.
+(pdftex.def)             Requested size: 142.26378pt x 120.92094pt.
+
+<./images/marta/mar-8.png, id=639, 460.72125pt x 474.77374pt>
+File: ./images/marta/mar-8.png Graphic file (type png)
+
+<use ./images/marta/mar-8.png>
+Package pdftex.def Info: ./images/marta/mar-8.png used on input line 294.
+(pdftex.def)             Requested size: 142.26378pt x 147.33128pt.
+
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 111
+ []
+
+[111 <./images/marta/mar-6.png> <./images/marta/mar-7.png> <./images/marta/mar-
+8.png>] <./images/marta/mar-9.png, id=648, 329.23pt x 321.2pt>
+File: ./images/marta/mar-9.png Graphic file (type png)
+
+<use ./images/marta/mar-9.png>
+Package pdftex.def Info: ./images/marta/mar-9.png used on input line 341.
+(pdftex.def)             Requested size: 142.26378pt x 139.57762pt.
+File: ./images/marta/mar-9.png Graphic file (type png)
+ <use ./images/marta/mar-9.png>
+Package pdftex.def Info: ./images/marta/mar-9.png used on input line 371.
+(pdftex.def)             Requested size: 142.26378pt x 139.57762pt.
+ [112 <./images/marta/mar-9.png>] <./images/marta/mar-10.png, id=656, 442.65375
+pt x 427.5975pt>
+File: ./images/marta/mar-10.png Graphic file (type png)
+
+<use ./images/marta/mar-10.png>
+Package pdftex.def Info: ./images/marta/mar-10.png used on input line 441.
+(pdftex.def)             Requested size: 142.26378pt x 137.97113pt.
+File: ./images/marta/mar-10.png Graphic file (type png)
+ <use ./images/marta/mar-10.png>
+Package pdftex.def Info: ./images/marta/mar-10.png used on input line 468.
+(pdftex.def)             Requested size: 142.26378pt x 137.97113pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 113
+ []
+
+[113 <./images/marta/mar-10.png>] [114]
+<./images/marta/mar-11.png, id=667, 352.31625pt x 329.23pt>
+File: ./images/marta/mar-11.png Graphic file (type png)
+
+<use ./images/marta/mar-11.png>
+Package pdftex.def Info: ./images/marta/mar-11.png used on input line 553.
+(pdftex.def)             Requested size: 142.26378pt x 133.50624pt.
+
+<./images/marta/mar-12.png, id=669, 505.89pt x 500.87125pt>
+File: ./images/marta/mar-12.png Graphic file (type png)
+
+<use ./images/marta/mar-12.png>
+Package pdftex.def Info: ./images/marta/mar-12.png used on input line 581.
+(pdftex.def)             Requested size: 142.26378pt x 141.40121pt.
+
+<./images/marta/mar-13.png, id=671, 465.74pt x 500.87125pt>
+File: ./images/marta/mar-13.png Graphic file (type png)
+
+<use ./images/marta/mar-13.png>
+Package pdftex.def Info: ./images/marta/mar-13.png used on input line 616.
+(pdftex.def)             Requested size: 142.26378pt x 153.86209pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 115
+ []
+
+[115 <./images/marta/mar-11.png> <./images/marta/mar-12.png>]
+<./images/marta/mar-14.png, id=679, 566.115pt x 612.2875pt>
+File: ./images/marta/mar-14.png Graphic file (type png)
+
+<use ./images/marta/mar-14.png>
+Package pdftex.def Info: ./images/marta/mar-14.png used on input line 643.
+(pdftex.def)             Requested size: 142.26378pt x 154.58612pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116 <./images/marta/mar-13.png> <./images/marta/mar-14.png>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 753--800
+[]$[]$ 
+ []
+
+
+Overfull \hbox (38.78917pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
+IN LOGO \OT1/cmr/m/n/10 117
+ []
+
+[117] [118]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 828--858
+[]$[]$ 
+ []
+
+[119] [120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121]
+[122]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123]
+[124]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [125]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1256--1261
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1268--1279
+[]$[]$ 
+ []
+
+[126] [127] <./images/marta/percorsi.png, id=722, 1047.915pt x 542.025pt>
+File: ./images/marta/percorsi.png Graphic file (type png)
+
+<use ./images/marta/percorsi.png>
+Package pdftex.def Info: ./images/marta/percorsi.png used on input line 1373.
+(pdftex.def)             Requested size: 341.43306pt x 176.60265pt.
+ [128]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1398--1408
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 3503) has occurred while \output is active []
+
+ [129 <./images/marta/percorsi.png>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1415--1424
+[]$[]$ 
+ []
+
+<./images/marta/poly1.png, id=731, 307.1475pt x 439.6425pt>
+File: ./images/marta/poly1.png Graphic file (type png)
+
+<use ./images/marta/poly1.png>
+Package pdftex.def Info: ./images/marta/poly1.png used on input line 1434.
+(pdftex.def)             Requested size: 284.52756pt x 407.29353pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [130]
+[131 <./images/marta/poly1.png (PNG copy)>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1451--1460
+[]$[]$ 
+ []
+
+File: ./images/marta/mar-1.png Graphic file (type png)
+<use ./images/marta/mar-1.png>
+Package pdftex.def Info: ./images/marta/mar-1.png used on input line 1467.
+(pdftex.def)             Requested size: 142.26378pt x 193.21967pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [132]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1496--1518
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [133]
+[134]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [135]
+[136]
+Underfull \vbox (badness 3724) has occurred while \output is active []
+
+ [137])
+[138]
+\openout2 = `10-cerchio.aux'.
+
+ (./10-cerchio.tex
+Capitolo 10.
+
+<./images/cerchio/PiccolomanualeLibreLogo5-img1.png, id=762, 572.1375pt x 504.8
+8625pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img1.png Graphic file (type png
+)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img1.png>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img1.png use
+d on input line 7.
+(pdftex.def)             Requested size: 341.43306pt x 301.30084pt.
+ [139
+
+
+
+ <./images/cerchio/PiccolomanualeLibreLogo5-img1.png>]
+Overfull \hbox (50.00006pt too wide) in paragraph at lines 19--24
+[]$[]$ 
+ []
+
+
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 140 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[140] [141]
+<./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg, id=774, 170.5572pt x 227.6
+505pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg Graphic file (type jpg
+)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg use
+d on input line 58.
+(pdftex.def)             Requested size: 142.26378pt x 194.64728pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 58--60
+[][]
+ []
+
+
+<./images/cerchio/PiccolomanualeLibreLogo5-img3.jpg, id=776, 170.5572pt x 227.6
+505pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img3.jpg Graphic file (type jpg
+)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img3.jpg>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img3.jpg use
+d on input line 64.
+(pdftex.def)             Requested size: 142.26378pt x 194.64728pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 64--66
+[][]
+ []
+
+
+Overfull \hbox (50.00006pt too wide) in paragraph at lines 73--84
+[]$[]$ 
+ []
+
+
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 142 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[142 <./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg> <./images/cerchio/Pic
+colomanualeLibreLogo5-img3.jpg>]
+<./images/cerchio/PiccolomanualeLibreLogo5-img4a.png, id=783, 258.9675pt x 344.
+28625pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img4a.png Graphic file (type pn
+g)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img4a.png>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img4a.png us
+ed on input line 95.
+(pdftex.def)             Requested size: 113.81102pt x 153.74078pt.
+
+<./images/cerchio/PiccolomanualeLibreLogo5-img4b.png, id=785, 410.53375pt x 255
+.95625pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img4b.png Graphic file (type pn
+g)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img4b.png>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img4b.png us
+ed on input line 101.
+(pdftex.def)             Requested size: 170.71652pt x 105.68312pt.
+
+<./images/cerchio/PiccolomanualeLibreLogo5-img4c.png, id=787, 361.35pt x 223.83
+624pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img4c.png Graphic file (type pn
+g)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img4c.png>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img4c.png us
+ed on input line 108.
+(pdftex.def)             Requested size: 227.62204pt x 139.82784pt.
+
+Overfull \hbox (69.47333pt too wide) in paragraph at lines 93--110
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--110
+
+ []
+
+[143 <./images/cerchio/PiccolomanualeLibreLogo5-img4a.png (PNG copy)> <./images
+/cerchio/PiccolomanualeLibreLogo5-img4b.png (PNG copy)> <./images/cerchio/Picco
+lomanualeLibreLogo5-img4c.png (PNG copy)>]
+<./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg, id=795, 2055.68pt x 1541.7
+6pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg Graphic file (type jpg
+)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg use
+d on input line 127.
+(pdftex.def)             Requested size: 284.52756pt x 213.31656pt.
+
+<./images/cerchio/PiccolomanualeLibreLogo5-img6.jpg, id=797, 341.275pt x 455.70
+25pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img6.jpg Graphic file (type jpg
+)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img6.jpg>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img6.jpg use
+d on input line 137.
+(pdftex.def)             Requested size: 142.26378pt x 192.26999pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 137--138
+ [] 
+ []
+
+
+<./images/cerchio/PiccolomanualeLibreLogo5-img7.jpg, id=799, 554.07pt x 1614.03
+pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img7.jpg Graphic file (type jpg
+)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img7.jpg>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img7.jpg use
+d on input line 145.
+(pdftex.def)             Requested size: 65.44142pt x 193.17729pt.
+
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 144 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[144 <./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg> <./images/cerchio/Pic
+colomanualeLibreLogo5-img6.jpg> <./images/cerchio/PiccolomanualeLibreLogo5-img7
+.jpg>]
+<./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg, id=807, 1541.76pt x 2055.6
+8pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg Graphic file (type jpg
+)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg use
+d on input line 161.
+(pdftex.def)             Requested size: 142.26378pt x 190.15453pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 161--163
+[][]
+ []
+
+
+<./images/cerchio/PiccolomanualeLibreLogo5-img9.jpg, id=809, 1541.76pt x 2055.6
+8pt>
+File: ./images/cerchio/PiccolomanualeLibreLogo5-img9.jpg Graphic file (type jpg
+)
+ <use ./images/cerchio/PiccolomanualeLibreLogo5-img9.jpg>
+Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img9.jpg use
+d on input line 167.
+(pdftex.def)             Requested size: 142.26378pt x 190.15453pt.
+
+Overfull \hbox (4.26588pt too wide) in paragraph at lines 167--169
+[][]
+ []
+
+[145 <./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg> <./images/cerchio/Pic
+colomanualeLibreLogo5-img9.jpg>]
+<./images/cerchio/ellisse-emma.png, id=817, 256.96pt x 170.6375pt>
+File: ./images/cerchio/ellisse-emma.png Graphic file (type png)
+
+<use ./images/cerchio/ellisse-emma.png>
+Package pdftex.def Info: ./images/cerchio/ellisse-emma.png used on input line 2
+11.
+(pdftex.def)             Requested size: 142.26378pt x 93.6896pt.
+
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 146 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[146 <./images/cerchio/ellisse-emma.png>] [147]
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 148 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[148] [149]
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 150 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[150]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [151]
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 152 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[152] [153]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 391--396
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+[][]\OT1/cmr/m/n/8 Il co-di-ce ^^Re ac-ces-si-bi-le pres-so-l'URL http://iamarf
+.ch/unifi/Halley-RK-4-AU-90-
+ []
+
+
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 154 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[154]
+
+Package Listings Warning: Text dropped after begin of listing on input line 435
+.
+
+[155]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 156 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[156]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [157]
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 158 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[158] [159] <./images/cerchio/orbite.png, id=867, 461.0826pt x 450.9648pt>
+File: ./images/cerchio/orbite.png Graphic file (type png)
+
+<use ./images/cerchio/orbite.png>
+Package pdftex.def Info: ./images/cerchio/orbite.png used on input line 738.
+(pdftex.def)             Requested size: 341.43306pt x 333.94955pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 160 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[160] [161 <./images/cerchio/orbite.png>]
+Overfull \hbox (28.06398pt too wide) in paragraph at lines 773--773
+[][]\OT1/cmr/m/n/8 Informazioni det-ta-glia-te si tro-va-no ad esem-pio http://
+www.dk3wn.info/sat/afu/sat[]ardusat.shtml
+ []
+
+
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 162 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[162]
+Overfull \hbox (16.86119pt too wide) in paragraph at lines 786--787
+[]\OT1/cmr/m/n/10 Sherin nel suo ar-ti-co-lo af-fian-ca { si ba-di be-ne, non c
+on-trap-po-ne { la \OT1/cmr/m/it/10 programming-
+ []
+
+[163]
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 164 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[164] [165]
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 166 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[166] [167])
+Overfull \hbox (45.94313pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 168 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+O ALL'ORBITA DI HALLEY
+ []
+
+[168]
+\openout2 = `x-appendice.aux'.
+
+ (./x-appendice.tex
+Capitolo 11.
+[169
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [170]
+[171]
+Overfull \hbox (8.97058pt too wide) in paragraph at lines 238--239
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[172]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [173])
+[174] (./librelogo.bbl
+Underfull \hbox (badness 1997) in paragraph at lines 28--33
+\OT1/cmr/m/n/10 s/-text pro-gram-ming en-vi-ron-men-ts in in-tro-duc-to-ry com-
+pu-ter scien-ce
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 55--62
+\OT1/cmr/m/n/10 com-pa-re con-cep-tual un-der-stan-ding in blocks ba-sed and te
+xt ba-sed
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 82--86
+[]\OT1/cmr/m/n/10 L^^Saszl^^So N^^Semeth.  Ma-nua-le di co-man-di di li-bre-lo-
+go.  $\OT1/cmtt/m/n/10 https :
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 82--86
+\OT1/cmtt/m/n/10 / / help . libreoffice . org / Writer / LibreLogo _ Toolbar / 
+it$\OT1/cmr/m/n/10 .  Ac-ces-sed:
+ []
+
+[175
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 98--103
+\OT1/cmtt/m/n/10 kormany . hu / wp-[]content / uploads / librelogo _ oktatasi _
+ segedanyag _
+ []
+
+) [176] (./librelogo.aux (./0-frontespizio.aux) (./01-ringraziamenti.aux)
+(./1-prefazione.aux) (./2-librelogo.aux) (./3-genesi.aux) (./4-disegnare.aux)
+(./5-ripetere.aux) (./6-incapsulare.aux) (./7-decidere.aux)
+(./8-magia-specchi.aux) (./9-marta.aux) (./10-cerchio.aux) (./x-appendice.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7536 strings out of 493029
+ 112375 string characters out of 6136234
+ 251634 words of memory out of 5000000
+ 10741 multiletter control sequences out of 15000+600000
+ 11915 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,21n,32p,4107b,1750s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+0.pfb>
+Output written on librelogo.pdf (176 pages, 7513517 bytes).
+PDF statistics:
+ 1002 PDF objects out of 1200 (max. 8388607)
+ 557 compressed objects within 6 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1169 words of extra memory for PDF output out of 10000 (max. 10000000)
+

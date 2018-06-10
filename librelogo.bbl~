@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{Munari}
+Munari Bruno.
+\newblock {\em Fantasia}.
+\newblock Laterza, Roma, 28 edition, 2017.
+
+\bibitem{Reggini}
+Reggini~Horacio C.
+\newblock {\em Logo: ali per la mente}.
+\newblock Mondadori, Milano, 1984.
+
+\bibitem{Castelnuovo}
+Emma Castelnuovo.
+\newblock {\em L'officina matematica – ragionare con i materiali}.
+\newblock Edizioni La Meridiana, Molfetta, 2 edition, 2008.
+
+\bibitem{Lewis}
+Lewis Colleen.
+\newblock How programming environment shapes perception, learning and goals:
+  Logo vs. scratch.
+\newblock
+  \url{http://ims.mii.lt/ims/konferenciju_medziaga/SIGCSE'10/docs/p346.pdf},
+  2015.
+\newblock Accessed: 2017-08-13.
+
+\bibitem{Weintrop}
+Weintrop David.
+\newblock Comparing block-based, text-based, and hybrid blocks/text programming
+  environments in introductory computer science classes.
+\newblock \url{http://dweintrop.github.io/papers/Weintrop-diss-4pager.pdf}.
+\newblock Accessed: 2017-08-13.
+
+\bibitem{DiSessa}
+Abelson Harold e Ploger~D. DiSessa Andrea~A.
+\newblock An overview of boxer.
+\newblock {\em Journal of Mathematical Behavior}, 10:3--15, 1991.
+
+\bibitem{Abelson}
+Abelson~Harold e~DiSessa Andrea~A.
+\newblock {\em Turtle Geometry: The Computer as a Medium for Exploring
+  Mathematics}.
+\newblock The MIT Press, Cambridge, Masssachusetts, 1986.
+
+\bibitem{Weintrop3}
+Weintrop~David e~Wilensky~U.
+\newblock To block or not to block, that is the question: Students’
+  perceptions of blocks-based programming.
+\newblock
+  \url{http://dweintrop.github.io/papers/Weintrop_Wilensky_ICER_2015.pdf},
+  2015.
+\newblock Accessed: 2017-08-13.
+
+\bibitem{Weintrop2}
+Weintrop~David e~Wilensky~U.
+\newblock Using commutative assessments to compare conceptual understanding in
+  blocks based and text based programs.
+\newblock
+  \url{http://dweintrop.github.io/papers/Weintrop_Wilensky_ICER_2015.pdf},
+  2015.
+\newblock Accessed: 2017-08-13.
+
+\bibitem{Persico}
+Persico Enrico.
+\newblock Che cos’è che non va?
+\newblock {\em Giornale di Fisica}, 1:64--67, 1956.
+
+\bibitem{Sherin}
+Sherin~Bruce L.
+\newblock A comparison of programming languages and algebraic notation as
+  expressive languages for physics.
+\newblock {\em Int. Journal of Computers for Mathematical Learning}, 6:1--61,
+  2001.
+
+\bibitem{LibreLogo2}
+László Németh.
+\newblock Esempi di uso librelogo (ungherese).
+\newblock \url{http://www.numbertext.org/logo/logofuzet.pdf}.
+\newblock Accessed: 2017-08-13.
+
+\bibitem{LibreLogo}
+László Németh.
+\newblock Manuale di comandi di librelogo.
+\newblock \url{https://help.libreoffice.org/Writer/LibreLogo_Toolbar/it}.
+\newblock Accessed: 2017-08-13.
+
+\bibitem{Papert}
+Seymour Papert.
+\newblock {\em Mindstorms, Children, Computers, and Powerful Ideas}.
+\newblock Basic books, New York, 2 edition, 1993.
+
+\bibitem{Press}
+Vetterling William T. e Flannery Brian~P. Press William~H., Teukolsky Saul~A.
+\newblock {\em Numerical Recipes – The Art of Scientific Computing}.
+\newblock Cambridge University Press, Cambridge, Masssachusetts, 2007.
+
+\bibitem{LibreLogo3}
+Lakó Viktória.
+\newblock Manuale di comandi di librelogo.
+\newblock
+  \url{http://szabadszoftver.kormany.hu/wp-content/uploads/librelogo_oktatasi_segedanyag_v4.pdf}.
+\newblock Accessed: 2017-08-13.
+
+\end{thebibliography}
