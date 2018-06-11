@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.18)  18 MAY 2018 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.18)  11 JUN 2018 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,9 +580,9 @@ Package: relsize 2013/03/29 ver 4.1
 Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (./librelogo.aux
 (./0-frontespizio.aux) (./01-ringraziamenti.aux) (./1-prefazione.aux)
-(./2-librelogo.aux) (./3-genesi.aux) (./4-disegnare.aux) (./5-ripetere.aux)
-(./6-incapsulare.aux) (./7-decidere.aux) (./8-magia-specchi.aux) (./9-marta.aux
-) (./10-cerchio.aux) (./x-appendice.aux))
+(./2-librelogo.aux) (./3-paura.aux) (./3-logo.aux) (./4-disegnare.aux)
+(./5-ripetere.aux) (./6-incapsulare.aux) (./7-decidere.aux)
+(./8-magia-specchi.aux) (./9-marta.aux) (./10-cerchio.aux) (./x-appendice.aux))
 \openout1 = `librelogo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -597,7 +597,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count122
@@ -726,14 +725,7 @@ Overfull \hbox (1.76297pt too wide) in paragraph at lines 40--40
 []\OT1/cmr/bx/n/14.4 Prefazione al-la ver-sio-ne 1.0 (set-tem-bre 2017) 
  []
 
-[10]
-
-LaTeX Warning: Reference `cap:papert2' on page 11 undefined on input line 56.
-
-
-LaTeX Warning: Reference `cap:papert2' on page 11 undefined on input line 58.
-
-) [11]
+[10]) [11]
 \openout2 = `2-librelogo.aux'.
 
  (./2-librelogo.tex [12
@@ -892,67 +884,53 @@ Package pdftex.def Info: ./images/librelogo/AncoraLO.png  used on input line 98
  [20 <./images/librelogo/DrawToolbar.png> <./images/librelogo/Pointer_LO.png> <
 ./images/librelogo/DrawToolbar2.png> <./images/librelogo/RaggruppamentoLO.png> 
 <./images/librelogo/AncoraLO.png>]) [21]
-\openout2 = `3-genesi.aux'.
+\openout2 = `3-paura.aux'.
 
 
-(./3-genesi.tex [22
+(./3-paura.tex [22
 
 
 
 ]
 Capitolo 3.
 [23] [24] [25] [26]
-Overfull \hbox (13.60515pt too wide) in paragraph at lines 54--61
+Overfull \hbox (13.60515pt too wide) in paragraph at lines 52--59
 []\OT1/cmr/m/n/10 INSANE RE-TARD MA-KES BE-CAU-SE SWEET SNOO-PY SCREAMS 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--61
+Underfull \hbox (badness 10000) in paragraph at lines 52--59
 
  []
 
 
-Overfull \hbox (1.08394pt too wide) in paragraph at lines 66--67
+Overfull \hbox (1.08394pt too wide) in paragraph at lines 64--65
 []\OT1/cmr/m/n/10 Infatti, per re-cu-pe-ra-re la con-nes-sio-ne fra l'ap-pren-d
 i-men-to del-la gram-
  []
 
-[27] [28] [29] [30]
-<./images/papert-1/220px-Fig-2-mindstorms.png, id=143, 220.825pt x 191.71625pt>
+[27] [28]) [29]
+\openout2 = `3-logo.aux'.
 
-File: ./images/papert-1/220px-Fig-2-mindstorms.png Graphic file (type png)
-<use ./images/papert-1/220px-Fig-2-mindstorms.png>
-Package pdftex.def Info: ./images/papert-1/220px-Fig-2-mindstorms.png  used on 
-input line 111.
-(pdftex.def)             Requested size: 213.39566pt x 185.27414pt.
-
-Underfull \vbox (badness 1924) has occurred while \output is active []
-
- [31 <./images/papert-1/220px-Fig-2-mindstorms.png>] [32] [33] [34] [35]
-Overfull \hbox (13.60515pt too wide) in paragraph at lines 152--159
-[]\OT1/cmr/m/n/10 INSANE RE-TARD MA-KES BE-CAU-SE SWEET SNOO-PY SCREAMS 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--159
-
- []
-
-[36] [37] [38] [39]
-Underfull \hbox (badness 2376) in paragraph at lines 181--181
-[][]\OT1/cmr/m/n/8 [NdR] Que-sto ^^Re pa-le-se-men-te un ri-fe-ri-men-to sto-ri
--co, da ri-fe-ri-re al-l'e-po-ca e da
- []
-
-[40]) [41]
-\openout2 = `4-disegnare.aux'.
-
- (./4-disegnare.tex [42
+ (./3-logo.tex [30
 
 
 
 ]
 Capitolo 4.
+
+Underfull \vbox (badness 1215) has occurred while \output is active []
+
+ [31]
+[32]) [33]
+\openout2 = `4-disegnare.aux'.
+
+ (./4-disegnare.tex [34
+
+
+
+]
+Capitolo 5.
 
 Overfull \hbox (15.0pt too wide) in paragraph at lines 14--20
 []$[]$
@@ -963,13 +941,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--20
 
  []
 
-<./images/disegnare/disegnare-1.png, id=184, 136.51pt x 141.52875pt>
+<./images/disegnare/disegnare-1.png, id=156, 136.51pt x 141.52875pt>
 File: ./images/disegnare/disegnare-1.png Graphic file (type png)
 <use ./images/disegnare/disegnare-1.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-1.png  used on input line
  27.
 (pdftex.def)             Requested size: 85.35826pt x 91.55606pt.
-<./images/disegnare/disegnare-2.png, id=186, 147.55125pt x 148.555pt>
+<./images/disegnare/disegnare-2.png, id=158, 147.55125pt x 148.555pt>
 File: ./images/disegnare/disegnare-2.png Graphic file (type png)
 <use ./images/disegnare/disegnare-2.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-2.png  used on input line
@@ -988,8 +966,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--47
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43 <./images/disegnare/disegnare-1.png>]
-<./images/disegnare/disegnare-3.png, id=194, 152.57pt x 152.57pt>
+ [35 <./images/disegnare/disegnare-1.png>]
+<./images/disegnare/disegnare-3.png, id=165, 152.57pt x 152.57pt>
 File: ./images/disegnare/disegnare-3.png Graphic file (type png)
 <use ./images/disegnare/disegnare-3.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-3.png  used on input line
@@ -1015,8 +993,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--95
 
  []
 
-[44 <./images/disegnare/disegnare-2.png> <./images/disegnare/disegnare-3.png>]
-<./images/disegnare/disegnare-4.png, id=201, 266.9975pt x 284.06125pt>
+[36 <./images/disegnare/disegnare-2.png> <./images/disegnare/disegnare-3.png>]
+<./images/disegnare/disegnare-4.png, id=172, 266.9975pt x 284.06125pt>
 File: ./images/disegnare/disegnare-4.png Graphic file (type png)
 <use ./images/disegnare/disegnare-4.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-4.png  used on input line
@@ -1032,7 +1010,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--124
 
  []
 
-<./images/disegnare/disegnare-5.png, id=203, 238.8925pt x 230.8625pt>
+<./images/disegnare/disegnare-5.png, id=174, 238.8925pt x 230.8625pt>
 File: ./images/disegnare/disegnare-5.png Graphic file (type png)
 <use ./images/disegnare/disegnare-5.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-5.png  used on input line
@@ -1046,8 +1024,8 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 148--150
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45 <./images/disegnare/disegnare-4.png>]
-<./images/disegnare/disegnare-6.png, id=210, 214.8025pt x 250.9375pt>
+ [37 <./images/disegnare/disegnare-4.png>]
+<./images/disegnare/disegnare-6.png, id=182, 214.8025pt x 250.9375pt>
 File: ./images/disegnare/disegnare-6.png Graphic file (type png)
 <use ./images/disegnare/disegnare-6.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-6.png  used on input line
@@ -1063,7 +1041,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--168
 
  []
 
-<./images/disegnare/disegnare-7.png, id=212, 246.9225pt x 375.4025pt>
+<./images/disegnare/disegnare-7.png, id=184, 246.9225pt x 375.4025pt>
 File: ./images/disegnare/disegnare-7.png Graphic file (type png)
 <use ./images/disegnare/disegnare-7.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-7.png  used on input line
@@ -1077,7 +1055,7 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 188--190
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./images/disegnare/disegnare-5.png> <./images/disegnare/disegnare-6.png>]
+ [38 <./images/disegnare/disegnare-5.png> <./images/disegnare/disegnare-6.png>]
 
 Underfull \hbox (badness 4266) in paragraph at lines 215--216
 []\OT1/cmr/m/n/7 dove ab-bia-mo evi-den-zia-to in
@@ -1088,7 +1066,7 @@ Underfull \hbox (badness 2818) in paragraph at lines 215--216
 \OT1/cmr/m/n/7 ros-so il per-cor-so fat-to sen-za
  []
 
-<./images/disegnare/disegnare-8.png, id=219, 240.9pt x 361.35pt>
+<./images/disegnare/disegnare-8.png, id=191, 240.9pt x 361.35pt>
 File: ./images/disegnare/disegnare-8.png Graphic file (type png)
 <use ./images/disegnare/disegnare-8.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-8.png  used on input line
@@ -1099,7 +1077,7 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 221--223
 [][]
  []
 
-<./images/disegnare/disegnare-9.png, id=221, 237.88875pt x 358.33875pt>
+<./images/disegnare/disegnare-9.png, id=193, 237.88875pt x 358.33875pt>
 File: ./images/disegnare/disegnare-9.png Graphic file (type png)
 <use ./images/disegnare/disegnare-9.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-9.png  used on input line
@@ -1113,8 +1091,8 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 253--255
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./images/disegnare/disegnare-7.png> <./images/disegnare/disegnare-8.png>]
-<./images/disegnare/disegnare-10.png, id=229, 237.88875pt x 364.36125pt>
+ [39 <./images/disegnare/disegnare-7.png> <./images/disegnare/disegnare-8.png>]
+<./images/disegnare/disegnare-10.png, id=200, 237.88875pt x 364.36125pt>
 File: ./images/disegnare/disegnare-10.png Graphic file (type png)
 <use ./images/disegnare/disegnare-10.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-10.png  used on input lin
@@ -1128,9 +1106,9 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 294--296
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 <./images/disegnare/disegnare-9.png> <./images/disegnare/disegnare-10.png>
+ [40 <./images/disegnare/disegnare-9.png> <./images/disegnare/disegnare-10.png>
 ]
-<./images/disegnare/disegnare-11.png, id=236, 243.91125pt x 359.3425pt>
+<./images/disegnare/disegnare-11.png, id=207, 243.91125pt x 359.3425pt>
 File: ./images/disegnare/disegnare-11.png Graphic file (type png)
 <use ./images/disegnare/disegnare-11.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-11.png  used on input lin
@@ -1141,7 +1119,7 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 334--336
 [][]
  []
 
-<./images/disegnare/disegnare-12.png, id=238, 184.69pt x 165.61874pt>
+<./images/disegnare/disegnare-12.png, id=209, 184.69pt x 165.61874pt>
 File: ./images/disegnare/disegnare-12.png Graphic file (type png)
 <use ./images/disegnare/disegnare-12.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-12.png  used on input lin
@@ -1155,9 +1133,9 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 361--363
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./images/disegnare/disegnare-11.png> <./images/disegnare/disegnare-12.png
+ [41 <./images/disegnare/disegnare-11.png> <./images/disegnare/disegnare-12.png
 >]
-<./images/disegnare/disegnare-13.png, id=246, 180.675pt x 164.615pt>
+<./images/disegnare/disegnare-13.png, id=216, 180.675pt x 164.615pt>
 File: ./images/disegnare/disegnare-13.png Graphic file (type png)
 <use ./images/disegnare/disegnare-13.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-13.png  used on input lin
@@ -1168,7 +1146,7 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 383--385
 [][]
  []
 
-<./images/disegnare/disegnare-14.png, id=248, 154.5775pt x 152.57pt>
+<./images/disegnare/disegnare-14.png, id=218, 154.5775pt x 152.57pt>
 File: ./images/disegnare/disegnare-14.png Graphic file (type png)
 <use ./images/disegnare/disegnare-14.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-14.png  used on input lin
@@ -1179,7 +1157,7 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 406--408
 [][]
  []
 
-<./images/disegnare/disegnare-15.png, id=250, 173.64874pt x 152.57pt>
+<./images/disegnare/disegnare-15.png, id=220, 173.64874pt x 152.57pt>
 File: ./images/disegnare/disegnare-15.png Graphic file (type png)
 <use ./images/disegnare/disegnare-15.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-15.png  used on input lin
@@ -1193,9 +1171,9 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 431--433
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 <./images/disegnare/disegnare-13.png> <./images/disegnare/disegnare-14.png
+ [42 <./images/disegnare/disegnare-13.png> <./images/disegnare/disegnare-14.png
 >]
-<./images/disegnare/disegnare-16.png, id=257, 401.5pt x 724.7075pt>
+<./images/disegnare/disegnare-16.png, id=227, 401.5pt x 724.7075pt>
 File: ./images/disegnare/disegnare-16.png Graphic file (type png)
 <use ./images/disegnare/disegnare-16.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-16.png  used on input lin
@@ -1204,9 +1182,9 @@ e 451.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51 <./images/disegnare/disegnare-15.png>] [52 <./images/disegnare/disegnare-1
+ [43 <./images/disegnare/disegnare-15.png>] [44 <./images/disegnare/disegnare-1
 6.png>]
-<./images/disegnare/disegnare-17.png, id=268, 161.60374pt x 152.57pt>
+<./images/disegnare/disegnare-17.png, id=240, 161.60374pt x 152.57pt>
 File: ./images/disegnare/disegnare-17.png Graphic file (type png)
 <use ./images/disegnare/disegnare-17.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-17.png  used on input lin
@@ -1217,7 +1195,7 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 479--481
 [][]
  []
 
-<./images/disegnare/disegnare-18.png, id=270, 198.7425pt x 197.73875pt>
+<./images/disegnare/disegnare-18.png, id=242, 198.7425pt x 197.73875pt>
 File: ./images/disegnare/disegnare-18.png Graphic file (type png)
 <use ./images/disegnare/disegnare-18.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-18.png  used on input lin
@@ -1231,12 +1209,12 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 507--509
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53 <./images/disegnare/disegnare-17.png>]
+ [45 <./images/disegnare/disegnare-17.png>]
 Underfull \hbox (badness 2547) in paragraph at lines 528--529
 []\OT1/cmr/m/n/7 FILLCOLOR [255, 255, 255,
  []
 
-<./images/disegnare/disegnare-19.png, id=276, 195.73125pt x 201.75375pt>
+<./images/disegnare/disegnare-19.png, id=248, 195.73125pt x 201.75375pt>
 File: ./images/disegnare/disegnare-19.png Graphic file (type png)
 <use ./images/disegnare/disegnare-19.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-19.png  used on input lin
@@ -1250,15 +1228,15 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 535--537
 
 Underfull \vbox (badness 2334) has occurred while \output is active []
 
- [54 <./images/disegnare/disegnare-18.png> <./images/disegnare/disegnare-19.png
+ [46 <./images/disegnare/disegnare-18.png> <./images/disegnare/disegnare-19.png
 >]
-<./images/disegnare/disegnare-20.png, id=284, 105.39375pt x 103.38625pt>
+<./images/disegnare/disegnare-20.png, id=256, 105.39375pt x 103.38625pt>
 File: ./images/disegnare/disegnare-20.png Graphic file (type png)
 <use ./images/disegnare/disegnare-20.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-20.png  used on input lin
 e 566.
 (pdftex.def)             Requested size: 85.35826pt x 87.1977pt.
-<./images/disegnare/disegnare-21.png, id=286, 170.6375pt x 129.48375pt>
+<./images/disegnare/disegnare-21.png, id=258, 170.6375pt x 129.48375pt>
 File: ./images/disegnare/disegnare-21.png Graphic file (type png)
 <use ./images/disegnare/disegnare-21.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-21.png  used on input lin
@@ -1272,13 +1250,13 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 582--584
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55 <./images/disegnare/disegnare-20.png>] [56 <./images/disegnare/disegnare-2
+ [47 <./images/disegnare/disegnare-20.png>] [48 <./images/disegnare/disegnare-2
 1.png>]
 Underfull \hbox (badness 1137) in paragraph at lines 601--602
 []\OT1/cmr/m/n/7 PENUP FOR-WARD 25 PEN-
  []
 
-<./images/disegnare/disegnare-22.png, id=298, 229.85875pt x 110.4125pt>
+<./images/disegnare/disegnare-22.png, id=269, 229.85875pt x 110.4125pt>
 File: ./images/disegnare/disegnare-22.png Graphic file (type png)
 <use ./images/disegnare/disegnare-22.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-22.png  used on input lin
@@ -1287,7 +1265,7 @@ e 626.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./images/disegnare/disegnare-22.png>]
+ [49 <./images/disegnare/disegnare-22.png>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 638--654
 []$[]$
  []
@@ -1297,23 +1275,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 638--654
 
  []
 
-[58]
-<./images/disegnare/disegnare-23.png, id=308, 264.99pt x 186.6975pt>
+[50]
+<./images/disegnare/disegnare-23.png, id=280, 264.99pt x 186.6975pt>
 File: ./images/disegnare/disegnare-23.png Graphic file (type png)
 <use ./images/disegnare/disegnare-23.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-23.png  used on input lin
 e 682.
 (pdftex.def)             Requested size: 227.62204pt x 160.78288pt.
-<./images/disegnare/disegnare-24.png, id=310, 191.71625pt x 162.6075pt>
+<./images/disegnare/disegnare-24.png, id=282, 191.71625pt x 162.6075pt>
 File: ./images/disegnare/disegnare-24.png Graphic file (type png)
 <use ./images/disegnare/disegnare-24.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-24.png  used on input lin
 e 725.
 (pdftex.def)             Requested size: 113.81102pt x 97.91737pt.
- [59 <./images/disegnare/disegnare-23.png>]
+ [51 <./images/disegnare/disegnare-23.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60 <./images/disegnare/disegnare-24.png>]
+ [52 <./images/disegnare/disegnare-24.png>]
 Underfull \hbox (badness 1137) in paragraph at lines 740--741
 []\OT1/cmr/m/n/7 PENUP FOR-WARD 10 PEN-
  []
@@ -1333,13 +1311,13 @@ Underfull \hbox (badness 1137) in paragraph at lines 746--747
 []\OT1/cmr/m/n/7 PENUP FOR-WARD 10 PEN-
  []
 
-<./images/disegnare/disegnare-25.png, id=320, 106.3975pt x 94.3525pt>
+<./images/disegnare/disegnare-25.png, id=292, 106.3975pt x 94.3525pt>
 File: ./images/disegnare/disegnare-25.png Graphic file (type png)
 <use ./images/disegnare/disegnare-25.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-25.png  used on input lin
 e 766.
 (pdftex.def)             Requested size: 85.35826pt x 78.09386pt.
-<./images/disegnare/disegnare-26.png, id=322, 285.065pt x 219.82124pt>
+<./images/disegnare/disegnare-26.png, id=294, 285.065pt x 219.82124pt>
 File: ./images/disegnare/disegnare-26.png Graphic file (type png)
 <use ./images/disegnare/disegnare-26.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-26.png  used on input lin
@@ -1353,16 +1331,16 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 801--803
 
 Underfull \vbox (badness 5274) has occurred while \output is active []
 
- [61 <./images/disegnare/disegnare-25.png> <./images/disegnare/disegnare-26.png
+ [53 <./images/disegnare/disegnare-25.png> <./images/disegnare/disegnare-26.png
 >]
-<./images/disegnare/disegnare-27.png, id=330, 581.17125pt x 350.30875pt>
+<./images/disegnare/disegnare-27.png, id=301, 581.17125pt x 350.30875pt>
 File: ./images/disegnare/disegnare-27.png Graphic file (type png)
 <use ./images/disegnare/disegnare-27.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-27.png  used on input lin
 e 815.
 (pdftex.def)             Requested size: 284.52756pt x 168.29189pt.
- [62 <./images/disegnare/disegnare-27.png>]
-<./images/disegnare/disegnare-28.png, id=336, 329.23pt x 105.39375pt>
+ [54 <./images/disegnare/disegnare-27.png>]
+<./images/disegnare/disegnare-28.png, id=307, 329.23pt x 105.39375pt>
 File: ./images/disegnare/disegnare-28.png Graphic file (type png)
 <use ./images/disegnare/disegnare-28.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-28.png  used on input lin
@@ -1371,7 +1349,7 @@ e 851.
 
 Underfull \vbox (badness 1077) has occurred while \output is active []
 
- [63 <./images/disegnare/disegnare-28.png>]
+ [55 <./images/disegnare/disegnare-28.png>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 901--907
 []$[]$
  []
@@ -1381,7 +1359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 901--907
 
  []
 
-[64]
+[56]
 File: ./images/disegnare/disegnare-28.png Graphic file (type png)
 <use ./images/disegnare/disegnare-28.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-28.png  used on input lin
@@ -1397,7 +1375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 927--933
 
  []
 
-<./images/disegnare/disegnare-29.png, id=346, 337.26pt x 90.3375pt>
+<./images/disegnare/disegnare-29.png, id=318, 337.26pt x 90.3375pt>
 File: ./images/disegnare/disegnare-29.png Graphic file (type png)
 <use ./images/disegnare/disegnare-29.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-29.png  used on input lin
@@ -1406,8 +1384,8 @@ e 942.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
-<./images/disegnare/disegnare-30.png, id=352, 438.63875pt x 450.68375pt>
+ [57]
+<./images/disegnare/disegnare-30.png, id=324, 438.63875pt x 450.68375pt>
 File: ./images/disegnare/disegnare-30.png Graphic file (type png)
 <use ./images/disegnare/disegnare-30.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-30.png  used on input lin
@@ -1416,22 +1394,22 @@ e 954.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66 <./images/disegnare/disegnare-29.png> <./images/disegnare/disegnare-30.png
+ [58 <./images/disegnare/disegnare-29.png> <./images/disegnare/disegnare-30.png
 >]
-<./images/disegnare/disegnare-31.png, id=359, 424.58624pt x 420.57124pt>
+<./images/disegnare/disegnare-31.png, id=331, 424.58624pt x 420.57124pt>
 File: ./images/disegnare/disegnare-31.png Graphic file (type png)
 <use ./images/disegnare/disegnare-31.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-31.png  used on input lin
 e 980.
 (pdftex.def)             Requested size: 284.52756pt x 281.74245pt.
- [67 <./images/disegnare/disegnare-31.png>]
-<./images/disegnare/disegnare-32.png, id=366, 359.3425pt x 265.99374pt>
+ [59 <./images/disegnare/disegnare-31.png>]
+<./images/disegnare/disegnare-32.png, id=337, 359.3425pt x 265.99374pt>
 File: ./images/disegnare/disegnare-32.png Graphic file (type png)
 <use ./images/disegnare/disegnare-32.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-32.png  used on input lin
 e 994.
 (pdftex.def)             Requested size: 284.52756pt x 207.15508pt.
-<./images/disegnare/disegnare-33.png, id=368, 287.0725pt x 271.0125pt>
+<./images/disegnare/disegnare-33.png, id=339, 287.0725pt x 271.0125pt>
 File: ./images/disegnare/disegnare-33.png Graphic file (type png)
 <use ./images/disegnare/disegnare-33.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-33.png  used on input lin
@@ -1440,14 +1418,14 @@ e 1015.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68 <./images/disegnare/disegnare-32.png>]
-<./images/disegnare/disegnare-34.png, id=374, 118.4425pt x 99.37125pt>
+ [60 <./images/disegnare/disegnare-32.png>]
+<./images/disegnare/disegnare-34.png, id=345, 118.4425pt x 99.37125pt>
 File: ./images/disegnare/disegnare-34.png Graphic file (type png)
 <use ./images/disegnare/disegnare-34.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-34.png  used on input lin
 e 1042.
 (pdftex.def)             Requested size: 85.35826pt x 73.28352pt.
-<./images/disegnare/disegnare-35.png, id=376, 403.5075pt x 301.125pt>
+<./images/disegnare/disegnare-35.png, id=347, 403.5075pt x 301.125pt>
 File: ./images/disegnare/disegnare-35.png Graphic file (type png)
 <use ./images/disegnare/disegnare-35.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-35.png  used on input lin
@@ -1456,17 +1434,17 @@ e 1055.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69 <./images/disegnare/disegnare-33.png> <./images/disegnare/disegnare-34.png
+ [61 <./images/disegnare/disegnare-33.png> <./images/disegnare/disegnare-34.png
 >]
-<./images/disegnare/disegnare-36.png, id=383, 298.11375pt x 118.4425pt>
+<./images/disegnare/disegnare-36.png, id=355, 298.11375pt x 118.4425pt>
 File: ./images/disegnare/disegnare-36.png Graphic file (type png)
 <use ./images/disegnare/disegnare-36.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-36.png  used on input lin
 e 1071.
 (pdftex.def)             Requested size: 284.52756pt x 103.28828pt.
- [70 <./images/disegnare/disegnare-35.png> <./images/disegnare/disegnare-36.png
+ [62 <./images/disegnare/disegnare-35.png> <./images/disegnare/disegnare-36.png
 >]
-<./images/disegnare/disegnare-37.png, id=390, 316.18124pt x 391.4625pt>
+<./images/disegnare/disegnare-37.png, id=362, 316.18124pt x 391.4625pt>
 File: ./images/disegnare/disegnare-37.png Graphic file (type png)
 <use ./images/disegnare/disegnare-37.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-37.png  used on input lin
@@ -1475,7 +1453,7 @@ e 1083.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71 <./images/disegnare/disegnare-37.png>]
+ [63 <./images/disegnare/disegnare-37.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1119
 .
 
@@ -1499,14 +1477,14 @@ File: ./images/disegnare/disegnare-36.png Graphic file (type png)
 Package pdftex.def Info: ./images/disegnare/disegnare-36.png  used on input lin
 e 1158.
 (pdftex.def)             Requested size: 284.52756pt x 103.28828pt.
- [72]
-<./images/disegnare/disegnare-38.png, id=402, 320.19624pt x 116.435pt>
+ [64]
+<./images/disegnare/disegnare-38.png, id=374, 320.19624pt x 116.435pt>
 File: ./images/disegnare/disegnare-38.png Graphic file (type png)
 <use ./images/disegnare/disegnare-38.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-38.png  used on input lin
 e 1176.
 (pdftex.def)             Requested size: 284.52756pt x 93.90524pt.
-<./images/disegnare/disegnare-39.png, id=404, 209.78375pt x 62.2325pt>
+<./images/disegnare/disegnare-39.png, id=376, 209.78375pt x 62.2325pt>
 File: ./images/disegnare/disegnare-39.png Graphic file (type png)
 <use ./images/disegnare/disegnare-39.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-39.png  used on input lin
@@ -1515,32 +1493,32 @@ e 1188.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1197.
 
- [73 <./images/disegnare/disegnare-38.png> <./images/disegnare/disegnare-39.png
+ [65 <./images/disegnare/disegnare-38.png> <./images/disegnare/disegnare-39.png
 >]
-<./images/disegnare/disegnare-40.png, id=412, 528.97626pt x 132.495pt>
+<./images/disegnare/disegnare-40.png, id=383, 528.97626pt x 132.495pt>
 File: ./images/disegnare/disegnare-40.png Graphic file (type png)
 <use ./images/disegnare/disegnare-40.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-40.png  used on input lin
 e 1214.
 (pdftex.def)             Requested size: 284.52756pt x 64.59018pt.
-<./images/disegnare/disegnare-41.png, id=414, 108.405pt x 63.23625pt>
+<./images/disegnare/disegnare-41.png, id=385, 108.405pt x 63.23625pt>
 File: ./images/disegnare/disegnare-41.png Graphic file (type png)
 <use ./images/disegnare/disegnare-41.png>
 Package pdftex.def Info: ./images/disegnare/disegnare-41.png  used on input lin
 e 1233.
 (pdftex.def)             Requested size: 85.35826pt x 48.90256pt.
- [74 <./images/disegnare/disegnare-40.png> <./images/disegnare/disegnare-41.png
->]) [75]
+ [66 <./images/disegnare/disegnare-40.png> <./images/disegnare/disegnare-41.png
+>]) [67]
 \openout2 = `5-ripetere.aux'.
 
 
-(./5-ripetere.tex [76
+(./5-ripetere.tex [68
 
 
 
 ]
-Capitolo 5.
-<./images/ripetere/ripetere-1.png, id=428, 248.93pt x 268.00125pt>
+Capitolo 6.
+<./images/ripetere/ripetere-1.png, id=400, 248.93pt x 268.00125pt>
 File: ./images/ripetere/ripetere-1.png Graphic file (type png)
 <use ./images/ripetere/ripetere-1.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-1.png  used on input line 2
@@ -1554,8 +1532,8 @@ Package pdftex.def Info: ./images/ripetere/ripetere-1.png  used on input line 5
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77 <./images/ripetere/ripetere-1.png>]
-<./images/ripetere/ripetere-2.png, id=435, 226.8475pt x 242.9075pt>
+ [69 <./images/ripetere/ripetere-1.png>]
+<./images/ripetere/ripetere-2.png, id=407, 226.8475pt x 242.9075pt>
 File: ./images/ripetere/ripetere-2.png Graphic file (type png)
 <use ./images/ripetere/ripetere-2.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-2.png  used on input line 7
@@ -1564,8 +1542,8 @@ Package pdftex.def Info: ./images/ripetere/ripetere-2.png  used on input line 7
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78 <./images/ripetere/ripetere-2.png>]
-<./images/ripetere/ripetere-3.png, id=443, 336.25626pt x 326.21875pt>
+ [70 <./images/ripetere/ripetere-2.png>]
+<./images/ripetere/ripetere-3.png, id=414, 336.25626pt x 326.21875pt>
 File: ./images/ripetere/ripetere-3.png Graphic file (type png)
 <use ./images/ripetere/ripetere-3.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-3.png  used on input line 1
@@ -1574,8 +1552,8 @@ Package pdftex.def Info: ./images/ripetere/ripetere-3.png  used on input line 1
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79 <./images/ripetere/ripetere-3.png>]
-<./images/ripetere/ripetere-4.png, id=450, 296.10625pt x 295.1025pt>
+ [71 <./images/ripetere/ripetere-3.png>]
+<./images/ripetere/ripetere-4.png, id=420, 296.10625pt x 295.1025pt>
 File: ./images/ripetere/ripetere-4.png Graphic file (type png)
 <use ./images/ripetere/ripetere-4.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-4.png  used on input line 1
@@ -1589,18 +1567,18 @@ Package pdftex.def Info: ./images/ripetere/ripetere-4.png  used on input line 1
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./images/ripetere/ripetere-4.png>]
-<./images/ripetere/ripetere-5.png, id=457, 283.0575pt x 252.945pt>
+ [72 <./images/ripetere/ripetere-4.png>]
+<./images/ripetere/ripetere-5.png, id=427, 283.0575pt x 252.945pt>
 File: ./images/ripetere/ripetere-5.png Graphic file (type png)
 <use ./images/ripetere/ripetere-5.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-5.png  used on input line 2
 01.
 (pdftex.def)             Requested size: 85.35826pt x 77.1374pt.
- [81 <./images/ripetere/ripetere-5.png>]
+ [73 <./images/ripetere/ripetere-5.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
-<./images/ripetere/ripetere-6.png, id=467, 70.2625pt x 718.685pt>
+ [74]
+<./images/ripetere/ripetere-6.png, id=438, 70.2625pt x 718.685pt>
 File: ./images/ripetere/ripetere-6.png Graphic file (type png)
 <use ./images/ripetere/ripetere-6.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-6.png  used on input line 2
@@ -1609,8 +1587,8 @@ Package pdftex.def Info: ./images/ripetere/ripetere-6.png  used on input line 2
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83 <./images/ripetere/ripetere-6.png>]
-<./images/ripetere/ripetere-7.png, id=473, 131.49126pt x 582.175pt>
+ [75 <./images/ripetere/ripetere-6.png>]
+<./images/ripetere/ripetere-7.png, id=445, 131.49126pt x 582.175pt>
 File: ./images/ripetere/ripetere-7.png Graphic file (type png)
 <use ./images/ripetere/ripetere-7.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-7.png  used on input line 3
@@ -1619,8 +1597,8 @@ Package pdftex.def Info: ./images/ripetere/ripetere-7.png  used on input line 3
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84 <./images/ripetere/ripetere-7.png>]
-<./images/ripetere/StopLO.png, id=479, 29.10875pt x 29.10875pt>
+ [76 <./images/ripetere/ripetere-7.png>]
+<./images/ripetere/StopLO.png, id=451, 29.10875pt x 29.10875pt>
 File: ./images/ripetere/StopLO.png Graphic file (type png)
 <use ./images/ripetere/StopLO.png>
 Package pdftex.def Info: ./images/ripetere/StopLO.png  used on input line 331.
@@ -1628,12 +1606,12 @@ Package pdftex.def Info: ./images/ripetere/StopLO.png  used on input line 331.
 
 Underfull \vbox (badness 1014) has occurred while \output is active []
 
- [85 <./images/ripetere/StopLO.png>]
+ [77 <./images/ripetere/StopLO.png>]
 Underfull \hbox (badness 1412) in paragraph at lines 368--369
 []\OT1/cmr/m/n/10 Si pro-vi a ri-pro-dur-re que-sto
  []
 
-<./images/ripetere/ripetere-8.png, id=485, 119.44624pt x 133.49875pt>
+<./images/ripetere/ripetere-8.png, id=456, 119.44624pt x 133.49875pt>
 File: ./images/ripetere/ripetere-8.png Graphic file (type png)
 <use ./images/ripetere/ripetere-8.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-8.png  used on input line 3
@@ -1642,45 +1620,45 @@ Package pdftex.def Info: ./images/ripetere/ripetere-8.png  used on input line 3
 
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
- [86]
+ [78]
 Underfull \hbox (badness 4479) in paragraph at lines 381--382
 []\OT1/cmr/m/n/10 Si pro-vi quin-di a co-strui-re
  []
 
-<./images/ripetere/ripetere-9.png, id=490, 225.84375pt x 231.86626pt>
+<./images/ripetere/ripetere-9.png, id=461, 225.84375pt x 231.86626pt>
 File: ./images/ripetere/ripetere-9.png Graphic file (type png)
 <use ./images/ripetere/ripetere-9.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-9.png  used on input line 3
 85.
 (pdftex.def)             Requested size: 85.35826pt x 89.36554pt.
-<./images/ripetere/ripetere-10.png, id=492, 117.43875pt x 101.37875pt>
+<./images/ripetere/ripetere-10.png, id=463, 117.43875pt x 101.37875pt>
 File: ./images/ripetere/ripetere-10.png Graphic file (type png)
 <use ./images/ripetere/ripetere-10.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-10.png  used on input line 
 398.
 (pdftex.def)             Requested size: 85.35826pt x 75.60492pt.
-<./images/ripetere/ripetere-11.png, id=494, 140.525pt x 125.46875pt>
+<./images/ripetere/ripetere-11.png, id=465, 140.525pt x 125.46875pt>
 File: ./images/ripetere/ripetere-11.png Graphic file (type png)
 <use ./images/ripetere/ripetere-11.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-11.png  used on input line 
 410.
 (pdftex.def)             Requested size: 85.35826pt x 78.02408pt.
-<./images/ripetere/ripetere-12.png, id=496, 183.68625pt x 164.615pt>
+<./images/ripetere/ripetere-12.png, id=467, 183.68625pt x 164.615pt>
 File: ./images/ripetere/ripetere-12.png Graphic file (type png)
 <use ./images/ripetere/ripetere-12.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-12.png  used on input line 
 422.
 (pdftex.def)             Requested size: 85.35826pt x 77.86938pt.
-<./images/ripetere/ripetere-13.png, id=498, 164.615pt x 160.6pt>
+<./images/ripetere/ripetere-13.png, id=469, 164.615pt x 160.6pt>
 File: ./images/ripetere/ripetere-13.png Graphic file (type png)
 <use ./images/ripetere/ripetere-13.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-13.png  used on input line 
 434.
 (pdftex.def)             Requested size: 85.35826pt x 85.36177pt.
-[87 <./images/ripetere/ripetere-8.png> <./images/ripetere/ripetere-9.png> <./im
+[79 <./images/ripetere/ripetere-8.png> <./images/ripetere/ripetere-9.png> <./im
 ages/ripetere/ripetere-10.png> <./images/ripetere/ripetere-11.png> <./images/ri
 petere/ripetere-12.png>]
-<./images/ripetere/ripetere-14.png, id=511, 520.94624pt x 182.6825pt>
+<./images/ripetere/ripetere-14.png, id=483, 520.94624pt x 182.6825pt>
 File: ./images/ripetere/ripetere-14.png Graphic file (type png)
 <use ./images/ripetere/ripetere-14.png>
 Package pdftex.def Info: ./images/ripetere/ripetere-14.png  used on input line 
@@ -1691,18 +1669,18 @@ File: ./images/ripetere/ripetere-14.png Graphic file (type png)
 Package pdftex.def Info: ./images/ripetere/ripetere-14.png  used on input line 
 453.
 (pdftex.def)             Requested size: 284.52756pt x 97.6528pt.
-) [88 <./images/ripetere/ripetere-13.png> <./images/ripetere/ripetere-14.png>]
+) [80 <./images/ripetere/ripetere-13.png> <./images/ripetere/ripetere-14.png>]
 \openout2 = `6-incapsulare.aux'.
 
  (./6-incapsulare.tex
-Capitolo 6.
-<./images/incapsulare/incapsulare-1.png, id=520, 248.93pt x 268.00125pt>
+Capitolo 7.
+<./images/incapsulare/incapsulare-1.png, id=493, 248.93pt x 268.00125pt>
 File: ./images/incapsulare/incapsulare-1.png Graphic file (type png)
 <use ./images/incapsulare/incapsulare-1.png>
 Package pdftex.def Info: ./images/incapsulare/incapsulare-1.png  used on input 
 line 32.
 (pdftex.def)             Requested size: 85.35826pt x 93.67683pt.
-[89
+[81
 
 
 
@@ -1721,13 +1699,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--88
 
  []
 
-<./images/incapsulare/incapsulare-3.png, id=526, 326.21875pt x 147.55125pt>
+<./images/incapsulare/incapsulare-3.png, id=499, 326.21875pt x 147.55125pt>
 File: ./images/incapsulare/incapsulare-3.png Graphic file (type png)
 <use ./images/incapsulare/incapsulare-3.png>
 Package pdftex.def Info: ./images/incapsulare/incapsulare-3.png  used on input 
 line 101.
 (pdftex.def)             Requested size: 284.52756pt x 126.36201pt.
-<./images/incapsulare/PlayLO.png, id=528, 34.1275pt x 28.105pt>
+<./images/incapsulare/PlayLO.png, id=501, 34.1275pt x 28.105pt>
 File: ./images/incapsulare/PlayLO.png Graphic file (type png)
 <use ./images/incapsulare/PlayLO.png>
 Package pdftex.def Info: ./images/incapsulare/PlayLO.png  used on input line 14
@@ -1746,22 +1724,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--148
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90 <./images/incapsulare/incapsulare-3.png>]
-<./images/incapsulare/incapsulare-2.png, id=533, 387.4475pt x 162.6075pt>
+ [82 <./images/incapsulare/incapsulare-3.png>]
+<./images/incapsulare/incapsulare-2.png, id=506, 387.4475pt x 162.6075pt>
 File: ./images/incapsulare/incapsulare-2.png Graphic file (type png)
 <use ./images/incapsulare/incapsulare-2.png>
 Package pdftex.def Info: ./images/incapsulare/incapsulare-2.png  used on input 
 line 156.
 (pdftex.def)             Requested size: 284.52756pt x 117.16638pt.
- [91 <./images/incapsulare/incapsulare-2.png> <./images/incapsulare/PlayLO.png>
+ [83 <./images/incapsulare/incapsulare-2.png> <./images/incapsulare/PlayLO.png>
 ]
 File: ./images/incapsulare/incapsulare-3.png Graphic file (type png)
 <use ./images/incapsulare/incapsulare-3.png>
 Package pdftex.def Info: ./images/incapsulare/incapsulare-3.png  used on input 
 line 230.
 (pdftex.def)             Requested size: 284.52756pt x 126.36201pt.
- [92] [93]
-<./images/incapsulare/incapsulare-4.png, id=548, 329.23pt x 253.94875pt>
+ [84] [85]
+<./images/incapsulare/incapsulare-4.png, id=521, 329.23pt x 253.94875pt>
 File: ./images/incapsulare/incapsulare-4.png Graphic file (type png)
 <use ./images/incapsulare/incapsulare-4.png>
 Package pdftex.def Info: ./images/incapsulare/incapsulare-4.png  used on input 
@@ -1770,20 +1748,20 @@ line 367.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94]
+ [86]
 File: ./images/ripetere/StopLO.png Graphic file (type png)
 <use ./images/ripetere/StopLO.png>
 Package pdftex.def Info: ./images/ripetere/StopLO.png  used on input line 451.
 (pdftex.def)             Requested size: 9.99988pt x 10.00002pt.
 
-[95 <./images/incapsulare/incapsulare-4.png>] [96] [97]
-<./images/incapsulare/incapsulare-5.png, id=564, 243.91125pt x 232.87pt>
+[87 <./images/incapsulare/incapsulare-4.png>] [88] [89]
+<./images/incapsulare/incapsulare-5.png, id=536, 243.91125pt x 232.87pt>
 File: ./images/incapsulare/incapsulare-5.png Graphic file (type png)
 <use ./images/incapsulare/incapsulare-5.png>
 Package pdftex.def Info: ./images/incapsulare/incapsulare-5.png  used on input 
 line 555.
 (pdftex.def)             Requested size: 199.16928pt x 193.13902pt.
-<./images/incapsulare/incapsulare-6.png, id=566, 430.60875pt x 246.9225pt>
+<./images/incapsulare/incapsulare-6.png, id=538, 430.60875pt x 246.9225pt>
 File: ./images/incapsulare/incapsulare-6.png Graphic file (type png)
 <use ./images/incapsulare/incapsulare-6.png>
 Package pdftex.def Info: ./images/incapsulare/incapsulare-6.png  used on input 
@@ -1792,34 +1770,34 @@ line 570.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98 <./images/incapsulare/incapsulare-5.png>]) [99 <./images/incapsulare/incap
+ [90 <./images/incapsulare/incapsulare-5.png>]) [91 <./images/incapsulare/incap
 sulare-6.png>]
 \openout2 = `7-decidere.aux'.
 
- (./7-decidere.tex [100
+ (./7-decidere.tex [92
 
 
 
 ]
-Capitolo 7.
+Capitolo 8.
 File: ./images/ripetere/StopLO.png Graphic file (type png)
 <use ./images/ripetere/StopLO.png>
 Package pdftex.def Info: ./images/ripetere/StopLO.png  used on input line 28.
 (pdftex.def)             Requested size: 9.99988pt x 10.00002pt.
-[101]) [102]
+[93]) [94]
 \openout2 = `8-magia-specchi.aux'.
 
  (./8-magia-specchi.tex
-Capitolo 8.
-[103
+Capitolo 9.
+[95
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104]
-<./images/magia-specchi/tree.png, id=592, 374.39874pt x 399.4925pt>
+ [96]
+<./images/magia-specchi/tree.png, id=564, 374.39874pt x 399.4925pt>
 File: ./images/magia-specchi/tree.png Graphic file (type png)
 <use ./images/magia-specchi/tree.png>
 Package pdftex.def Info: ./images/magia-specchi/tree.png  used on input line 95
@@ -1830,15 +1808,15 @@ Overfull \hbox (51.72432pt too wide) in paragraph at lines 93--115
 []$[]$  $[]$ 
  []
 
-[105 <./images/magia-specchi/tree.png>]
-<./images/magia-specchi/albero-fiorito.png, id=598, 242.9075pt x 251.94125pt>
+[97 <./images/magia-specchi/tree.png>]
+<./images/magia-specchi/albero-fiorito.png, id=571, 242.9075pt x 251.94125pt>
 File: ./images/magia-specchi/albero-fiorito.png Graphic file (type png)
 <use ./images/magia-specchi/albero-fiorito.png>
 Package pdftex.def Info: ./images/magia-specchi/albero-fiorito.png  used on inp
 ut line 126.
 (pdftex.def)             Requested size: 113.81102pt x 120.24329pt.
- [106 <./images/magia-specchi/albero-fiorito.png>]
-<./images/magia-specchi/albero-meglio.png, id=604, 183.68625pt x 190.7125pt>
+ [98 <./images/magia-specchi/albero-fiorito.png>]
+<./images/magia-specchi/albero-meglio.png, id=577, 183.68625pt x 190.7125pt>
 File: ./images/magia-specchi/albero-meglio.png Graphic file (type png)
 <use ./images/magia-specchi/albero-meglio.png>
 Package pdftex.def Info: ./images/magia-specchi/albero-meglio.png  used on inpu
@@ -1854,25 +1832,25 @@ Overfull \hbox (17.22221pt too wide) in paragraph at lines 148--173
 []$[]$  $[]$ 
  []
 
-) [107 <./images/magia-specchi/albero-meglio.png>]
+) [99 <./images/magia-specchi/albero-meglio.png>]
 \openout2 = `9-marta.aux'.
 
- (./9-marta.tex [108
+ (./9-marta.tex [100
 
 
+
+] [101]
+[102]
+Capitolo 10.
+[103
 
 ]
-[109] [110]
-Capitolo 9.
-[111
-
-]
-<./images/marta/mar-1.png, id=623, 225.84375pt x 301.125pt>
+<./images/marta/mar-1.png, id=596, 225.84375pt x 301.125pt>
 File: ./images/marta/mar-1.png Graphic file (type png)
 <use ./images/marta/mar-1.png>
 Package pdftex.def Info: ./images/marta/mar-1.png  used on input line 56.
 (pdftex.def)             Requested size: 142.26378pt x 195.02646pt.
-<./images/marta/mar-2.png, id=625, 382.42876pt x 435.6275pt>
+<./images/marta/mar-2.png, id=598, 382.42876pt x 435.6275pt>
 File: ./images/marta/mar-2.png Graphic file (type png)
 <use ./images/marta/mar-2.png>
 Package pdftex.def Info: ./images/marta/mar-2.png  used on input line 86.
@@ -1880,30 +1858,30 @@ Package pdftex.def Info: ./images/marta/mar-2.png  used on input line 86.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [112 <./images/marta/mar-1.png>]
-<./images/marta/mar-3.png, id=631, 427.5975pt x 397.485pt>
+ [104 <./images/marta/mar-1.png>]
+<./images/marta/mar-3.png, id=604, 427.5975pt x 397.485pt>
 File: ./images/marta/mar-3.png Graphic file (type png)
 <use ./images/marta/mar-3.png>
 Package pdftex.def Info: ./images/marta/mar-3.png  used on input line 131.
 (pdftex.def)             Requested size: 142.26378pt x 132.6863pt.
 
-Overfull \hbox (38.78917pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
-IN LOGO \OT1/cmr/m/n/10 113
+Overfull \hbox (43.78918pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
+ IN LOGO \OT1/cmr/m/n/10 105
  []
 
-[113 <./images/marta/mar-2.png> <./images/marta/mar-3.png>]
-<./images/marta/mar-4.png, id=638, 341.275pt x 357.335pt>
+[105 <./images/marta/mar-2.png> <./images/marta/mar-3.png>]
+<./images/marta/mar-4.png, id=611, 341.275pt x 357.335pt>
 File: ./images/marta/mar-4.png Graphic file (type png)
 <use ./images/marta/mar-4.png>
 Package pdftex.def Info: ./images/marta/mar-4.png  used on input line 173.
 (pdftex.def)             Requested size: 142.26378pt x 150.02232pt.
-<./images/marta/mar-5.png, id=640, 339.2675pt x 334.24875pt>
+<./images/marta/mar-5.png, id=613, 339.2675pt x 334.24875pt>
 File: ./images/marta/mar-5.png Graphic file (type png)
 <use ./images/marta/mar-5.png>
 Package pdftex.def Info: ./images/marta/mar-5.png  used on input line 202.
 (pdftex.def)             Requested size: 142.26378pt x 140.96321pt.
-<./images/marta/mar-6.png, id=642, 378.41376pt x 356.33125pt>
+<./images/marta/mar-6.png, id=615, 378.41376pt x 356.33125pt>
 File: ./images/marta/mar-6.png Graphic file (type png)
 <use ./images/marta/mar-6.png>
 Package pdftex.def Info: ./images/marta/mar-6.png  used on input line 232.
@@ -1911,26 +1889,26 @@ Package pdftex.def Info: ./images/marta/mar-6.png  used on input line 232.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114 <./images/marta/mar-4.png> <./images/marta/mar-5.png>]
-<./images/marta/mar-7.png, id=650, 391.4625pt x 332.24126pt>
+ [106 <./images/marta/mar-4.png> <./images/marta/mar-5.png>]
+<./images/marta/mar-7.png, id=622, 391.4625pt x 332.24126pt>
 File: ./images/marta/mar-7.png Graphic file (type png)
 <use ./images/marta/mar-7.png>
 Package pdftex.def Info: ./images/marta/mar-7.png  used on input line 263.
 (pdftex.def)             Requested size: 142.26378pt x 120.92094pt.
-<./images/marta/mar-8.png, id=652, 460.72125pt x 474.77374pt>
+<./images/marta/mar-8.png, id=624, 460.72125pt x 474.77374pt>
 File: ./images/marta/mar-8.png Graphic file (type png)
 <use ./images/marta/mar-8.png>
 Package pdftex.def Info: ./images/marta/mar-8.png  used on input line 294.
 (pdftex.def)             Requested size: 142.26378pt x 147.33128pt.
 
-Overfull \hbox (38.78917pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
-IN LOGO \OT1/cmr/m/n/10 115
+Overfull \hbox (43.78918pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
+ IN LOGO \OT1/cmr/m/n/10 107
  []
 
-[115 <./images/marta/mar-6.png> <./images/marta/mar-7.png> <./images/marta/mar-
+[107 <./images/marta/mar-6.png> <./images/marta/mar-7.png> <./images/marta/mar-
 8.png>]
-<./images/marta/mar-9.png, id=661, 329.23pt x 321.2pt>
+<./images/marta/mar-9.png, id=632, 329.23pt x 321.2pt>
 File: ./images/marta/mar-9.png Graphic file (type png)
 <use ./images/marta/mar-9.png>
 Package pdftex.def Info: ./images/marta/mar-9.png  used on input line 341.
@@ -1939,8 +1917,8 @@ File: ./images/marta/mar-9.png Graphic file (type png)
 <use ./images/marta/mar-9.png>
 Package pdftex.def Info: ./images/marta/mar-9.png  used on input line 371.
 (pdftex.def)             Requested size: 142.26378pt x 139.57762pt.
- [116 <./images/marta/mar-9.png>]
-<./images/marta/mar-10.png, id=669, 442.65375pt x 427.5975pt>
+ [108 <./images/marta/mar-9.png>]
+<./images/marta/mar-10.png, id=640, 442.65375pt x 427.5975pt>
 File: ./images/marta/mar-10.png Graphic file (type png)
 <use ./images/marta/mar-10.png>
 Package pdftex.def Info: ./images/marta/mar-10.png  used on input line 441.
@@ -1953,23 +1931,23 @@ Package pdftex.def Info: ./images/marta/mar-10.png  used on input line 468.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (38.78917pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
-IN LOGO \OT1/cmr/m/n/10 117
+Overfull \hbox (43.78918pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
+ IN LOGO \OT1/cmr/m/n/10 109
  []
 
-[117 <./images/marta/mar-10.png>] [118]
-<./images/marta/mar-11.png, id=680, 352.31625pt x 329.23pt>
+[109 <./images/marta/mar-10.png>] [110]
+<./images/marta/mar-11.png, id=653, 352.31625pt x 329.23pt>
 File: ./images/marta/mar-11.png Graphic file (type png)
 <use ./images/marta/mar-11.png>
 Package pdftex.def Info: ./images/marta/mar-11.png  used on input line 553.
 (pdftex.def)             Requested size: 142.26378pt x 133.50624pt.
-<./images/marta/mar-12.png, id=682, 505.89pt x 500.87125pt>
+<./images/marta/mar-12.png, id=655, 505.89pt x 500.87125pt>
 File: ./images/marta/mar-12.png Graphic file (type png)
 <use ./images/marta/mar-12.png>
 Package pdftex.def Info: ./images/marta/mar-12.png  used on input line 581.
 (pdftex.def)             Requested size: 142.26378pt x 141.40121pt.
-<./images/marta/mar-13.png, id=684, 465.74pt x 500.87125pt>
+<./images/marta/mar-13.png, id=657, 465.74pt x 500.87125pt>
 File: ./images/marta/mar-13.png Graphic file (type png)
 <use ./images/marta/mar-13.png>
 Package pdftex.def Info: ./images/marta/mar-13.png  used on input line 616.
@@ -1978,13 +1956,13 @@ Package pdftex.def Info: ./images/marta/mar-13.png  used on input line 616.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (38.78917pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
-IN LOGO \OT1/cmr/m/n/10 119
+Overfull \hbox (43.78918pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
+ IN LOGO \OT1/cmr/m/n/10 111
  []
 
-[119 <./images/marta/mar-11.png> <./images/marta/mar-12.png>]
-<./images/marta/mar-14.png, id=691, 566.115pt x 612.2875pt>
+[111 <./images/marta/mar-11.png> <./images/marta/mar-12.png>]
+<./images/marta/mar-14.png, id=664, 566.115pt x 612.2875pt>
 File: ./images/marta/mar-14.png Graphic file (type png)
 <use ./images/marta/mar-14.png>
 Package pdftex.def Info: ./images/marta/mar-14.png  used on input line 643.
@@ -1992,34 +1970,34 @@ Package pdftex.def Info: ./images/marta/mar-14.png  used on input line 643.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120 <./images/marta/mar-13.png> <./images/marta/mar-14.png>]
+ [112 <./images/marta/mar-13.png> <./images/marta/mar-14.png>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 753--800
 []$[]$ 
  []
 
 
-Overfull \hbox (38.78917pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 9.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI 
-IN LOGO \OT1/cmr/m/n/10 121
+Overfull \hbox (43.78918pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 10.2.  \ESERCIZI" DI CREATIVIT[]A { GIOCARE CON LA RIPETIZIONI
+ IN LOGO \OT1/cmr/m/n/10 113
  []
 
-[121] [122]
+[113] [114]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 828--858
 []$[]$ 
  []
 
-[123] [124]
+[115] [116]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [125]
-[126]
+ [117]
+[118]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127]
-[128]
+ [119]
+[120]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129]
+ [121]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 1256--1261
 []$[]$ 
  []
@@ -2029,13 +2007,13 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1268--1279
 []$[]$ 
  []
 
-[130] [131]
-<./images/marta/percorsi.png, id=734, 1047.915pt x 542.025pt>
+[122] [123]
+<./images/marta/percorsi.png, id=707, 1047.915pt x 542.025pt>
 File: ./images/marta/percorsi.png Graphic file (type png)
 <use ./images/marta/percorsi.png>
 Package pdftex.def Info: ./images/marta/percorsi.png  used on input line 1373.
 (pdftex.def)             Requested size: 341.43306pt x 176.60265pt.
- [132]
+ [124]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 1398--1408
 []$[]$ 
  []
@@ -2043,12 +2021,12 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1398--1408
 
 Underfull \vbox (badness 3503) has occurred while \output is active []
 
- [133 <./images/marta/percorsi.png>]
+ [125 <./images/marta/percorsi.png>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 1415--1424
 []$[]$ 
  []
 
-<./images/marta/poly1.png, id=744, 307.1475pt x 439.6425pt>
+<./images/marta/poly1.png, id=716, 307.1475pt x 439.6425pt>
 File: ./images/marta/poly1.png Graphic file (type png)
 <use ./images/marta/poly1.png>
 Package pdftex.def Info: ./images/marta/poly1.png  used on input line 1434.
@@ -2056,8 +2034,8 @@ Package pdftex.def Info: ./images/marta/poly1.png  used on input line 1434.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134]
-[135 <./images/marta/poly1.png (PNG copy)>]
+ [126]
+[127 <./images/marta/poly1.png (PNG copy)>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 1451--1460
 []$[]$ 
  []
@@ -2069,7 +2047,7 @@ Package pdftex.def Info: ./images/marta/mar-1.png  used on input line 1467.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
+ [128]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 1496--1518
 []$[]$ 
  []
@@ -2077,21 +2055,21 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1496--1518
 
 Underfull \vbox (badness 1009) has occurred while \output is active []
 
- [137]
-[138]
+ [129]
+[130]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [139]
-[140]
+ [131]
+[132]
 Underfull \vbox (badness 3724) has occurred while \output is active []
 
- [141])
-[142]
+ [133])
+[134]
 \openout2 = `10-cerchio.aux'.
 
  (./10-cerchio.tex
-Capitolo 10.
-<./images/cerchio/PiccolomanualeLibreLogo5-img1.png, id=775, 572.1375pt x 504.8
+Capitolo 11.
+<./images/cerchio/PiccolomanualeLibreLogo5-img1.png, id=748, 572.1375pt x 504.8
 8625pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img1.png Graphic file (type png
 )
@@ -2099,7 +2077,7 @@ File: ./images/cerchio/PiccolomanualeLibreLogo5-img1.png Graphic file (type png
 Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img1.png  us
 ed on input line 7.
 (pdftex.def)             Requested size: 341.43306pt x 301.30084pt.
-[143
+[135
 
 
 
@@ -2110,12 +2088,12 @@ Overfull \hbox (50.00006pt too wide) in paragraph at lines 19--24
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 144 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 136 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[144] [145]
-<./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg, id=787, 170.5572pt x 227.6
+[136] [137]
+<./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg, id=759, 170.5572pt x 227.6
 505pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg Graphic file (type jpg
 )
@@ -2128,7 +2106,7 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 58--60
 [][]
  []
 
-<./images/cerchio/PiccolomanualeLibreLogo5-img3.jpg, id=789, 170.5572pt x 227.6
+<./images/cerchio/PiccolomanualeLibreLogo5-img3.jpg, id=761, 170.5572pt x 227.6
 505pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img3.jpg Graphic file (type jpg
 )
@@ -2148,13 +2126,13 @@ Overfull \hbox (50.00006pt too wide) in paragraph at lines 73--84
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 146 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 138 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[146 <./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg> <./images/cerchio/Pic
+[138 <./images/cerchio/PiccolomanualeLibreLogo5-img2.jpg> <./images/cerchio/Pic
 colomanualeLibreLogo5-img3.jpg>]
-<./images/cerchio/PiccolomanualeLibreLogo5-img4a.png, id=796, 258.9675pt x 344.
+<./images/cerchio/PiccolomanualeLibreLogo5-img4a.png, id=768, 258.9675pt x 344.
 28625pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img4a.png Graphic file (type pn
 g)
@@ -2162,7 +2140,7 @@ g)
 Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img4a.png  u
 sed on input line 95.
 (pdftex.def)             Requested size: 113.81102pt x 153.74078pt.
-<./images/cerchio/PiccolomanualeLibreLogo5-img4b.png, id=798, 410.53375pt x 255
+<./images/cerchio/PiccolomanualeLibreLogo5-img4b.png, id=770, 410.53375pt x 255
 .95625pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img4b.png Graphic file (type pn
 g)
@@ -2170,7 +2148,7 @@ g)
 Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img4b.png  u
 sed on input line 101.
 (pdftex.def)             Requested size: 170.71652pt x 105.68312pt.
-<./images/cerchio/PiccolomanualeLibreLogo5-img4c.png, id=800, 361.35pt x 223.83
+<./images/cerchio/PiccolomanualeLibreLogo5-img4c.png, id=772, 361.35pt x 223.83
 624pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img4c.png Graphic file (type pn
 g)
@@ -2188,10 +2166,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--110
 
  []
 
-[147 <./images/cerchio/PiccolomanualeLibreLogo5-img4a.png (PNG copy)> <./images
+[139 <./images/cerchio/PiccolomanualeLibreLogo5-img4a.png (PNG copy)> <./images
 /cerchio/PiccolomanualeLibreLogo5-img4b.png (PNG copy)> <./images/cerchio/Picco
 lomanualeLibreLogo5-img4c.png (PNG copy)>]
-<./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg, id=808, 2055.68pt x 1541.7
+<./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg, id=781, 2055.68pt x 1541.7
 6pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg Graphic file (type jpg
 )
@@ -2199,7 +2177,7 @@ File: ./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg Graphic file (type jpg
 Package pdftex.def Info: ./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg  us
 ed on input line 127.
 (pdftex.def)             Requested size: 284.52756pt x 213.31656pt.
-<./images/cerchio/PiccolomanualeLibreLogo5-img6.jpg, id=810, 341.275pt x 455.70
+<./images/cerchio/PiccolomanualeLibreLogo5-img6.jpg, id=783, 341.275pt x 455.70
 25pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img6.jpg Graphic file (type jpg
 )
@@ -2212,7 +2190,7 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 137--138
  [] 
  []
 
-<./images/cerchio/PiccolomanualeLibreLogo5-img7.jpg, id=812, 554.07pt x 1614.03
+<./images/cerchio/PiccolomanualeLibreLogo5-img7.jpg, id=785, 554.07pt x 1614.03
 pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img7.jpg Graphic file (type jpg
 )
@@ -2222,14 +2200,14 @@ ed on input line 145.
 (pdftex.def)             Requested size: 65.44142pt x 193.17729pt.
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 148 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 140 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[148 <./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg> <./images/cerchio/Pic
+[140 <./images/cerchio/PiccolomanualeLibreLogo5-img5.jpg> <./images/cerchio/Pic
 colomanualeLibreLogo5-img6.jpg> <./images/cerchio/PiccolomanualeLibreLogo5-img7
 .jpg>]
-<./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg, id=820, 1541.76pt x 2055.6
+<./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg, id=793, 1541.76pt x 2055.6
 8pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg Graphic file (type jpg
 )
@@ -2242,7 +2220,7 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 161--163
 [][]
  []
 
-<./images/cerchio/PiccolomanualeLibreLogo5-img9.jpg, id=822, 1541.76pt x 2055.6
+<./images/cerchio/PiccolomanualeLibreLogo5-img9.jpg, id=795, 1541.76pt x 2055.6
 8pt>
 File: ./images/cerchio/PiccolomanualeLibreLogo5-img9.jpg Graphic file (type jpg
 )
@@ -2255,9 +2233,9 @@ Overfull \hbox (4.26588pt too wide) in paragraph at lines 167--169
 [][]
  []
 
-[149 <./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg> <./images/cerchio/Pic
+[141 <./images/cerchio/PiccolomanualeLibreLogo5-img8.jpg> <./images/cerchio/Pic
 colomanualeLibreLogo5-img9.jpg>]
-<./images/cerchio/ellisse-emma.png, id=829, 256.96pt x 170.6375pt>
+<./images/cerchio/ellisse-emma.png, id=802, 256.96pt x 170.6375pt>
 File: ./images/cerchio/ellisse-emma.png Graphic file (type png)
 <use ./images/cerchio/ellisse-emma.png>
 Package pdftex.def Info: ./images/cerchio/ellisse-emma.png  used on input line 
@@ -2265,32 +2243,32 @@ Package pdftex.def Info: ./images/cerchio/ellisse-emma.png  used on input line
 (pdftex.def)             Requested size: 142.26378pt x 93.6896pt.
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 150 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 142 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[150 <./images/cerchio/ellisse-emma.png>] [151]
+[142 <./images/cerchio/ellisse-emma.png>] [143]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 152 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 144 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[152] [153]
+[144] [145]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 154 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 146 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[154]
+[146]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [155]
+ [147]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 156 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 148 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[156] [157]
+[148] [149]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 391--396
 []$[]$ 
  []
@@ -2303,38 +2281,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--413
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 158 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 150 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[158]
+[150]
 
 Package Listings Warning: Text dropped after begin of listing on input line 435
 .
 
-[159]
+[151]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 160 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 152 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[160]
+[152]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [161]
+ [153]
 Underfull \vbox (badness 1348) has occurred while \output is active []
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 162 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 154 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[162] [163]
-<./images/cerchio/orbite.png, id=880, 461.0826pt x 450.9648pt>
+[154] [155]
+<./images/cerchio/orbite.png, id=852, 461.0826pt x 450.9648pt>
 File: ./images/cerchio/orbite.png Graphic file (type png)
 <use ./images/cerchio/orbite.png>
 Package pdftex.def Info: ./images/cerchio/orbite.png  used on input line 738.
@@ -2345,11 +2323,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 164 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 156 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[164] [165 <./images/cerchio/orbite.png>]
+[156] [157 <./images/cerchio/orbite.png>]
 Overfull \hbox (28.06398pt too wide) in paragraph at lines 773--773
 [][]\OT1/cmr/m/n/8 Informazioni det-ta-glia-te si tro-va-no ad esem-pio http://
 www.dk3wn.info/sat/afu/sat[]ardusat.shtml
@@ -2357,57 +2335,57 @@ www.dk3wn.info/sat/afu/sat[]ardusat.shtml
 
 
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 166 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 158 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[166]
+[158]
 Overfull \hbox (16.86119pt too wide) in paragraph at lines 786--787
 []\OT1/cmr/m/n/10 Sherin nel suo ar-ti-co-lo af-fian-ca { si ba-di be-ne, non c
 on-trap-po-ne { la \OT1/cmr/m/it/10 programming-
  []
 
-[167]
+[159]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 168 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 160 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[168] [169]
+[160] [161]
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 170 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 162 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[170] [171])
+[162] [163])
 Overfull \hbox (45.94313pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 172 \OT1/cmr/m/sl/10 CAPITOLO 10.  GIRANDO IN TONDO: DAL CERCHI
+\OT1/cmr/m/n/10 164 \OT1/cmr/m/sl/10 CAPITOLO 11.  GIRANDO IN TONDO: DAL CERCHI
 O ALL'ORBITA DI HALLEY
  []
 
-[172]
+[164]
 \openout2 = `x-appendice.aux'.
 
  (./x-appendice.tex
-Capitolo 11.
-[173
+Capitolo 12.
+[165
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [174]
-[175]
+ [166]
+[167]
 Overfull \hbox (8.97058pt too wide) in paragraph at lines 238--239
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[176]
+[168]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [177])
-[178] (./librelogo.bbl
+ [169])
+[170] (./librelogo.bbl
 Underfull \hbox (badness 1997) in paragraph at lines 28--33
 \OT1/cmr/m/n/10 s/-text pro-gram-ming en-vi-ron-men-ts in in-tro-duc-to-ry com-
 pu-ter scien-ce
@@ -2431,7 +2409,7 @@ Underfull \hbox (badness 1888) in paragraph at lines 82--86
 it$\OT1/cmr/m/n/10 .  Ac-ces-sed:
  []
 
-[179
+[171
 
 
 ]
@@ -2440,19 +2418,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--103
  segedanyag _
  []
 
-) [180] (./librelogo.aux (./0-frontespizio.aux) (./01-ringraziamenti.aux)
-(./1-prefazione.aux) (./2-librelogo.aux) (./3-genesi.aux) (./4-disegnare.aux)
-(./5-ripetere.aux) (./6-incapsulare.aux) (./7-decidere.aux)
+) [172] (./librelogo.aux (./0-frontespizio.aux) (./01-ringraziamenti.aux)
+(./1-prefazione.aux) (./2-librelogo.aux) (./3-paura.aux) (./3-logo.aux)
+(./4-disegnare.aux) (./5-ripetere.aux) (./6-incapsulare.aux) (./7-decidere.aux)
 (./8-magia-specchi.aux) (./9-marta.aux) (./10-cerchio.aux) (./x-appendice.aux))
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 7634 strings out of 492982
- 114211 string characters out of 6134896
- 252716 words of memory out of 5000000
- 10859 multiletter control sequences out of 15000+600000
+ 7635 strings out of 492982
+ 114037 string characters out of 6134896
+ 253138 words of memory out of 5000000
+ 10855 multiletter control sequences out of 15000+600000
  11915 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,21n,32p,4107b,1760s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2478,10 +2453,10 @@ ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb>
-Output written on librelogo.pdf (180 pages, 7524303 bytes).
+Output written on librelogo.pdf (172 pages, 7484698 bytes).
 PDF statistics:
- 1014 PDF objects out of 1200 (max. 8388607)
- 565 compressed objects within 6 object streams
+ 987 PDF objects out of 1000 (max. 8388607)
+ 548 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 1169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1164 words of extra memory for PDF output out of 10000 (max. 10000000)
 
